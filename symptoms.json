@@ -1,0 +1,454 @@
+{
+    "symptoms": [
+      {
+        "ID": "SLE02",
+        "Name": "Morning Grogginess",
+        "Category": "Sleep",
+        "Common descriptions": ["hard to wake up", "sleep inertia", "foggy morning", "slow to start", "can't get going"],
+        "Related symptoms": ["fatigue", "irritability", "headache"],
+        "Duration": ["acute", "chronic", "daily"],
+        "Severity": ["mild", "moderate", "severe"]
+      },
+      {
+        "ID": "SLE03",
+        "Name": "Sleep Apnea",
+        "Category": "Sleep",
+        "Common descriptions": ["snoring", "gasping during sleep", "waking up choking", "interrupted breathing", "daytime sleepiness"],
+        "Related symptoms": ["fatigue", "morning headaches", "dry mouth"],
+        "Duration": ["acute", "chronic", "nightly"],
+        "Severity": ["mild", "moderate", "severe"]
+      },
+      {
+        "ID": "SLE04",
+        "Name": "Restless Legs",
+        "Category": "Sleep",
+        "Common descriptions": ["leg discomfort at night", "urge to move legs", "crawling sensation", "tingling legs", "leg twitching"],
+        "Related symptoms": ["insomnia", "sleep disruption", "nighttime leg cramps"],
+        "Duration": ["acute", "chronic", "nightly"],
+        "Severity": ["mild", "moderate", "severe"]
+      },
+      {
+        "ID": "FEM01",
+        "Name": "Fertility Issues",
+        "Category": "Feminine",
+        "Common descriptions": ["trouble conceiving", "irregular ovulation", "infertility", "difficulty getting pregnant", "long time trying"],
+        "Related symptoms": ["irregular periods", "hormonal imbalance", "stress"],
+        "Duration": ["recent", "long-term", "cyclical"],
+        "Severity": ["mild", "moderate", "severe"]
+      },
+      {
+        "ID": "FEM02",
+        "Name": "Low Libido",
+        "Category": "Feminine",
+        "Common descriptions": ["low sex drive", "decreased desire", "lack of interest", "reduced arousal", "sexual disinterest"],
+        "Related symptoms": ["fatigue", "stress", "hormonal imbalance"],
+        "Duration": ["recent", "gradual", "chronic"],
+        "Severity": ["mild", "moderate", "severe"]
+      },
+      {
+        "ID": "FEM03",
+        "Name": "Menopause Symptoms",
+        "Category": "Feminine",
+        "Common descriptions": ["hot flashes", "night sweats", "mood changes", "irregular periods", "vaginal dryness"],
+        "Related symptoms": ["insomnia", "weight gain", "fatigue"],
+        "Duration": ["acute", "chronic", "transitional"],
+        "Severity": ["mild", "moderate", "severe"]
+      },
+      {
+        "ID": "IMM03",
+        "Name": "Inflammation",
+        "Category": "Immunity",
+        "Common descriptions": ["swelling", "redness", "joint pain", "body aches", "chronic inflammation"],
+        "Related symptoms": ["fatigue", "pain", "digestive issues"],
+        "Duration": ["acute", "chronic", "intermittent"],
+        "Severity": ["mild", "moderate", "severe"]
+      },
+      {
+        "ID": "IMM04",
+        "Name": "Autoimmune Issues",
+        "Category": "Immunity",
+        "Common descriptions": ["immune dysfunction", "attacking self", "autoimmunity", "overactive immune system", "immune dysregulation"],
+        "Related symptoms": ["fatigue", "inflammation", "joint pain"],
+        "Duration": ["acute flares", "chronic", "remitting-relapsing"],
+        "Severity": ["mild", "moderate", "severe"]
+      },
+      {
+        "ID": "HAI02",
+        "Name": "Dull Hair",
+        "Category": "Hair",
+        "Common descriptions": ["lifeless hair", "no shine", "flat hair", "lackluster", "lack of vibrancy"],
+        "Related symptoms": ["dry hair", "brittle hair", "split ends"],
+        "Duration": ["recent", "chronic", "seasonal"],
+        "Severity": ["mild", "moderate", "severe"]
+      },
+      {
+        "ID": "HAI03",
+        "Name": "Thin Hair",
+        "Category": "Hair",
+        "Common descriptions": ["fine hair", "lack of volume", "hair thinning", "see-through hair", "decreased density"],
+        "Related symptoms": ["hair loss", "breakage", "slow growth"],
+        "Duration": ["recent", "gradual", "chronic"],
+        "Severity": ["mild", "moderate", "severe"]
+      },
+      {
+        "ID": "COG01",
+        "Name": "Memory Issues",
+        "Category": "Cognitive",
+        "Common descriptions": ["forgetfulness", "poor recall", "memory lapses", "difficulty remembering", "short-term memory issues"],
+        "Related symptoms": ["brain fog", "concentration issues", "word-finding difficulties"],
+        "Duration": ["acute", "chronic", "situational"],
+        "Severity": ["mild", "moderate", "severe"]
+      },
+      {
+        "ID": "COG02",
+        "Name": "Poor Concentration",
+        "Category": "Cognitive",
+        "Common descriptions": ["can't focus", "distractibility", "attention problems", "mind wandering", "inability to concentrate"],
+        "Related symptoms": ["brain fog", "fatigue", "memory issues"],
+        "Duration": ["acute", "chronic", "situational"],
+        "Severity": ["mild", "moderate", "severe"]
+      },
+      {
+        "ID": "DIG04",
+        "Name": "Fasting Difficulties",
+        "Category": "Digestion",
+        "Common descriptions": ["hunger pangs", "difficulty fasting", "low blood sugar when fasting", "fasting headaches", "irritability when hungry"],
+        "Related symptoms": ["fatigue", "headache", "mood swings"],
+        "Duration": ["acute", "during fasting periods", "chronic"],
+        "Severity": ["mild", "moderate", "severe"]
+      },
+      {
+        "ID": "DIG05",
+        "Name": "IBS",
+        "Category": "Digestion",
+        "Common descriptions": ["irritable bowel", "alternating constipation and diarrhea", "digestive upset", "abdominal pain", "unpredictable bowels"],
+        "Related symptoms": ["bloating", "gas", "abdominal discomfort"],
+        "Duration": ["acute flares", "chronic", "after meals"],
+        "Severity": ["mild", "moderate", "severe"]
+      },
+      {
+        "ID": "SKN03",
+        "Name": "Poor Skin Elasticity",
+        "Category": "Skin",
+        "Common descriptions": ["sagging skin", "loss of firmness", "skin laxity", "crepey skin", "lack of bounce back"],
+        "Related symptoms": ["fine lines", "wrinkles", "dryness"],
+        "Duration": ["gradual", "age-related", "chronic"],
+        "Severity": ["mild", "moderate", "severe"]
+      },
+      {
+        "ID": "SKN04",
+        "Name": "Eczema",
+        "Category": "Skin",
+        "Common descriptions": ["itchy patches", "dry inflamed skin", "atopic dermatitis", "red irritated skin", "skin rash"],
+        "Related symptoms": ["itching", "redness", "dry skin"],
+        "Duration": ["acute flares", "chronic", "seasonal"],
+        "Severity": ["mild", "moderate", "severe"]
+      },
+      {
+        "ID": "HYD02",
+        "Name": "Hangover",
+        "Category": "Hydration",
+        "Common descriptions": ["morning after drinking", "alcohol recovery", "post-drinking symptoms", "headache after drinking", "nausea after alcohol"],
+        "Related symptoms": ["headache", "nausea", "fatigue"],
+        "Duration": ["acute", "temporary", "after alcohol consumption"],
+        "Severity": ["mild", "moderate", "severe"]
+      },
+      {
+        "ID": "HYD03",
+        "Name": "Dry Mouth",
+        "Category": "Hydration",
+        "Common descriptions": ["thirsty", "parched", "lack of saliva", "cotton mouth", "difficult swallowing"],
+        "Related symptoms": ["dehydration", "bad breath", "thirst"],
+        "Duration": ["acute", "chronic", "medication-related"],
+        "Severity": ["mild", "moderate", "severe"]
+      },
+      {
+        "ID": "FAT01",
+        "Name": "Fatigue",
+        "Category": "Energy",
+        "Common descriptions": ["tired", "exhausted", "no energy", "drained", "lethargic"],
+        "Related symptoms": ["brain fog", "weakness", "low motivation"],
+        "Duration": ["acute", "chronic", "intermittent"],
+        "Severity": ["mild", "moderate", "severe"]
+      },
+      {
+        "ID": "FOG01",
+        "Name": "Brain Fog",
+        "Category": "Cognitive",
+        "Common descriptions": ["fuzzy thinking", "can't focus", "mental cloudiness", "difficulty concentrating", "forgetful"],
+        "Related symptoms": ["fatigue", "headache", "poor memory"],
+        "Duration": ["acute", "chronic", "situational"],
+        "Severity": ["mild", "moderate", "severe"]
+      },
+      {
+        "ID": "SLE01",
+        "Name": "Insomnia",
+        "Category": "Sleep",
+        "Common descriptions": ["can't sleep", "trouble falling asleep", "wake up frequently", "poor sleep quality", "early waking"],
+        "Related symptoms": ["fatigue", "irritability", "anxiety"],
+        "Duration": ["acute", "chronic", "intermittent"],
+        "Severity": ["mild", "moderate", "severe"]
+      },
+      {
+        "ID": "DIG01",
+        "Name": "Bloating",
+        "Category": "Digestion",
+        "Common descriptions": ["stomach distension", "full feeling", "abdominal pressure", "gassy", "swollen belly"],
+        "Related symptoms": ["gas", "abdominal pain", "constipation"],
+        "Duration": ["acute", "chronic", "after meals"],
+        "Severity": ["mild", "moderate", "severe"]
+      },
+      {
+        "ID": "DIG02",
+        "Name": "Constipation",
+        "Category": "Digestion",
+        "Common descriptions": ["can't go", "hard stools", "irregular bowel movements", "straining", "infrequent bowel movements"],
+        "Related symptoms": ["bloating", "abdominal discomfort", "hemorrhoids"],
+        "Duration": ["acute", "chronic", "intermittent"],
+        "Severity": ["mild", "moderate", "severe"]
+      },
+      {
+        "ID": "DIG03",
+        "Name": "Acid Reflux",
+        "Category": "Digestion",
+        "Common descriptions": ["heartburn", "burning in chest", "regurgitation", "sour taste", "chest pain after eating"],
+        "Related symptoms": ["indigestion", "nausea", "sore throat"],
+        "Duration": ["acute", "chronic", "after meals"],
+        "Severity": ["mild", "moderate", "severe"]
+      },
+      {
+        "ID": "STR01",
+        "Name": "Stress",
+        "Category": "Mood",
+        "Common descriptions": ["overwhelmed", "tense", "anxious", "can't relax", "worried"],
+        "Related symptoms": ["insomnia", "irritability", "fatigue"],
+        "Duration": ["acute", "chronic", "situational"],
+        "Severity": ["mild", "moderate", "severe"]
+      },
+      {
+        "ID": "MOO01",
+        "Name": "Low Mood",
+        "Category": "Mood",
+        "Common descriptions": ["sad", "blue", "down", "unmotivated", "lack of joy"],
+        "Related symptoms": ["fatigue", "low motivation", "irritability"],
+        "Duration": ["acute", "chronic", "intermittent"],
+        "Severity": ["mild", "moderate", "severe"]
+      },
+      {
+        "ID": "ANX01",
+        "Name": "Anxiety",
+        "Category": "Mood",
+        "Common descriptions": ["nervousness", "worry", "on edge", "overthinking", "racing thoughts"],
+        "Related symptoms": ["insomnia", "restlessness", "panic attacks"],
+        "Duration": ["acute", "chronic", "situational"],
+        "Severity": ["mild", "moderate", "severe"]
+      },
+      {
+        "ID": "IMM01",
+        "Name": "Frequent Infections",
+        "Category": "Immunity",
+        "Common descriptions": ["always sick", "catching everything", "recurring colds", "weak immune system", "continuous infections"],
+        "Related symptoms": ["fatigue", "sore throat", "congestion"],
+        "Duration": ["acute", "chronic", "seasonal"],
+        "Severity": ["mild", "moderate", "severe"]
+      },
+      {
+        "ID": "IMM02",
+        "Name": "Allergies",
+        "Category": "Immunity",
+        "Common descriptions": ["sneezing", "itchy eyes", "runny nose", "congestion", "sinus pressure"],
+        "Related symptoms": ["headache", "fatigue", "sore throat"],
+        "Duration": ["acute", "chronic", "seasonal"],
+        "Severity": ["mild", "moderate", "severe"]
+      },
+      {
+        "ID": "HOR01",
+        "Name": "PMS",
+        "Category": "Hormonal",
+        "Common descriptions": ["mood swings", "cramping", "bloating", "breast tenderness", "irritability before period"],
+        "Related symptoms": ["headache", "fatigue", "food cravings"],
+        "Duration": ["cyclical", "predictable", "week before menstruation"],
+        "Severity": ["mild", "moderate", "severe"]
+      },
+      {
+        "ID": "HOR02",
+        "Name": "Hot Flashes",
+        "Category": "Hormonal",
+        "Common descriptions": ["sudden warmth", "flushing", "night sweats", "heat waves", "overheating"],
+        "Related symptoms": ["insomnia", "irritability", "mood changes"],
+        "Duration": ["acute", "chronic", "episodic"],
+        "Severity": ["mild", "moderate", "severe"]
+      },
+      {
+        "ID": "PAI01",
+        "Name": "Headache",
+        "Category": "Pain",
+        "Common descriptions": ["head pain", "throbbing", "pressure", "pounding", "tension"],
+        "Related symptoms": ["fatigue", "neck stiffness", "sensitivity to light"],
+        "Duration": ["acute", "chronic", "intermittent"],
+        "Severity": ["mild", "moderate", "severe"]
+      },
+      {
+        "ID": "PAI02",
+        "Name": "Joint Pain",
+        "Category": "Pain",
+        "Common descriptions": ["achy joints", "stiffness", "swollen joints", "arthritis pain", "discomfort when moving"],
+        "Related symptoms": ["inflammation", "reduced mobility", "stiffness"],
+        "Duration": ["acute", "chronic", "intermittent"],
+        "Severity": ["mild", "moderate", "severe"]
+      },
+      {
+        "ID": "PAI03",
+        "Name": "Muscle Pain",
+        "Category": "Pain",
+        "Common descriptions": ["soreness", "aching muscles", "muscle tension", "stiffness", "spasms"],
+        "Related symptoms": ["fatigue", "headache", "reduced mobility"],
+        "Duration": ["acute", "chronic", "post-exertion"],
+        "Severity": ["mild", "moderate", "severe"]
+      },
+      {
+        "ID": "SKN01",
+        "Name": "Dry Skin",
+        "Category": "Skin",
+        "Common descriptions": ["flaky skin", "rough patches", "itchy skin", "tight feeling", "lacks moisture"],
+        "Related symptoms": ["redness", "irritation", "fine lines"],
+        "Duration": ["acute", "chronic", "seasonal"],
+        "Severity": ["mild", "moderate", "severe"]
+      },
+      {
+        "ID": "SKN02",
+        "Name": "Acne",
+        "Category": "Skin",
+        "Common descriptions": ["breakouts", "pimples", "cystic acne", "blemishes", "zits"],
+        "Related symptoms": ["inflammation", "scarring", "oily skin"],
+        "Duration": ["acute", "chronic", "cyclical"],
+        "Severity": ["mild", "moderate", "severe"]
+      },
+      {
+        "ID": "HAI01",
+        "Name": "Hair Loss",
+        "Category": "Hair",
+        "Common descriptions": ["thinning hair", "balding", "excessive shedding", "receding hairline", "losing hair"],
+        "Related symptoms": ["scalp issues", "brittle hair", "slow growth"],
+        "Duration": ["acute", "chronic", "seasonal"],
+        "Severity": ["mild", "moderate", "severe"]
+      },
+      {
+        "ID": "WGT01",
+        "Name": "Weight Gain",
+        "Category": "Weight",
+        "Common descriptions": ["putting on pounds", "increased body fat", "can't lose weight", "expanding waistline", "clothes too tight"],
+        "Related symptoms": ["bloating", "fatigue", "low motivation"],
+        "Duration": ["recent", "gradual", "sudden"],
+        "Severity": ["mild", "moderate", "significant"]
+      },
+      {
+        "ID": "CRV01",
+        "Name": "Cravings",
+        "Category": "Nutrition",
+        "Common descriptions": ["sugar cravings", "salt cravings", "food obsession", "constant hunger", "uncontrollable appetite"],
+        "Related symptoms": ["irritability", "energy crashes", "mood swings"],
+        "Duration": ["acute", "chronic", "situational"],
+        "Severity": ["mild", "moderate", "severe"]
+      },
+      {
+        "ID": "ENE01",
+        "Name": "Low Energy",
+        "Category": "Energy",
+        "Common descriptions": ["afternoon slump", "constant tiredness", "need for caffeine", "sluggish", "low stamina"],
+        "Related symptoms": ["fatigue", "brain fog", "low motivation"],
+        "Duration": ["acute", "chronic", "time-of-day specific"],
+        "Severity": ["mild", "moderate", "severe"]
+      },
+      {
+        "ID": "ENE02",
+        "Name": "Morning Fatigue",
+        "Category": "Energy",
+        "Common descriptions": ["waking up tired", "no morning energy", "need coffee to function", "morning sluggishness", "dreading getting out of bed"],
+        "Related symptoms": ["grogginess", "brain fog", "irritability"],
+        "Duration": ["acute", "chronic", "daily"],
+        "Severity": ["mild", "moderate", "severe"]
+      },
+      {
+        "ID": "IMB01",
+        "Name": "Hormonal Imbalance",
+        "Category": "Hormonal",
+        "Common descriptions": ["irregular periods", "mood swings", "weight changes", "fatigue", "sleep issues"],
+        "Related symptoms": ["acne", "hair changes", "libido changes"],
+        "Duration": ["acute", "chronic", "cyclical"],
+        "Severity": ["mild", "moderate", "severe"]
+      },
+      {
+        "ID": "BLD01",
+        "Name": "Low Iron",
+        "Category": "Blood",
+        "Common descriptions": ["anemia", "pale skin", "shortness of breath", "weakness", "cold hands and feet"],
+        "Related symptoms": ["fatigue", "dizziness", "headaches"],
+        "Duration": ["acute", "chronic", "intermittent"],
+        "Severity": ["mild", "moderate", "severe"]
+      },
+      {
+        "ID": "VIT01",
+        "Name": "Vitamin D Deficiency",
+        "Category": "Nutrition",
+        "Common descriptions": ["fatigue", "bone pain", "muscle weakness", "mood changes", "frequent illness"],
+        "Related symptoms": ["hair loss", "slow wound healing", "back pain"],
+        "Duration": ["acute", "chronic", "seasonal"],
+        "Severity": ["mild", "moderate", "severe"]
+      },
+      {
+        "ID": "MET01",
+        "Name": "Slow Metabolism",
+        "Category": "Metabolism",
+        "Common descriptions": ["weight gain", "cold intolerance", "fatigue", "constipation", "dry skin"],
+        "Related symptoms": ["hair loss", "brain fog", "low energy"],
+        "Duration": ["recent", "gradual", "chronic"],
+        "Severity": ["mild", "moderate", "severe"]
+      },
+      {
+        "ID": "MAS01", 
+        "Name": "Muscle Mass Loss",
+        "Category": "Fitness",
+        "Common descriptions": ["losing muscle", "muscle atrophy", "decreased strength", "muscle wasting", "loss of tone"],
+        "Related symptoms": ["weakness", "fatigue", "joint pain"],
+        "Duration": ["recent", "gradual", "age-related"],
+        "Severity": ["mild", "moderate", "severe"]
+      },
+      {
+        "ID": "MEN01",
+        "Name": "Men's Libido Issues",
+        "Category": "Men's Health",
+        "Common descriptions": ["low sex drive", "decreased desire", "erectile difficulties", "performance issues", "loss of morning erections"],
+        "Related symptoms": ["fatigue", "stress", "low testosterone symptoms"],
+        "Duration": ["recent", "gradual", "chronic"],
+        "Severity": ["mild", "moderate", "severe"]
+      },
+      {
+        "ID": "HYD01",
+        "Name": "Dehydration",
+        "Category": "Hydration",
+        "Common descriptions": ["thirsty", "dry mouth", "dark urine", "headache", "dizziness"],
+        "Related symptoms": ["fatigue", "confusion", "dry skin"],
+        "Duration": ["acute", "chronic", "situational"],
+        "Severity": ["mild", "moderate", "severe"]
+      },
+      {
+        "ID": "STR02",
+        "Name": "Adrenal Fatigue",
+        "Category": "Stress",
+        "Common descriptions": ["burned out", "exhausted", "wired but tired", "difficulty handling stress", "afternoon energy crash"],
+        "Related symptoms": ["insomnia", "anxiety", "salt cravings"],
+        "Duration": ["acute", "chronic", "after stressful period"],
+        "Severity": ["mild", "moderate", "severe"]
+      },
+      {
+        "ID": "EXE01",
+        "Name": "Exercise Recovery Issues",
+        "Category": "Fitness",
+        "Common descriptions": ["prolonged soreness", "fatigue after workout", "slow recovery", "performance plateau", "overtraining"],
+        "Related symptoms": ["muscle pain", "fatigue", "decreased performance"],
+        "Duration": ["acute", "chronic", "post-workout"],
+        "Severity": ["mild", "moderate", "severe"]
+      }
+    ]
+  }

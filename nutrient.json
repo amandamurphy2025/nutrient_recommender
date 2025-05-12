@@ -1,0 +1,3904 @@
+{
+    "nutrients": [
+      {
+        "id": "VB12",
+        "name": "Vitamin B12",
+        "category": "Vitamin",
+        "description": "Water-soluble vitamin essential for nerve function, DNA production, and red blood cell formation",
+        "primaryBenefits": [
+          "Energy production",
+          "Nerve health",
+          "Cognitive function"
+        ],
+        "dosage": {
+          "standard": "2.4mcg daily",
+          "therapeutic": "1000-5000mcg"
+        },
+        "forms": [
+          "Cyanocobalamin",
+          "Methylcobalamin",
+          "Hydroxocobalamin"
+        ],
+        "contraindications": "None at normal doses",
+        "interactions": [
+          "Metformin",
+          "Proton pump inhibitors"
+        ],
+        "evidenceStrength": {
+          "deficiencyConditions": "High",
+          "energy": "Moderate"
+        }
+      },
+      {
+        "id": "VD",
+        "name": "Vitamin D",
+        "category": "Vitamin",
+        "description": "Fat-soluble vitamin that promotes calcium absorption and bone health, and supports immune, nerve, and muscle function",
+        "primaryBenefits": [
+          "Bone health",
+          "Immune function",
+          "Mood regulation"
+        ],
+        "dosage": {
+          "standard": "600-800 IU daily",
+          "therapeutic": "1000-5000 IU daily"
+        },
+        "forms": [
+          "Vitamin D2 (Ergocalciferol)",
+          "Vitamin D3 (Cholecalciferol)"
+        ],
+        "contraindications": "Hypercalcemia, kidney disease at high doses",
+        "interactions": [
+          "Corticosteroids",
+          "Weight loss drugs",
+          "Cholesterol-lowering medications"
+        ],
+        "evidenceStrength": {
+          "boneHealth": "High",
+          "immuneFunction": "Moderate",
+          "depression": "Low to Moderate"
+        }
+      },
+      {
+        "id": "VC",
+        "name": "Vitamin C",
+        "category": "Vitamin",
+        "description": "Water-soluble vitamin and antioxidant that supports immune function and collagen synthesis",
+        "primaryBenefits": [
+          "Immune support",
+          "Collagen production",
+          "Antioxidant protection"
+        ],
+        "dosage": {
+          "standard": "75-90mg daily",
+          "therapeutic": "500-2000mg daily"
+        },
+        "forms": [
+          "Ascorbic acid",
+          "Sodium ascorbate",
+          "Calcium ascorbate",
+          "Liposomal"
+        ],
+        "contraindications": "History of kidney stones, hemochromatosis at high doses",
+        "interactions": [
+          "Blood thinners",
+          "Chemotherapy drugs",
+          "Statins"
+        ],
+        "evidenceStrength": {
+          "immuneFunction": "Moderate to High",
+          "coldDuration": "Moderate",
+          "cardioprotection": "Low to Moderate"
+        }
+      },
+      {
+        "id": "FE",
+        "name": "Iron",
+        "category": "Mineral",
+        "description": "Essential mineral critical for oxygen transport, energy production, and immune function",
+        "primaryBenefits": [
+          "Red blood cell formation",
+          "Energy production",
+          "Cognitive function"
+        ],
+        "dosage": {
+          "standard": "8-18mg daily",
+          "therapeutic": "65-200mg daily for deficiency"
+        },
+        "forms": [
+          "Ferrous sulfate",
+          "Ferrous gluconate",
+          "Ferrous fumarate",
+          "Heme iron polypeptide"
+        ],
+        "contraindications": "Hemochromatosis, iron overload conditions",
+        "interactions": [
+          "Calcium supplements",
+          "Antacids",
+          "Tetracycline antibiotics",
+          "Thyroid medications"
+        ],
+        "evidenceStrength": {
+          "anemia": "High",
+          "fatigue": "Moderate to High for deficiency",
+          "athleticPerformance": "Low to Moderate"
+        }
+      },
+      {
+        "id": "MG",
+        "name": "Magnesium",
+        "category": "Mineral",
+        "description": "Essential mineral involved in over 300 enzymatic reactions, including energy production, protein synthesis, and muscle and nerve function",
+        "primaryBenefits": [
+          "Muscle relaxation",
+          "Nerve function",
+          "Energy production",
+          "Sleep quality"
+        ],
+        "dosage": {
+          "standard": "310-420mg daily",
+          "therapeutic": "300-600mg daily"
+        },
+        "forms": [
+          "Magnesium citrate",
+          "Magnesium glycinate",
+          "Magnesium malate",
+          "Magnesium threonate",
+          "Magnesium oxide"
+        ],
+        "contraindications": "Kidney disease, myasthenia gravis",
+        "interactions": [
+          "Antibiotics",
+          "Diuretics",
+          "Bisphosphonates",
+          "Muscle relaxants"
+        ],
+        "evidenceStrength": {
+          "deficiency": "High",
+          "migraines": "Moderate to High",
+          "sleep": "Moderate",
+          "anxiety": "Moderate"
+        }
+      },
+      {
+        "id": "ZN",
+        "name": "Zinc",
+        "category": "Mineral",
+        "description": "Essential trace mineral vital for immune function, protein synthesis, wound healing, DNA synthesis, and cell division",
+        "primaryBenefits": [
+          "Immune support",
+          "Wound healing",
+          "Skin health",
+          "Hormonal balance"
+        ],
+        "dosage": {
+          "standard": "8-11mg daily",
+          "therapeutic": "15-30mg daily"
+        },
+        "forms": [
+          "Zinc picolinate",
+          "Zinc citrate",
+          "Zinc gluconate",
+          "Zinc acetate"
+        ],
+        "contraindications": "High doses for extended periods",
+        "interactions": [
+          "Antibiotics",
+          "Penicillamine",
+          "Copper supplements",
+          "Iron supplements"
+        ],
+        "evidenceStrength": {
+          "immuneFunction": "High",
+          "coldDuration": "Moderate to High",
+          "testosterone": "Moderate for deficiency"
+        }
+      },
+      {
+        "id": "OMG3",
+        "name": "Omega-3 Fatty Acids",
+        "category": "Essential Fatty Acid",
+        "description": "Essential polyunsaturated fatty acids that play crucial roles in brain function, inflammation, and heart health",
+        "primaryBenefits": [
+          "Heart health",
+          "Brain function",
+          "Anti-inflammatory effects",
+          "Joint health"
+        ],
+        "dosage": {
+          "standard": "250-500mg combined EPA+DHA daily",
+          "therapeutic": "1000-4000mg combined EPA+DHA daily"
+        },
+        "forms": [
+          "Fish oil",
+          "Krill oil",
+          "Algal oil",
+          "Flaxseed oil"
+        ],
+        "contraindications": "Bleeding disorders, scheduled surgery",
+        "interactions": [
+          "Blood thinners",
+          "Blood pressure medications",
+          "NSAIDs"
+        ],
+        "evidenceStrength": {
+          "heartHealth": "Moderate to High",
+          "inflammation": "Moderate",
+          "brainFunction": "Moderate",
+          "depression": "Low to Moderate"
+        }
+      },
+      {
+        "id": "CRN",
+        "name": "Creatine",
+        "category": "Amino Acid Derivative",
+        "description": "Naturally occurring compound that helps supply energy to cells, particularly muscle cells",
+        "primaryBenefits": [
+          "Increased strength",
+          "Improved exercise performance",
+          "Enhanced muscle recovery",
+          "Cognitive benefits"
+        ],
+        "dosage": {
+          "standard": "3-5g daily",
+          "therapeutic": "20g daily for 5-7 days (loading phase), followed by 3-5g daily"
+        },
+        "forms": [
+          "Creatine monohydrate",
+          "Creatine HCL",
+          "Creatine ethyl ester",
+          "Buffered creatine"
+        ],
+        "contraindications": "Kidney disease, potential concerns during pregnancy",
+        "interactions": [
+          "Nephrotoxic medications",
+          "Caffeine (may reduce effects)",
+          "Diuretics"
+        ],
+        "evidenceStrength": {
+          "strengthPerformance": "High",
+          "muscleGrowth": "Moderate to High",
+          "cognition": "Moderate"
+        }
+      },
+      {
+        "id": "ASH",
+        "name": "Ashwagandha",
+        "category": "Herb",
+        "description": "Adaptogenic herb used in Ayurvedic medicine to help the body manage stress and promote well-being",
+        "primaryBenefits": [
+          "Stress reduction",
+          "Anxiety management",
+          "Improved sleep",
+          "Enhanced recovery",
+          "Hormonal balance"
+        ],
+        "dosage": {
+          "standard": "300-500mg daily",
+          "therapeutic": "600-1200mg daily"
+        },
+        "forms": [
+          "Root powder",
+          "Extract (standardized to withanolides)",
+          "Tincture"
+        ],
+        "contraindications": "Autoimmune conditions, pregnancy, thyroid disorders",
+        "interactions": [
+          "Thyroid medications",
+          "Immunosuppressants",
+          "Sedatives",
+          "Blood glucose medications"
+        ],
+        "evidenceStrength": {
+          "stressReduction": "Moderate to High",
+          "anxiety": "Moderate",
+          "testosterone": "Moderate",
+          "sleep": "Moderate"
+        }
+      },
+      {
+        "id": "COQ10",
+        "name": "Coenzyme Q10",
+        "category": "Coenzyme",
+        "description": "Naturally occurring antioxidant involved in energy production within cells; levels decline with age and statin use",
+        "primaryBenefits": [
+          "Cardiovascular health",
+          "Energy production",
+          "Antioxidant protection",
+          "Migraine prevention"
+        ],
+        "dosage": {
+          "standard": "100-200mg daily",
+          "therapeutic": "300-600mg daily"
+        },
+        "forms": [
+          "Ubiquinone",
+          "Ubiquinol (reduced form, better absorbed)"
+        ],
+        "contraindications": "Generally well tolerated",
+        "interactions": [
+          "Blood thinners",
+          "Blood pressure medications",
+          "Chemotherapy drugs"
+        ],
+        "evidenceStrength": {
+          "statinMyopathy": "Moderate to High",
+          "heartFailure": "Moderate",
+          "migraines": "Moderate",
+          "energyProduction": "Low to Moderate"
+        }
+      },
+      {
+        "id": "NAC",
+        "name": "N-Acetyl Cysteine",
+        "category": "Amino Acid Derivative",
+        "description": "Modified form of the amino acid cysteine that acts as a precursor to glutathione, one of the body's most powerful antioxidants",
+        "primaryBenefits": [
+          "Respiratory health",
+          "Liver protection",
+          "Detoxification support",
+          "Mental health support"
+        ],
+        "dosage": {
+          "standard": "600mg daily",
+          "therapeutic": "600-1800mg daily"
+        },
+        "forms": [
+          "Capsule",
+          "Powder",
+          "Effervescent tablet"
+        ],
+        "contraindications": "Asthma (may worsen in some cases)",
+        "interactions": [
+          "Nitroglycerin",
+          "Activated charcoal",
+          "Certain chemotherapy drugs"
+        ],
+        "evidenceStrength": {
+          "respiratoryConditions": "Moderate to High",
+          "liverProtection": "Moderate",
+          "OCD": "Moderate",
+          "addiction": "Low to Moderate"
+        }
+      },
+      {
+        "id": "CUR",
+        "name": "Curcumin",
+        "category": "Phytonutrient",
+        "description": "Active compound in turmeric with potent anti-inflammatory and antioxidant properties",
+        "primaryBenefits": [
+          "Reduced inflammation",
+          "Joint health",
+          "Brain function",
+          "Digestive support"
+        ],
+        "dosage": {
+          "standard": "500mg daily",
+          "therapeutic": "1000-1500mg daily"
+        },
+        "forms": [
+          "Standard extract",
+          "Phytosome complex",
+          "Nanoparticle formulations",
+          "With black pepper extract (piperine)"
+        ],
+        "contraindications": "Gallbladder disease, bleeding disorders, prior to surgery",
+        "interactions": [
+          "Blood thinners",
+          "NSAIDs",
+          "Diabetes medications",
+          "Chemotherapy drugs"
+        ],
+        "evidenceStrength": {
+          "inflammation": "Moderate to High",
+          "jointPain": "Moderate",
+          "depression": "Moderate",
+          "cognition": "Low to Moderate"
+        }
+      },
+      {
+        "id": "PRO",
+        "name": "Probiotics",
+        "category": "Microbial Supplement",
+        "description": "Live beneficial bacteria and yeasts that support gut health and overall wellness",
+        "primaryBenefits": [
+          "Gut health",
+          "Immune function",
+          "Mental health",
+          "Digestive comfort"
+        ],
+        "dosage": {
+          "standard": "1-10 billion CFU daily",
+          "therapeutic": "10-100 billion CFU daily"
+        },
+        "forms": [
+          "Multi-strain capsules",
+          "Single-strain capsules",
+          "Powders",
+          "Liquid"
+        ],
+        "contraindications": "Severe immunocompromise, critically ill patients",
+        "interactions": [
+          "Antibiotics (take separately)",
+          "Immunosuppressants"
+        ],
+        "evidenceStrength": {
+          "antibioticAssociatedDiarrhea": "High",
+          "IBS": "Moderate",
+          "immuneFunction": "Moderate",
+          "mentalHealth": "Low to Moderate"
+        }
+      },
+      {
+        "id": "VA",
+        "name": "Vitamin A",
+        "category": "Vitamin",
+        "description": "Fat-soluble vitamin essential for vision, immune function, cell growth, and reproductive health",
+        "primaryBenefits": [
+          "Vision health",
+          "Immune function",
+          "Skin health",
+          "Cell differentiation"
+        ],
+        "dosage": {
+          "standard": "700-900mcg RAE daily",
+          "therapeutic": "Up to 3000mcg RAE daily (medical supervision required)"
+        },
+        "forms": [
+          "Retinol (preformed)",
+          "Beta-carotene (provitamin A)",
+          "Retinyl palmitate"
+        ],
+        "contraindications": "Pregnancy (high doses), liver disease, smoking (beta-carotene)",
+        "interactions": [
+          "Retinoid medications",
+          "Cholesterol-lowering medications",
+          "Certain antibiotics"
+        ],
+        "evidenceStrength": {
+          "visionHealth": "High",
+          "immuneFunction": "Moderate to High",
+          "skinHealth": "Moderate"
+        }
+      },
+      {
+        "id": "VE",
+        "name": "Vitamin E",
+        "category": "Vitamin",
+        "description": "Fat-soluble antioxidant that protects cells from oxidative damage and supports immune function",
+        "primaryBenefits": [
+          "Antioxidant protection",
+          "Skin health",
+          "Immune support",
+          "Heart health"
+        ],
+        "dosage": {
+          "standard": "15mg daily",
+          "therapeutic": "100-400mg daily"
+        },
+        "forms": [
+          "Mixed tocopherols",
+          "Alpha-tocopherol",
+          "Tocotrienols"
+        ],
+        "contraindications": "Vitamin K deficiency, bleeding disorders",
+        "interactions": [
+          "Blood thinners",
+          "Chemotherapy",
+          "Statins"
+        ],
+        "evidenceStrength": {
+          "antioxidantEffect": "High",
+          "heartDiseasePrevention": "Low",
+          "skinHealth": "Moderate"
+        }
+      },
+      {
+        "id": "LYC",
+        "name": "Lysine",
+        "category": "Amino Acid",
+        "description": "Essential amino acid important for protein synthesis, calcium absorption, and collagen formation",
+        "primaryBenefits": [
+          "Cold sore prevention",
+          "Collagen production",
+          "Calcium absorption",
+          "Wound healing"
+        ],
+        "dosage": {
+          "standard": "1-3g daily",
+          "therapeutic": "3-9g daily"
+        },
+        "forms": [
+          "L-lysine HCl",
+          "Free-form L-lysine"
+        ],
+        "contraindications": "High doses in liver or kidney disease",
+        "interactions": [
+          "Calcium supplements",
+          "Arginine-rich foods or supplements"
+        ],
+        "evidenceStrength": {
+          "coldSores": "Moderate",
+          "calcium": "Moderate",
+          "anxiety": "Low"
+        }
+      },
+      {
+        "id": "TUR",
+        "name": "Turmeric",
+        "category": "Herb",
+        "description": "Anti-inflammatory herb containing curcuminoids, primarily curcumin, with broad therapeutic potential",
+        "primaryBenefits": [
+          "Anti-inflammatory",
+          "Antioxidant protection",
+          "Joint health",
+          "Digestive support",
+          "Brain health"
+        ],
+        "dosage": {
+          "standard": "500-1000mg daily",
+          "therapeutic": "1500-3000mg daily"
+        },
+        "forms": [
+          "Whole root powder",
+          "Standardized extract",
+          "Fermented",
+          "With black pepper extract"
+        ],
+        "contraindications": "Gallbladder problems, bleeding disorders, scheduled surgery",
+        "interactions": [
+          "Blood thinners",
+          "Diabetes medications",
+          "Acid reducers",
+          "NSAIDs"
+        ],
+        "evidenceStrength": {
+          "inflammation": "Moderate to High",
+          "arthritis": "Moderate",
+          "digestiveHealth": "Moderate",
+          "brainProtection": "Low to Moderate"
+        }
+      },
+      {
+        "id": "BEET",
+        "name": "Beets",
+        "category": "Food/Supplement",
+        "description": "Root vegetable rich in nitrates, betalains, and other bioactive compounds that support cardiovascular health and athletic performance",
+        "primaryBenefits": [
+          "Blood pressure regulation",
+          "Exercise performance",
+          "Nitric oxide production",
+          "Detoxification support"
+        ],
+        "dosage": {
+          "standard": "100-250ml juice or 6-12g powder daily",
+          "therapeutic": "250-500ml juice or 12-25g powder daily"
+        },
+        "forms": [
+          "Raw vegetable",
+          "Juice",
+          "Powder concentrate",
+          "Fermented"
+        ],
+        "contraindications": "Kidney stones (oxalate type), gout",
+        "interactions": [
+          "Blood pressure medications",
+          "Erectile dysfunction medications",
+          "Nitrates"
+        ],
+        "evidenceStrength": {
+          "bloodPressure": "Moderate to High",
+          "athleticPerformance": "Moderate",
+          "nitricOxideProduction": "Moderate to High",
+          "liverSupport": "Low to Moderate"
+        }
+      },
+      {
+        "id": "LEM",
+        "name": "Lemon",
+        "category": "Food/Supplement",
+        "description": "Citrus fruit rich in vitamin C, citric acid, flavonoids, and other bioactive compounds with alkalizing and cleansing properties",
+        "primaryBenefits": [
+          "Digestive support",
+          "Vitamin C source",
+          "Hydration",
+          "Antioxidant protection"
+        ],
+        "dosage": {
+          "standard": "Juice of ½-1 lemon daily",
+          "therapeutic": "Juice of 1-2 lemons daily"
+        },
+        "forms": [
+          "Fresh fruit",
+          "Juice",
+          "Extract",
+          "Essential oil (not for internal use)"
+        ],
+        "contraindications": "Heartburn, GERD, citrus allergies, dental sensitivity",
+        "interactions": [
+          "Antacids",
+          "Certain antibiotics",
+          "Aluminum-containing medications"
+        ],
+        "evidenceStrength": {
+          "vitaminC": "High",
+          "digestion": "Moderate",
+          "hydration": "Moderate",
+          "detoxification": "Low"
+        }
+      },
+      {
+        "id": "BCAA",
+        "name": "Plant-based BCAAs",
+        "category": "Amino Acid Complex",
+        "description": "Plant-derived branched-chain amino acids (leucine, isoleucine, and valine) that support muscle protein synthesis and recovery",
+        "primaryBenefits": [
+          "Muscle protein synthesis",
+          "Exercise recovery",
+          "Reduced muscle soreness",
+          "Fatigue reduction"
+        ],
+        "dosage": {
+          "standard": "5-10g daily",
+          "therapeutic": "10-20g daily"
+        },
+        "forms": [
+          "Fermented from plants",
+          "Powder",
+          "Capsules",
+          "Liquid"
+        ],
+        "contraindications": "ALS (some evidence), pregnancy, specific metabolic disorders",
+        "interactions": [
+          "Levodopa medications",
+          "Diabetes medications"
+        ],
+        "evidenceStrength": {
+          "muscleProtection": "Moderate to High",
+          "recovery": "Moderate",
+          "performance": "Low to Moderate",
+          "fatigue": "Moderate"
+        }
+      },
+      {
+        "id": "LLEU",
+        "name": "L-Leucine",
+        "category": "Amino Acid",
+        "description": "Essential branched-chain amino acid that is the primary activator of mTOR pathway for muscle protein synthesis",
+        "primaryBenefits": [
+          "Muscle protein synthesis",
+          "Recovery",
+          "Preventing muscle breakdown",
+          "Blood sugar regulation"
+        ],
+        "dosage": {
+          "standard": "2-5g daily",
+          "therapeutic": "5-10g daily"
+        },
+        "forms": [
+          "Free-form powder",
+          "Capsules",
+          "As part of BCAA blends"
+        ],
+        "contraindications": "ALS (some evidence), pregnancy, certain metabolic disorders",
+        "interactions": [
+          "Diabetes medications",
+          "Levodopa"
+        ],
+        "evidenceStrength": {
+          "muscleSynthesis": "High",
+          "ageRelatedMuscleLoss": "Moderate to High",
+          "recovery": "Moderate",
+          "bloodSugar": "Low to Moderate"
+        }
+      },
+      {
+        "id": "LISO",
+        "name": "L-Isoleucine",
+        "category": "Amino Acid",
+        "description": "Essential branched-chain amino acid important for glucose uptake into cells and hemoglobin production",
+        "primaryBenefits": [
+          "Glucose metabolism",
+          "Hemoglobin formation",
+          "Immune function",
+          "Energy regulation"
+        ],
+        "dosage": {
+          "standard": "1-3g daily",
+          "therapeutic": "3-5g daily"
+        },
+        "forms": [
+          "Free-form powder",
+          "Capsules",
+          "As part of BCAA blends"
+        ],
+        "contraindications": "ALS (some evidence), pregnancy, certain metabolic disorders",
+        "interactions": [
+          "Diabetes medications",
+          "Levodopa"
+        ],
+        "evidenceStrength": {
+          "glucoseUptake": "Moderate",
+          "endurance": "Low to Moderate",
+          "recovery": "Moderate",
+          "bloodSugar": "Low to Moderate"
+        }
+      },
+      {
+        "id": "LVAL",
+        "name": "L-Valine",
+        "category": "Amino Acid",
+        "description": "Essential branched-chain amino acid that supports muscle metabolism, tissue repair, and nitrogen balance",
+        "primaryBenefits": [
+          "Muscle metabolism",
+          "Tissue repair",
+          "Nitrogen balance",
+          "Energy production"
+        ],
+        "dosage": {
+          "standard": "1-3g daily",
+          "therapeutic": "3-5g daily"
+        },
+        "forms": [
+          "Free-form powder",
+          "Capsules",
+          "As part of BCAA blends"
+        ],
+        "contraindications": "ALS (some evidence), pregnancy, certain metabolic disorders",
+        "interactions": [
+          "Diabetes medications",
+          "Levodopa"
+        ],
+        "evidenceStrength": {
+          "muscleMetabolism": "Moderate",
+          "recovery": "Moderate",
+          "nitrogenBalance": "Moderate",
+          "liverFunction": "Low"
+        }
+      },
+      {
+        "id": "PLCAR",
+        "name": "Propionyl L-Carnitine",
+        "category": "Amino Acid Derivative",
+        "description": "Specialized form of L-carnitine that supports cardiovascular health, energy production, and circulation",
+        "primaryBenefits": [
+          "Cardiovascular health",
+          "Energy production",
+          "Circulation improvement",
+          "Exercise performance"
+        ],
+        "dosage": {
+          "standard": "500-1000mg daily",
+          "therapeutic": "1000-2000mg daily"
+        },
+        "forms": [
+          "Capsules",
+          "Tablets",
+          "Powder"
+        ],
+        "contraindications": "Seizure disorders, hypothyroidism",
+        "interactions": [
+          "Blood thinners",
+          "Thyroid medications",
+          "Certain antibiotics"
+        ],
+        "evidenceStrength": {
+          "circulation": "Moderate to High",
+          "heartFunction": "Moderate",
+          "exercise": "Moderate",
+          "energy": "Moderate"
+        }
+      },
+      {
+        "id": "BEETR",
+        "name": "Beetroot",
+        "category": "Food/Supplement",
+        "description": "Concentrated form of beets rich in nitrates that convert to nitric oxide in the body, supporting cardiovascular function and exercise performance",
+        "primaryBenefits": [
+          "Nitric oxide production",
+          "Blood pressure regulation",
+          "Exercise performance",
+          "Cardiovascular health"
+        ],
+        "dosage": {
+          "standard": "250-500mg extract or 6-12g powder daily",
+          "therapeutic": "500-1000mg extract or 12-25g powder daily"
+        },
+        "forms": [
+          "Powder",
+          "Concentrated extract",
+          "Juice",
+          "Capsules"
+        ],
+        "contraindications": "Kidney stones (oxalate type), gout",
+        "interactions": [
+          "Blood pressure medications",
+          "Erectile dysfunction medications",
+          "Nitrates"
+        ],
+        "evidenceStrength": {
+          "bloodPressure": "Moderate to High",
+          "exercisePerformance": "Moderate to High",
+          "nitricOxideProduction": "High",
+          "oxygenUtilization": "Moderate"
+        }
+      },
+      {
+        "id": "WHEY",
+        "name": "Whey",
+        "category": "Protein",
+        "description": "Complete protein derived from milk that is quickly absorbed and rich in essential amino acids, particularly leucine",
+        "primaryBenefits": [
+          "Muscle protein synthesis",
+          "Recovery support",
+          "Immune function",
+          "Satiety"
+        ],
+        "dosage": {
+          "standard": "20-30g per serving, 1-2 servings daily",
+          "therapeutic": "40-60g per day divided into 2-3 servings"
+        },
+        "forms": [
+          "Concentrate (80% protein)",
+          "Isolate (90%+ protein)",
+          "Hydrolysate (pre-digested)",
+          "Native whey"
+        ],
+        "contraindications": "Dairy allergies, lactose intolerance (for concentrate)",
+        "interactions": [
+          "Certain antibiotics",
+          "Levodopa",
+          "Some thyroid medications"
+        ],
+        "evidenceStrength": {
+          "muscleSynthesis": "High",
+          "recovery": "High",
+          "immuneFunction": "Moderate",
+          "weightManagement": "Moderate"
+        }
+      },
+      {
+        "id": "CACAO",
+        "name": "Raw Cacao",
+        "category": "Food/Supplement",
+        "description": "Minimally processed cocoa rich in flavanols, theobromine, and other bioactive compounds that support cardiovascular and cognitive health",
+        "primaryBenefits": [
+          "Cardiovascular health",
+          "Cognitive function",
+          "Mood enhancement",
+          "Antioxidant protection"
+        ],
+        "dosage": {
+          "standard": "5-10g daily",
+          "therapeutic": "15-30g daily"
+        },
+        "forms": [
+          "Raw powder",
+          "Nibs",
+          "Paste/liquor",
+          "Extract"
+        ],
+        "contraindications": "Caffeine sensitivity, migraine triggers, reflux, certain heart arrhythmias",
+        "interactions": [
+          "Stimulant medications",
+          "MAO inhibitors",
+          "Certain antidepressants",
+          "Blood thinners"
+        ],
+        "evidenceStrength": {
+          "bloodFlow": "Moderate to High",
+          "cognition": "Moderate",
+          "antioxidantEffect": "High",
+          "mood": "Moderate"
+        }
+      },
+      {
+        "id": "LECIT",
+        "name": "Sunflower Lecithin",
+        "category": "Phospholipid Complex",
+        "description": "Plant-derived source of phospholipids, particularly phosphatidylcholine, that supports cellular membranes, brain health, and liver function",
+        "primaryBenefits": [
+          "Brain health",
+          "Liver function",
+          "Cholesterol management",
+          "Cell membrane support"
+        ],
+        "dosage": {
+          "standard": "1200-2400mg daily",
+          "therapeutic": "2400-4800mg daily"
+        },
+        "forms": [
+          "Liquid",
+          "Granules",
+          "Capsules",
+          "Powder"
+        ],
+        "contraindications": "Generally well tolerated",
+        "interactions": [
+          "Blood thinners",
+          "Acetylcholinesterase inhibitors"
+        ],
+        "evidenceStrength": {
+          "brainFunction": "Moderate",
+          "liverHealth": "Moderate",
+          "cholesterolManagement": "Low to Moderate",
+          "digestion": "Moderate"
+        }
+      },
+      {
+        "id": "NIA",
+        "name": "Niacin",
+        "category": "Vitamin",
+        "description": "Vitamin B3, essential for energy production, DNA repair, and cholesterol metabolism",
+        "primaryBenefits": [
+          "Cholesterol management",
+          "Energy production",
+          "Skin health",
+          "Cognitive function"
+        ],
+        "dosage": {
+          "standard": "14-18mg daily",
+          "therapeutic": "100-3000mg daily (medical supervision recommended for high doses)"
+        },
+        "forms": [
+          "Nicotinic acid",
+          "Nicotinamide",
+          "Inositol hexanicotinate",
+          "Nicotinamide riboside"
+        ],
+        "contraindications": "Liver disease, peptic ulcers, severe hypotension",
+        "interactions": [
+          "Statins",
+          "Diabetes medications",
+          "Blood pressure medications",
+          "Aspirin"
+        ],
+        "evidenceStrength": {
+          "cholesterolManagement": "High",
+          "energyMetabolism": "High",
+          "skinConditions": "Moderate",
+          "cognition": "Low to Moderate"
+        }
+      },
+      {
+        "id": "BLIV",
+        "name": "Bovine Liver",
+        "category": "Organ Meat/Supplement",
+        "description": "Nutrient-dense organ meat supplement containing highly bioavailable vitamin A, B vitamins, iron, copper, and other nutrients",
+        "primaryBenefits": [
+          "Blood health",
+          "Energy production",
+          "Nutritional support",
+          "Hormone balance"
+        ],
+        "dosage": {
+          "standard": "500-1500mg daily",
+          "therapeutic": "3000-6000mg daily"
+        },
+        "forms": [
+          "Desiccated powder",
+          "Capsules",
+          "Tablets",
+          "Freeze-dried"
+        ],
+        "contraindications": "Gout, hemochromatosis, vitamin A sensitivity",
+        "interactions": [
+          "Iron supplements",
+          "Vitamin A supplements",
+          "Blood thinners",
+          "Copper supplements"
+        ],
+        "evidenceStrength": {
+          "nutritionalSupport": "High",
+          "energyProduction": "Moderate to High",
+          "bloodHealth": "Moderate to High",
+          "recovery": "Moderate"
+        }
+      },
+      {
+        "id": "INO",
+        "name": "Inositol",
+        "category": "Vitamin-like Compound",
+        "description": "Naturally occurring carbohydrate that functions as a cellular mediator for insulin and neurotransmitter activity",
+        "primaryBenefits": [
+          "Mental health",
+          "Hormonal balance",
+          "Insulin sensitivity",
+          "Reproductive health"
+        ],
+        "dosage": {
+          "standard": "500-1000mg daily",
+          "therapeutic": "2000-18,000mg daily (higher doses for specific conditions)"
+        },
+        "forms": [
+          "Myo-inositol",
+          "D-chiro-inositol",
+          "Powder",
+          "Capsules"
+        ],
+        "contraindications": "Generally well tolerated",
+        "interactions": [
+          "Lithium",
+          "Diabetes medications",
+          "Caffeine"
+        ],
+        "evidenceStrength": {
+          "PCOS": "Moderate to High",
+          "anxiety": "Moderate",
+          "depression": "Moderate",
+          "metabolicHealth": "Moderate"
+        }
+      },
+      {
+        "id": "LTYR",
+        "name": "L-Tyrosine",
+        "category": "Amino Acid",
+        "description": "Non-essential amino acid that serves as a precursor to neurotransmitters dopamine, norepinephrine, and epinephrine",
+        "primaryBenefits": [
+          "Cognitive function under stress",
+          "Mood support",
+          "Mental performance",
+          "Thyroid hormone production"
+        ],
+        "dosage": {
+          "standard": "500-1000mg daily",
+          "therapeutic": "1000-3000mg daily"
+        },
+        "forms": [
+          "L-Tyrosine",
+          "N-Acetyl L-Tyrosine (NALT)",
+          "Capsules",
+          "Powder"
+        ],
+        "contraindications": "Graves' disease, hyperthyroidism, melanoma, use of MAO inhibitors",
+        "interactions": [
+          "Thyroid medications",
+          "Levodopa",
+          "MAO inhibitors",
+          "Stimulant medications"
+        ],
+        "evidenceStrength": {
+          "stressPerformance": "Moderate to High",
+          "cognitiveFunction": "Moderate",
+          "moodSupport": "Moderate",
+          "thyroidSupport": "Low to Moderate"
+        }
+      },
+      {
+        "id": "LGLU",
+        "name": "L-Glutamine",
+        "category": "Amino Acid",
+        "description": "Conditionally essential amino acid important for intestinal health, immune function, and recovery from stress and injury",
+        "primaryBenefits": [
+          "Gut health",
+          "Immune support",
+          "Muscle recovery",
+          "Reducing sugar cravings"
+        ],
+        "dosage": {
+          "standard": "5-10g daily",
+          "therapeutic": "10-30g daily"
+        },
+        "forms": [
+          "L-Glutamine",
+          "Free-form powder",
+          "Capsules",
+          "Peptide-bound"
+        ],
+        "contraindications": "Liver disease, Reye syndrome, disorders of protein metabolism",
+        "interactions": [
+          "Anti-seizure medications",
+          "Cancer treatments",
+          "Lactulose"
+        ],
+        "evidenceStrength": {
+          "intestinalHealth": "Moderate to High",
+          "immuneFunction": "Moderate",
+          "muscleRecovery": "Moderate",
+          "burnHealing": "Moderate to High"
+        }
+      },
+      {
+        "id": "LTHE",
+        "name": "L-Theanine",
+        "category": "Amino Acid",
+        "description": "Unique amino acid found primarily in tea that promotes relaxation without sedation and supports cognitive function",
+        "primaryBenefits": [
+          "Stress reduction",
+          "Focus enhancement",
+          "Sleep quality",
+          "Mental calmness"
+        ],
+        "dosage": {
+          "standard": "100-200mg daily",
+          "therapeutic": "200-600mg daily"
+        },
+        "forms": [
+          "L-Theanine",
+          "Suntheanine® (patented form)",
+          "Capsules",
+          "Powder"
+        ],
+        "contraindications": "Generally well tolerated",
+        "interactions": [
+          "Blood pressure medications",
+          "Stimulants (mitigates side effects)",
+          "Sedatives"
+        ],
+        "evidenceStrength": {
+          "relaxation": "Moderate to High",
+          "attentionWithCaffeine": "Moderate to High",
+          "sleepQuality": "Moderate",
+          "stressReduction": "Moderate"
+        }
+      },
+      {
+        "id": "VB1",
+        "name": "Vitamin B1 (Thiamine)",
+        "category": "Vitamin",
+        "description": "Water-soluble vitamin essential for energy metabolism and nerve function",
+        "primaryBenefits": [
+          "Energy production",
+          "Nervous system function",
+          "Cardiovascular health",
+          "Cognitive support"
+        ],
+        "dosage": {
+          "standard": "1.1-1.2mg daily",
+          "therapeutic": "50-300mg daily"
+        },
+        "forms": [
+          "Thiamine HCl",
+          "Thiamine mononitrate",
+          "Benfotiamine (fat-soluble)",
+          "Sulbutiamine"
+        ],
+        "contraindications": "Generally well tolerated",
+        "interactions": [
+          "Diuretics",
+          "Some antibiotics",
+          "Alcohol"
+        ],
+        "evidenceStrength": {
+          "deficiencyPrevention": "High",
+          "neurologicalHealth": "Moderate to High",
+          "alcoholRecovery": "Moderate",
+          "diabeticNeuropathy": "Moderate"
+        }
+      },
+      {
+        "id": "VB2",
+        "name": "Vitamin B2 (Riboflavin)",
+        "category": "Vitamin",
+        "description": "Water-soluble vitamin crucial for energy production, cellular function, and maintaining proper metabolism",
+        "primaryBenefits": [
+          "Energy metabolism",
+          "Antioxidant processes",
+          "Migraine prevention",
+          "Eye health"
+        ],
+        "dosage": {
+          "standard": "1.1-1.3mg daily",
+          "therapeutic": "25-400mg daily"
+        },
+        "forms": [
+          "Riboflavin",
+          "Riboflavin-5-phosphate (active form)"
+        ],
+        "contraindications": "Generally well tolerated",
+        "interactions": [
+          "Certain antibiotics",
+          "Antidepressants",
+          "Phenobarbital"
+        ],
+        "evidenceStrength": {
+          "migrainePrevention": "Moderate to High",
+          "energyMetabolism": "High",
+          "eyeHealth": "Moderate",
+          "antioxidantSupport": "Moderate"
+        }
+      },
+      {
+        "id": "VB6",
+        "name": "Vitamin B6 (Pyridoxine)",
+        "category": "Vitamin",
+        "description": "Water-soluble vitamin involved in over 100 enzyme reactions, particularly protein metabolism and neurotransmitter synthesis",
+        "primaryBenefits": [
+          "Neurotransmitter production",
+          "Mood regulation",
+          "Hemoglobin formation",
+          "Immune function"
+        ],
+        "dosage": {
+          "standard": "1.3-1.7mg daily",
+          "therapeutic": "50-100mg daily"
+        },
+        "forms": [
+          "Pyridoxine HCl",
+          "Pyridoxal-5-phosphate (active form)"
+        ],
+        "contraindications": "Nerve damage with long-term high dosages (>200mg daily)",
+        "interactions": [
+          "Levodopa",
+          "Phenytoin",
+          "Isoniazid",
+          "Oral contraceptives"
+        ],
+        "evidenceStrength": {
+          "morningNausea": "Moderate to High",
+          "carpalTunnel": "Moderate",
+          "premenstrualSyndrome": "Moderate",
+          "homocysteineReduction": "High"
+        }
+      },
+      {
+        "id": "FOL",
+        "name": "Folate (Vitamin B9)",
+        "category": "Vitamin",
+        "description": "Water-soluble B vitamin essential for DNA synthesis, cell division, and homocysteine metabolism",
+        "primaryBenefits": [
+          "Cell division support",
+          "Cardiovascular health",
+          "Neural tube defect prevention",
+          "Cognitive function"
+        ],
+        "dosage": {
+          "standard": "400mcg DFE daily",
+          "therapeutic": "800-1000mcg DFE daily"
+        },
+        "forms": [
+          "Folic acid (synthetic)",
+          "L-methylfolate (active form)",
+          "Folinic acid",
+          "Food-derived folate"
+        ],
+        "contraindications": "May mask B12 deficiency symptoms",
+        "interactions": [
+          "Methotrexate",
+          "Anti-seizure medications",
+          "Sulfasalazine",
+          "Trimethoprim"
+        ],
+        "evidenceStrength": {
+          "birthDefectPrevention": "High",
+          "homocysteineReduction": "High",
+          "cardiovascularHealth": "Moderate",
+          "depression": "Moderate"
+        }
+      },
+      {
+        "id": "BIO",
+        "name": "Biotin (Vitamin B7)",
+        "category": "Vitamin",
+        "description": "Water-soluble B vitamin necessary for metabolism of fatty acids, amino acids, and glucose",
+        "primaryBenefits": [
+          "Hair health",
+          "Skin support",
+          "Nail strength",
+          "Energy metabolism"
+        ],
+        "dosage": {
+          "standard": "30mcg daily",
+          "therapeutic": "1000-10,000mcg daily"
+        },
+        "forms": [
+          "D-biotin"
+        ],
+        "contraindications": "Generally well tolerated",
+        "interactions": [
+          "Anticonvulsants",
+          "Can interfere with certain lab tests including thyroid and cardiac markers"
+        ],
+        "evidenceStrength": {
+          "hairLoss": "Low to Moderate",
+          "nailBrittleness": "Moderate",
+          "metabolicFunction": "Moderate",
+          "skinHealth": "Low to Moderate"
+        }
+      },
+      {
+        "id": "PANT",
+        "name": "Pantothenic Acid (Vitamin B5)",
+        "category": "Vitamin",
+        "description": "Water-soluble vitamin essential for the synthesis of coenzyme A, fatty acid metabolism, and energy production",
+        "primaryBenefits": [
+          "Energy production",
+          "Adrenal function",
+          "Skin health",
+          "Cholesterol synthesis"
+        ],
+        "dosage": {
+          "standard": "5mg daily",
+          "therapeutic": "100-500mg daily"
+        },
+        "forms": [
+          "Calcium pantothenate",
+          "Pantethine",
+          "Panthenol"
+        ],
+        "contraindications": "Generally well tolerated",
+        "interactions": [
+          "Cholesterol medications"
+        ],
+        "evidenceStrength": {
+          "metabolicProcesses": "High",
+          "woundHealing": "Moderate",
+          "acne": "Low to Moderate",
+          "adrenalSupport": "Moderate"
+        }
+      },
+      {
+        "id": "CA",
+        "name": "Calcium",
+        "category": "Mineral",
+        "description": "Essential mineral crucial for bone health, muscle contraction, nerve signaling, and cardiovascular function",
+        "primaryBenefits": [
+          "Bone strength",
+          "Muscle function",
+          "Nerve transmission",
+          "Cardiovascular health"
+        ],
+        "dosage": {
+          "standard": "1000-1200mg daily",
+          "therapeutic": "1200-1500mg daily"
+        },
+        "forms": [
+          "Calcium carbonate",
+          "Calcium citrate",
+          "Calcium gluconate",
+          "Calcium hydroxyapatite"
+        ],
+        "contraindications": "Hypercalcemia, kidney stones, certain heart conditions",
+        "interactions": [
+          "Iron supplements",
+          "Zinc supplements",
+          "Thyroid medications",
+          "Certain antibiotics",
+          "Blood pressure medications"
+        ],
+        "evidenceStrength": {
+          "boneHealth": "High",
+          "muscleCramps": "Moderate",
+          "bloodPressure": "Moderate",
+          "colon": "Low to Moderate"
+        }
+      },
+      {
+        "id": "CROM",
+        "name": "Chromium",
+        "category": "Mineral",
+        "description": "Trace mineral that enhances insulin action and influences carbohydrate, protein, and lipid metabolism",
+        "primaryBenefits": [
+          "Blood sugar regulation",
+          "Insulin sensitivity",
+          "Carbohydrate metabolism",
+          "Appetite regulation"
+        ],
+        "dosage": {
+          "standard": "20-35mcg daily",
+          "therapeutic": "200-1000mcg daily"
+        },
+        "forms": [
+          "Chromium picolinate",
+          "Chromium polynicotinate",
+          "Chromium chloride",
+          "Chromium GTF (glucose tolerance factor)"
+        ],
+        "contraindications": "Kidney or liver disease, in high doses",
+        "interactions": [
+          "Insulin",
+          "Other diabetes medications",
+          "NSAIDs",
+          "Antacids",
+          "Corticosteroids"
+        ],
+        "evidenceStrength": {
+          "glucoseMetabolism": "Moderate",
+          "insulinSensitivity": "Moderate",
+          "weightManagement": "Low to Moderate",
+          "carbohydrateCravings": "Low to Moderate"
+        }
+      },
+      {
+        "id": "COP",
+        "name": "Copper",
+        "category": "Mineral",
+        "description": "Essential trace mineral involved in iron metabolism, connective tissue formation, energy production, and antioxidant defense",
+        "primaryBenefits": [
+          "Iron metabolism",
+          "Connective tissue formation",
+          "Antioxidant defense",
+          "Cardiovascular health"
+        ],
+        "dosage": {
+          "standard": "900mcg daily",
+          "therapeutic": "1-3mg daily"
+        },
+        "forms": [
+          "Copper gluconate",
+          "Copper sulfate",
+          "Copper bisglycinate",
+          "Copper citrate"
+        ],
+        "contraindications": "Wilson's disease, liver disease",
+        "interactions": [
+          "Zinc supplements",
+          "Vitamin C in high doses",
+          "Certain antibiotics"
+        ],
+        "evidenceStrength": {
+          "ironMetabolism": "High",
+          "connectiveTissue": "Moderate to High",
+          "immuneFunction": "Moderate",
+          "antioxidant": "Moderate"
+        }
+      },
+      {
+        "id": "POT",
+        "name": "Potassium",
+        "category": "Mineral",
+        "description": "Essential electrolyte that regulates fluid balance, muscle contractions, and nerve signals",
+        "primaryBenefits": [
+          "Blood pressure regulation",
+          "Muscle function",
+          "Nerve transmission",
+          "Heart rhythm"
+        ],
+        "dosage": {
+          "standard": "2000-3000mg daily from diet",
+          "therapeutic": "Supplementation typically limited to 99mg per dose due to regulations"
+        },
+        "forms": [
+          "Potassium citrate",
+          "Potassium chloride",
+          "Potassium gluconate",
+          "Potassium bicarbonate"
+        ],
+        "contraindications": "Kidney disease, certain medications, hyperkalemia",
+        "interactions": [
+          "ACE inhibitors",
+          "ARBs",
+          "Potassium-sparing diuretics",
+          "NSAIDs",
+          "Beta-blockers"
+        ],
+        "evidenceStrength": {
+          "bloodPressure": "High",
+          "heartRhythm": "High",
+          "boneHealth": "Moderate",
+          "kidneyStones": "Moderate"
+        }
+      },
+      {
+        "id": "SEL",
+        "name": "Selenium",
+        "category": "Mineral",
+        "description": "Essential trace mineral that functions as part of antioxidant enzymes and supports thyroid hormone metabolism",
+        "primaryBenefits": [
+          "Antioxidant protection",
+          "Thyroid function",
+          "Immune support",
+          "Reproductive health"
+        ],
+        "dosage": {
+          "standard": "55mcg daily",
+          "therapeutic": "100-200mcg daily"
+        },
+        "forms": [
+          "Selenomethionine",
+          "Sodium selenite",
+          "Selenium yeast",
+          "L-selenocysteine"
+        ],
+        "contraindications": "Selenium sensitivity, high doses can be toxic",
+        "interactions": [
+          "Statins",
+          "Certain chemotherapy drugs",
+          "Anticoagulants"
+        ],
+        "evidenceStrength": {
+          "antioxidantProtection": "High",
+          "thyroidFunction": "High",
+          "immuneFunction": "Moderate to High",
+          "cancerRisk": "Mixed evidence"
+        }
+      },
+      {
+        "id": "MSM",
+        "name": "MSM (Methylsulfonylmethane)",
+        "category": "Organic Sulfur Compound",
+        "description": "Naturally occurring sulfur compound that supports joint health, inflammation reduction, and antioxidant activity",
+        "primaryBenefits": [
+          "Joint health",
+          "Anti-inflammatory effects",
+          "Antioxidant support",
+          "Skin, hair, and nail health"
+        ],
+        "dosage": {
+          "standard": "1000-3000mg daily",
+          "therapeutic": "3000-6000mg daily"
+        },
+        "forms": [
+          "Crystalline powder",
+          "Capsules",
+          "Tablets",
+          "Topical"
+        ],
+        "contraindications": "Blood-thinning conditions, sulfa allergies (different but caution advised)",
+        "interactions": [
+          "Blood thinners",
+          "NSAIDs",
+          "Alcohol"
+        ],
+        "evidenceStrength": {
+          "jointPain": "Moderate",
+          "inflammation": "Moderate",
+          "allergies": "Low to Moderate",
+          "exerciseRecovery": "Moderate"
+        }
+      },
+      {
+        "id": "BCAA",
+        "name": "Beta-Carotene",
+        "category": "Carotenoid",
+        "description": "Plant pigment that the body can convert to vitamin A, with antioxidant properties that support immune and eye health",
+        "primaryBenefits": [
+          "Vitamin A precursor",
+          "Antioxidant protection",
+          "Eye health",
+          "Skin health"
+        ],
+        "dosage": {
+          "standard": "6-15mg daily",
+          "therapeutic": "15-30mg daily"
+        },
+        "forms": [
+          "Natural beta-carotene",
+          "Mixed carotenoids",
+          "Synthetic beta-carotene"
+        ],
+        "contraindications": "Smoking (increased lung cancer risk), heavy alcohol use",
+        "interactions": [
+          "Cholesterol-lowering medications",
+          "Mineral oil",
+          "Orlistat"
+        ],
+        "evidenceStrength": {
+          "vitaminASource": "High",
+          "antioxidant": "Moderate",
+          "eyeHealth": "Moderate",
+          "immuneFunction": "Low to Moderate"
+        }
+      },
+      {
+        "id": "DHEA",
+        "name": "DHEA",
+        "category": "Hormone Precursor",
+        "description": "Naturally occurring hormone precursor that can be converted into estrogen and testosterone, supporting hormone balance and aging",
+        "primaryBenefits": [
+          "Hormone balance",
+          "Bone density",
+          "Muscle maintenance",
+          "Cognitive function"
+        ],
+        "dosage": {
+          "standard": "25-50mg daily",
+          "therapeutic": "50-200mg daily"
+        },
+        "forms": [
+          "Oral capsules",
+          "Tablets",
+          "Creams",
+          "Sublingual"
+        ],
+        "contraindications": "Hormone-sensitive conditions (breast/prostate cancer), PCOS, endometriosis",
+        "interactions": [
+          "Hormone therapy",
+          "Antidepressants",
+          "Insulin and diabetes medications",
+          "Triazolam"
+        ],
+        "evidenceStrength": {
+          "agingBiomarkers": "Moderate",
+          "boneDensity": "Moderate",
+          "adrenalInsufficiency": "Moderate to High",
+          "depression": "Low to Moderate"
+        }
+      },
+      {
+        "id": "ALO",
+        "name": "Alpha Lipoic Acid",
+        "category": "Antioxidant",
+        "description": "Unique antioxidant that is both water and fat-soluble, involved in energy production and has potential to regenerate other antioxidants",
+        "primaryBenefits": [
+          "Antioxidant protection",
+          "Glucose metabolism",
+          "Nerve health",
+          "Liver support"
+        ],
+        "dosage": {
+          "standard": "100-300mg daily",
+          "therapeutic": "300-1200mg daily"
+        },
+        "forms": [
+          "R-alpha lipoic acid (natural form)",
+          "R/S-alpha lipoic acid (synthetic)",
+          "Sodium R-lipoate"
+        ],
+        "contraindications": "Thyroid conditions (monitor closely), diabetes (monitor blood sugar)",
+        "interactions": [
+          "Diabetes medications",
+          "Chemotherapy drugs",
+          "Thyroid medications",
+          "Metal-containing supplements"
+        ],
+        "evidenceStrength": {
+          "diabeticNeuropathy": "Moderate to High",
+          "glucoseMetabolism": "Moderate",
+          "liverHealth": "Moderate",
+          "antioxidant": "High"
+        }
+      },
+      {
+        "id": "ASTA",
+        "name": "Astaxanthin",
+        "category": "Carotenoid",
+        "description": "Powerful carotenoid antioxidant with anti-inflammatory properties, predominantly found in marine organisms",
+        "primaryBenefits": [
+          "Antioxidant protection",
+          "Eye health",
+          "Skin protection",
+          "Athletic performance"
+        ],
+        "dosage": {
+          "standard": "4-8mg daily",
+          "therapeutic": "8-12mg daily"
+        },
+        "forms": [
+          "Natural (from microalgae)",
+          "Synthetic",
+          "Softgels",
+          "Oil-based formulations"
+        ],
+        "contraindications": "Generally well tolerated",
+        "interactions": [
+          "Hormone medications",
+          "Blood pressure medications",
+          "Anticoagulants"
+        ],
+        "evidenceStrength": {
+          "antioxidant": "High",
+          "skinPhotoprotection": "Moderate to High",
+          "exerciseRecovery": "Moderate",
+          "eyeFatigue": "Moderate"
+        }
+      },
+      {
+        "id": "LUTEIN",
+        "name": "Lutein & Zeaxanthin",
+        "category": "Carotenoids",
+        "description": "Carotenoid antioxidants that concentrate in the eye's macula and help filter harmful blue light and support visual health",
+        "primaryBenefits": [
+          "Eye health",
+          "Macular degeneration protection",
+          "Blue light protection",
+          "Skin health"
+        ],
+        "dosage": {
+          "standard": "6-10mg lutein, 2mg zeaxanthin daily",
+          "therapeutic": "10-20mg lutein, 2-4mg zeaxanthin daily"
+        },
+        "forms": [
+          "Natural extracts",
+          "Softgels",
+          "Oil suspensions",
+          "Combined formulations"
+        ],
+        "contraindications": "Generally well tolerated",
+        "interactions": [
+          "Fat-absorption inhibiting medications"
+        ],
+        "evidenceStrength": {
+          "macularHealth": "High",
+          "visualPerformance": "Moderate to High",
+          "ageRelatedEyeDisease": "Moderate to High",
+          "cognitiveFunction": "Low to Moderate"
+        }
+      },
+      {
+        "id": "MELA",
+        "name": "Melatonin",
+        "category": "Hormone",
+        "description": "Natural hormone that regulates sleep-wake cycles and has antioxidant properties",
+        "primaryBenefits": [
+          "Sleep quality",
+          "Circadian rhythm regulation",
+          "Jet lag recovery",
+          "Antioxidant protection"
+        ],
+        "dosage": {
+          "standard": "0.5-3mg before bedtime",
+          "therapeutic": "3-10mg before bedtime"
+        },
+        "forms": [
+          "Immediate release",
+          "Extended release",
+          "Sublingual",
+          "Liposomal"
+        ],
+        "contraindications": "Autoimmune conditions, depression, pregnancy, dementia, seizure disorders",
+        "interactions": [
+          "Blood thinners",
+          "Immunosuppressants",
+          "Diabetes medications",
+          "Blood pressure medications",
+          "Seizure medications"
+        ],
+        "evidenceStrength": {
+          "sleepLatency": "Moderate to High",
+          "jetLag": "High",
+          "circadianRhythm": "High",
+          "antioxidant": "Moderate"
+        }
+      },
+      {
+        "id": "RESVT",
+        "name": "Resveratrol",
+        "category": "Polyphenol",
+        "description": "Plant compound with antioxidant properties found in grapes, berries, and peanuts that may support cardiovascular health and longevity",
+        "primaryBenefits": [
+          "Cardiovascular support",
+          "Antioxidant protection",
+          "Anti-inflammatory effects",
+          "Longevity potential"
+        ],
+        "dosage": {
+          "standard": "100-250mg daily",
+          "therapeutic": "250-500mg daily"
+        },
+        "forms": [
+          "Trans-resveratrol",
+          "Micronized",
+          "With piperine for absorption",
+          "Pterostilbene (analog)"
+        ],
+        "contraindications": "Bleeding disorders, surgery, hormone-sensitive conditions",
+        "interactions": [
+          "Blood thinners",
+          "NSAIDs",
+          "Cytochrome P450 substrates",
+          "Estrogen-modulating drugs"
+        ],
+        "evidenceStrength": {
+          "antioxidant": "High",
+          "bloodFlow": "Moderate",
+          "inflammation": "Moderate",
+          "longevity": "Low to Moderate (promising animal studies)"
+        }
+      },
+      {
+        "id": "BIOT",
+        "name": "Bioflavonoids",
+        "category": "Polyphenol",
+        "description": "Plant compounds with antioxidant properties that support circulation, immune function, and cellular health",
+        "primaryBenefits": [
+          "Antioxidant protection",
+          "Vascular health",
+          "Immune support",
+          "Anti-inflammatory effects"
+        ],
+        "dosage": {
+          "standard": "500-1000mg daily",
+          "therapeutic": "1000-3000mg daily"
+        },
+        "forms": [
+          "Quercetin",
+          "Rutin",
+          "Hesperidin",
+          "Mixed citrus bioflavonoids"
+        ],
+        "contraindications": "Generally well tolerated",
+        "interactions": [
+          "Blood thinners",
+          "Certain antibiotics",
+          "Cytochrome P450 substrates"
+        ],
+        "evidenceStrength": {
+          "antioxidant": "High",
+          "circulation": "Moderate",
+          "allergies": "Moderate",
+          "immuneSupport": "Moderate"
+        }
+      },
+      {
+        "id": "DAND",
+        "name": "Dandelion Root Extract",
+        "category": "Herbal Extract",
+        "description": "Traditional herb used for liver support, detoxification, and as a natural diuretic with antioxidant properties",
+        "primaryBenefits": [
+          "Liver support",
+          "Digestive health",
+          "Natural diuretic",
+          "Antioxidant protection"
+        ],
+        "dosage": {
+          "standard": "500-1000mg daily",
+          "therapeutic": "1000-4000mg daily"
+        },
+        "forms": [
+          "Dried root powder",
+          "Liquid extract",
+          "Tincture",
+          "Tea"
+        ],
+        "contraindications": "Bile duct obstruction, gallbladder disease, intestinal blockage, allergies to plants in the Asteraceae family",
+        "interactions": [
+          "Diuretics",
+          "Lithium",
+          "Antibiotics (quinolones, tetracyclines)",
+          "Diabetes medications"
+        ],
+        "evidenceStrength": {
+          "diureticEffect": "Moderate",
+          "liverSupport": "Moderate",
+          "digestiveAid": "Low to Moderate",
+          "antioxidant": "Moderate"
+        }
+      },
+      {
+        "id": "PEPP",
+        "name": "Peppermint Leaf Extract",
+        "category": "Herbal Extract",
+        "description": "Aromatic herb with menthol and other compounds that provide digestive relief, respiratory benefits, and antimicrobial properties",
+        "primaryBenefits": [
+          "Digestive comfort",
+          "IBS symptom relief",
+          "Respiratory support",
+          "Tension headache relief"
+        ],
+        "dosage": {
+          "standard": "250-500mg daily",
+          "therapeutic": "500-1000mg daily"
+        },
+        "forms": [
+          "Enteric-coated capsules",
+          "Oil",
+          "Tea",
+          "Tincture"
+        ],
+        "contraindications": "GERD, hiatal hernia, gallstones, bile duct obstruction",
+        "interactions": [
+          "Acid reducers",
+          "Cyclosporine",
+          "Medications metabolized by cytochrome P450",
+          "Calcium channel blockers"
+        ],
+        "evidenceStrength": {
+          "IBSSymptoms": "Moderate to High",
+          "digestiveDiscomfort": "Moderate to High",
+          "headacheTension": "Moderate",
+          "respiratoryComfort": "Low to Moderate"
+        }
+      },
+      {
+        "id": "BROM",
+        "name": "Bromelain",
+        "category": "Enzyme",
+        "description": "Proteolytic enzyme derived from pineapple stems with anti-inflammatory, digestive, and circulation-supporting properties",
+        "primaryBenefits": [
+          "Protein digestion",
+          "Anti-inflammatory effect",
+          "Reduced swelling",
+          "Sinus health"
+        ],
+        "dosage": {
+          "standard": "500-1000mg daily (120-1800 GDU/day)",
+          "therapeutic": "1000-2000mg daily (1800-4000 GDU/day)"
+        },
+        "forms": [
+          "Enteric-coated tablets",
+          "Capsules",
+          "Combined with other enzymes"
+        ],
+        "contraindications": "Bleeding disorders, upcoming surgery, pineapple allergy",
+        "interactions": [
+          "Blood thinners",
+          "NSAIDs",
+          "Antibiotics",
+          "ACE inhibitors"
+        ],
+        "evidenceStrength": {
+          "inflammation": "Moderate",
+          "sinusitis": "Moderate",
+          "digestiveSupport": "Moderate",
+          "postSurgicalRecovery": "Moderate"
+        }
+      },
+      {
+        "id": "SLIP",
+        "name": "Slippery Elm Inner Bark Extract",
+        "category": "Herbal Extract",
+        "description": "Demulcent herb that forms a protective gel when mixed with water, soothing irritated tissues throughout the digestive tract",
+        "primaryBenefits": [
+          "Digestive soothing",
+          "Throat comfort",
+          "Heartburn relief",
+          "Inflammatory bowel support"
+        ],
+        "dosage": {
+          "standard": "400-800mg daily",
+          "therapeutic": "1000-3000mg daily"
+        },
+        "forms": [
+          "Powder",
+          "Capsules",
+          "Lozenges",
+          "Tea"
+        ],
+        "contraindications": "May delay absorption of other medications; take 2 hours apart",
+        "interactions": [
+          "Oral medications (can slow absorption)",
+          "Diabetes medications (may affect blood sugar)"
+        ],
+        "evidenceStrength": {
+          "mucousMembraneProtection": "Moderate",
+          "throatSoothing": "Moderate",
+          "IBSSymptoms": "Low to Moderate",
+          "acidReflux": "Low to Moderate"
+        }
+      },
+      {
+        "id": "GING",
+        "name": "Ginger Extract",
+        "category": "Herbal Extract",
+        "description": "Spicy rhizome with potent anti-inflammatory, digestive-supporting, and circulation-enhancing compounds",
+        "primaryBenefits": [
+          "Digestive support",
+          "Anti-nausea effect",
+          "Joint comfort",
+          "Circulation enhancement"
+        ],
+        "dosage": {
+          "standard": "500-1000mg daily",
+          "therapeutic": "1000-2000mg daily"
+        },
+        "forms": [
+          "Standardized extract",
+          "Powder",
+          "Fresh root",
+          "Tea"
+        ],
+        "contraindications": "Gallstones, bleeding disorders, upcoming surgery",
+        "interactions": [
+          "Blood thinners",
+          "Diabetes medications",
+          "Blood pressure medications",
+          "Calcium channel blockers"
+        ],
+        "evidenceStrength": {
+          "nausea": "High",
+          "inflammation": "Moderate to High",
+          "jointPain": "Moderate",
+          "digestion": "Moderate to High"
+        }
+      },
+      {
+        "id": "AMLA",
+        "name": "Amla (Indian Gooseberry)",
+        "category": "Adaptogen",
+        "description": "Vitamin C-rich adaptogenic fruit used in Ayurvedic medicine to promote longevity, strengthen immunity, and support overall health",
+        "primaryBenefits": [
+          "Antioxidant protection",
+          "Immune support",
+          "Liver health",
+          "Hair and skin vitality"
+        ],
+        "dosage": {
+          "standard": "500-1000mg daily",
+          "therapeutic": "1000-3000mg daily"
+        },
+        "forms": [
+          "Powder",
+          "Capsules",
+          "Extract",
+          "Fresh fruit"
+        ],
+        "contraindications": "Bleeding disorders, diabetes (monitor blood sugar), liver disease, gall bladder problems",
+        "interactions": [
+          "Diabetes medications",
+          "Blood thinners",
+          "Hepatotoxic medications"
+        ],
+        "evidenceStrength": {
+          "antioxidant": "High",
+          "immuneSupport": "Moderate",
+          "hairHealth": "Moderate",
+          "bloodSugar": "Low to Moderate"
+        }
+      },
+      {
+        "id": "RSHI",
+        "name": "Reishi Mushroom",
+        "category": "Adaptogen/Medicinal Mushroom",
+        "description": "Ancient medicinal mushroom with immunomodulating, stress-reducing, and longevity-promoting properties",
+        "primaryBenefits": [
+          "Immune modulation",
+          "Stress reduction",
+          "Sleep quality",
+          "Cardiovascular support"
+        ],
+        "dosage": {
+          "standard": "1000-2000mg daily",
+          "therapeutic": "2000-5000mg daily"
+        },
+        "forms": [
+          "Extract (30-50% polysaccharides)",
+          "Powder",
+          "Tincture",
+          "Tea"
+        ],
+        "contraindications": "Autoimmune conditions (consult healthcare provider), bleeding disorders, before/after surgery",
+        "interactions": [
+          "Immunosuppressants",
+          "Blood thinners",
+          "Blood pressure medications",
+          "Chemotherapy"
+        ],
+        "evidenceStrength": {
+          "immuneModulation": "Moderate to High",
+          "stress": "Moderate",
+          "sleep": "Moderate",
+          "antioxidant": "Moderate to High"
+        }
+      },
+      {
+        "id": "CORD",
+        "name": "Cordyceps",
+        "category": "Adaptogen/Medicinal Mushroom",
+        "description": "Energizing fungus that enhances oxygen utilization, supports physical performance, and modulates immune function",
+        "primaryBenefits": [
+          "Energy production",
+          "Athletic performance",
+          "Oxygen utilization",
+          "Respiratory support"
+        ],
+        "dosage": {
+          "standard": "1000-3000mg daily",
+          "therapeutic": "3000-6000mg daily"
+        },
+        "forms": [
+          "CS-4 extract",
+          "Mycelium powder",
+          "Fruiting body extract",
+          "Tincture"
+        ],
+        "contraindications": "Autoimmune conditions (consult healthcare provider), mold allergies, pregnancy",
+        "interactions": [
+          "Immunosuppressants",
+          "Blood thinners",
+          "Diabetes medications",
+          "Hormone therapies"
+        ],
+        "evidenceStrength": {
+          "oxygenUtilization": "Moderate to High",
+          "athleticPerformance": "Moderate",
+          "energy": "Moderate",
+          "immuneFunction": "Moderate"
+        }
+      },
+      {
+        "id": "RHOD",
+        "name": "Rhodiola Rosea",
+        "category": "Adaptogen",
+        "description": "Arctic root herb that helps the body adapt to physical, mental, and environmental stress while supporting energy and cognitive function",
+        "primaryBenefits": [
+          "Stress resilience",
+          "Mental performance",
+          "Physical endurance",
+          "Mood support"
+        ],
+        "dosage": {
+          "standard": "200-400mg daily (standardized to 3% rosavins, 1% salidroside)",
+          "therapeutic": "400-680mg daily"
+        },
+        "forms": [
+          "Standardized extract",
+          "Root powder",
+          "Tincture"
+        ],
+        "contraindications": "Bipolar disorder, hormonal conditions, pregnancy",
+        "interactions": [
+          "Antidepressants",
+          "Blood pressure medications",
+          "Stimulants",
+          "Diabetes medications"
+        ],
+        "evidenceStrength": {
+          "fatigue": "Moderate to High",
+          "stressReduction": "Moderate to High",
+          "mentalPerformance": "Moderate",
+          "endurance": "Moderate"
+        }
+      },
+      {
+        "id": "CHAM",
+        "name": "Chamomile Flower Extract",
+        "category": "Herbal Extract",
+        "description": "Gentle floral herb with calming, anti-inflammatory, and digestive-soothing properties, rich in apigenin and other beneficial compounds",
+        "primaryBenefits": [
+          "Relaxation and sleep support",
+          "Digestive comfort",
+          "Skin health",
+          "Mild anxiety relief"
+        ],
+        "dosage": {
+          "standard": "400-900mg daily",
+          "therapeutic": "1000-1500mg daily"
+        },
+        "forms": [
+          "Standardized extract",
+          "Dried flower",
+          "Tea",
+          "Tincture"
+        ],
+        "contraindications": "Allergy to plants in the Asteraceae family, pregnancy (in high doses)",
+        "interactions": [
+          "Blood thinners",
+          "Sedatives",
+          "Anti-anxiety medications",
+          "Hormone medications"
+        ],
+        "evidenceStrength": {
+          "relaxation": "Moderate",
+          "digestiveComfort": "Moderate",
+          "sleep": "Moderate",
+          "anxiety": "Low to Moderate"
+        }
+      },
+      {
+        "id": "VALER",
+        "name": "Valerian Root Extract",
+        "category": "Herbal Extract",
+        "description": "Traditional sleep and anxiety herb that modulates GABA receptors for natural relaxation and improved sleep quality",
+        "primaryBenefits": [
+          "Sleep improvement",
+          "Anxiety reduction",
+          "Stress management",
+          "Relaxation"
+        ],
+        "dosage": {
+          "standard": "300-600mg daily (standardized to 0.8% valerenic acid)",
+          "therapeutic": "600-900mg daily"
+        },
+        "forms": [
+          "Standardized extract",
+          "Dry root powder",
+          "Tincture",
+          "Tea"
+        ],
+        "contraindications": "Pregnancy, liver disease, operation of machinery, alcohol consumption",
+        "interactions": [
+          "Sedatives",
+          "Anti-anxiety medications",
+          "Sleep medications",
+          "Alcohol",
+          "Antihistamines"
+        ],
+        "evidenceStrength": {
+          "sleepQuality": "Moderate to High",
+          "anxietyReduction": "Moderate",
+          "stressResponse": "Moderate",
+          "insomnia": "Moderate"
+        }
+      },
+      {
+        "id": "HOLY",
+        "name": "Holy Basil (Tulsi)",
+        "category": "Adaptogen",
+        "description": "Sacred Ayurvedic herb with adaptogenic, anti-stress, and immunomodulatory properties that balances physiological processes",
+        "primaryBenefits": [
+          "Stress management",
+          "Cognitive function",
+          "Immune support",
+          "Metabolic balance"
+        ],
+        "dosage": {
+          "standard": "300-600mg daily",
+          "therapeutic": "600-1800mg daily"
+        },
+        "forms": [
+          "Leaf extract",
+          "Powder",
+          "Tea",
+          "Tincture"
+        ],
+        "contraindications": "Anticoagulant therapy, pregnancy, diabetes (monitor blood sugar)",
+        "interactions": [
+          "Blood thinners",
+          "Diabetes medications",
+          "Thyroid medications",
+          "Immunosuppressants"
+        ],
+        "evidenceStrength": {
+          "stressReduction": "Moderate to High",
+          "cognition": "Moderate",
+          "immuneFunction": "Moderate",
+          "bloodSugar": "Moderate"
+        }
+      },
+      {
+        "id": "HOPS",
+        "name": "Hops Extract",
+        "category": "Herbal Extract",
+        "description": "Flowering plant used in brewing that contains sedative compounds supporting relaxation, sleep, and female hormonal balance",
+        "primaryBenefits": [
+          "Sleep promotion",
+          "Anxiety reduction",
+          "Hormonal balance",
+          "Digestive comfort"
+        ],
+        "dosage": {
+          "standard": "200-400mg daily",
+          "therapeutic": "400-800mg daily"
+        },
+        "forms": [
+          "Standardized extract",
+          "Dried strobile",
+          "Tincture",
+          "Tea"
+        ],
+        "contraindications": "Depression, estrogen-sensitive conditions, pregnancy",
+        "interactions": [
+          "Sedatives",
+          "Hormone therapies",
+          "Antidepressants",
+          "Alcohol"
+        ],
+        "evidenceStrength": {
+          "sleep": "Moderate",
+          "anxiety": "Moderate",
+          "hormoneBalance": "Low to Moderate",
+          "menopauseSymptoms": "Low to Moderate"
+        }
+      },
+      {
+        "id": "GABA",
+        "name": "Gamma-Aminobutyric Acid",
+        "category": "Amino Acid Derivative",
+        "description": "Inhibitory neurotransmitter that reduces neuronal excitability throughout the nervous system, promoting calm and relaxation",
+        "primaryBenefits": [
+          "Stress reduction",
+          "Relaxation",
+          "Sleep support",
+          "Mood balance"
+        ],
+        "dosage": {
+          "standard": "100-200mg daily",
+          "therapeutic": "200-750mg daily"
+        },
+        "forms": [
+          "Capsules",
+          "Powder",
+          "Chewable tablets",
+          "Sublingual"
+        ],
+        "contraindications": "Pregnancy, bipolar disorder, kidney disease, liver disease",
+        "interactions": [
+          "Anti-anxiety medications",
+          "Sleep medications",
+          "Antidepressants",
+          "Antipsychotics",
+          "Blood pressure medications"
+        ],
+        "evidenceStrength": {
+          "stress": "Low to Moderate",
+          "sleep": "Low to Moderate",
+          "relaxation": "Low to Moderate",
+          "bloodPressure": "Low"
+        }
+      },
+      {
+        "id": "COLG",
+        "name": "Collagen",
+        "category": "Protein",
+        "description": "Structural protein abundant in connective tissues that supports skin elasticity, joint health, and gut integrity",
+        "primaryBenefits": [
+          "Skin elasticity and hydration",
+          "Joint comfort and mobility",
+          "Gut lining support",
+          "Hair and nail strength"
+        ],
+        "dosage": {
+          "standard": "5-10g daily",
+          "therapeutic": "10-20g daily"
+        },
+        "forms": [
+          "Hydrolyzed peptides",
+          "Type I (skin focus)",
+          "Type II (joint focus)",
+          "Marine collagen"
+        ],
+        "contraindications": "Generally well tolerated, shellfish allergy (marine sources)",
+        "interactions": [
+          "Generally minimal interactions"
+        ],
+        "evidenceStrength": {
+          "skinHealth": "Moderate to High",
+          "jointComfort": "Moderate",
+          "woundHealing": "Moderate",
+          "gutHealth": "Low to Moderate"
+        }
+      },
+      {
+        "id": "XOS",
+        "name": "Xylooligosaccharide",
+        "category": "Prebiotic Fiber",
+        "description": "Specialized prebiotic fiber that selectively nourishes beneficial Bifidobacteria in the gut microbiome",
+        "primaryBenefits": [
+          "Microbiome optimization",
+          "Digestive health",
+          "Immune support",
+          "Metabolic health"
+        ],
+        "dosage": {
+          "standard": "1-2g daily",
+          "therapeutic": "2-3g daily"
+        },
+        "forms": [
+          "Powder",
+          "Capsules",
+          "In prebiotic blends"
+        ],
+        "contraindications": "SIBO (Small Intestinal Bacterial Overgrowth), certain digestive disorders",
+        "interactions": [
+          "Minimal known interactions"
+        ],
+        "evidenceStrength": {
+          "bifidogenicEffect": "High",
+          "digestiveComfort": "Moderate",
+          "bloodSugar": "Moderate",
+          "immuneFunction": "Low to Moderate"
+        }
+      },
+      {
+        "id": "NMN",
+        "name": "Nicotinamide Mononucleotide",
+        "category": "NAD+ Precursor",
+        "description": "Direct precursor to NAD+, a critical coenzyme involved in energy metabolism, DNA repair, and cellular signaling",
+        "primaryBenefits": [
+          "Cellular energy production",
+          "Support for healthy aging",
+          "Metabolic health",
+          "Cognitive function"
+        ],
+        "dosage": {
+          "standard": "250-500mg daily",
+          "therapeutic": "500-1000mg daily"
+        },
+        "forms": [
+          "Capsules",
+          "Sublingual tablets",
+          "Powder",
+          "Liposomal"
+        ],
+        "contraindications": "Pregnancy, nursing, children",
+        "interactions": [
+          "Metformin",
+          "Other NAD+ precursors",
+          "Antidiabetic medications"
+        ],
+        "evidenceStrength": {
+          "NADLevels": "High",
+          "metabolicParameters": "Moderate",
+          "aging": "Moderate (human evidence emerging)",
+          "energy": "Moderate"
+        }
+      },
+      {
+        "id": "SPORE",
+        "name": "Spore-based Probiotics",
+        "category": "Probiotic",
+        "description": "Highly resilient bacterial spores that survive stomach acid and colonize the intestines for targeted microbiome support",
+        "primaryBenefits": [
+          "Digestive health",
+          "Immune modulation",
+          "Microbiome diversification",
+          "Gut barrier integrity"
+        ],
+        "dosage": {
+          "standard": "1-3 billion CFU daily",
+          "therapeutic": "3-10 billion CFU daily"
+        },
+        "forms": [
+          "Bacillus subtilis",
+          "Bacillus coagulans",
+          "Bacillus clausii",
+          "Multi-strain formulations"
+        ],
+        "contraindications": "Severe immunocompromise, central line catheters",
+        "interactions": [
+          "Antibiotics (timing separation)",
+          "Immunosuppressants"
+        ],
+        "evidenceStrength": {
+          "survivalRate": "High",
+          "digestiveHealth": "Moderate to High",
+          "immuneModulation": "Moderate",
+          "inflammation": "Moderate"
+        }
+      },
+      {
+        "id": "BERB",
+        "name": "Berberine",
+        "category": "Alkaloid Compound",
+        "description": "Plant alkaloid with powerful effects on glucose metabolism, lipid levels, and gut health",
+        "primaryBenefits": [
+          "Blood sugar regulation",
+          "Cholesterol management",
+          "Gut microbiome support",
+          "Weight management"
+        ],
+        "dosage": {
+          "standard": "500mg 1-3 times daily",
+          "therapeutic": "1500-2000mg daily (divided doses)"
+        },
+        "forms": [
+          "HCl salt",
+          "Sulfate",
+          "Phospholipid complex"
+        ],
+        "contraindications": "Pregnancy, newborns (risk of kernicterus), liver disease",
+        "interactions": [
+          "Diabetes medications",
+          "Statins",
+          "Blood thinners",
+          "Medications metabolized by CYP enzymes"
+        ],
+        "evidenceStrength": {
+          "bloodSugar": "High",
+          "lipidManagement": "Moderate to High",
+          "intestinalHealth": "Moderate",
+          "weightManagement": "Moderate"
+        }
+      },
+      {
+        "id": "PQQ",
+        "name": "Pyrroloquinoline Quinone",
+        "category": "Micronutrient",
+        "description": "Redox cofactor that supports mitochondrial function, biogenesis, and neuroprotection",
+        "primaryBenefits": [
+          "Mitochondrial health",
+          "Cognitive function",
+          "Cellular energy",
+          "Neuroprotection"
+        ],
+        "dosage": {
+          "standard": "10-20mg daily",
+          "therapeutic": "20-40mg daily"
+        },
+        "forms": [
+          "Disodium salt",
+          "Capsules",
+          "Tablets"
+        ],
+        "contraindications": "Pregnancy and nursing (insufficient data)",
+        "interactions": [
+          "Limited known interactions"
+        ],
+        "evidenceStrength": {
+          "mitochondrialBiogenesis": "Moderate to High",
+          "antioxidant": "High",
+          "cognition": "Moderate",
+          "neuroprotection": "Moderate"
+        }
+      },
+      {
+        "id": "AKG",
+        "name": "Alpha-Ketoglutarate",
+        "category": "Metabolic Intermediate",
+        "description": "Key Krebs cycle intermediate that supports energy production, collagen synthesis, and cellular protection",
+        "primaryBenefits": [
+          "Cellular energy production",
+          "Exercise recovery",
+          "Protein synthesis",
+          "Healthy aging support"
+        ],
+        "dosage": {
+          "standard": "1-2g daily",
+          "therapeutic": "2-4g daily"
+        },
+        "forms": [
+          "Calcium AKG",
+          "Arginine AKG",
+          "Sodium AKG",
+          "Ornithine AKG"
+        ],
+        "contraindications": "Kidney disease, high dose calcium-sensitive conditions",
+        "interactions": [
+          "Limited known interactions"
+        ],
+        "evidenceStrength": {
+          "energyMetabolism": "Moderate to High",
+          "exercisePerformance": "Moderate",
+          "proteinUtilization": "Moderate",
+          "aging": "Moderate (promising animal studies)"
+        }
+      },
+      {
+        "id": "CARN",
+        "name": "Carnosine",
+        "category": "Dipeptide",
+        "description": "Naturally occurring dipeptide concentrated in muscle and brain tissue with anti-glycation and antioxidant properties",
+        "primaryBenefits": [
+          "Anti-aging protection",
+          "Exercise performance",
+          "Cognitive support",
+          "Cellular health"
+        ],
+        "dosage": {
+          "standard": "500-1000mg daily",
+          "therapeutic": "1000-2000mg daily"
+        },
+        "forms": [
+          "L-Carnosine",
+          "Zinc carnosine (for gut health)"
+        ],
+        "contraindications": "Generally well tolerated",
+        "interactions": [
+          "Limited known interactions"
+        ],
+        "evidenceStrength": {
+          "antiGlycation": "High",
+          "muscleFatigue": "Moderate to High",
+          "antioxidant": "High",
+          "cognition": "Moderate"
+        }
+      },
+      {
+        "id": "TART",
+        "name": "Tart Cherry Extract",
+        "category": "Fruit Extract",
+        "description": "Rich source of anthocyanins and anti-inflammatory compounds that support recovery, sleep, and joint health",
+        "primaryBenefits": [
+          "Exercise recovery",
+          "Sleep quality",
+          "Joint comfort",
+          "Uric acid management"
+        ],
+        "dosage": {
+          "standard": "480-1000mg daily",
+          "therapeutic": "1000-2000mg daily"
+        },
+        "forms": [
+          "Standardized extract (1-2% anthocyanins)",
+          "Juice concentrate powder",
+          "Whole fruit powder"
+        ],
+        "contraindications": "Generally well tolerated",
+        "interactions": [
+          "Blood thinners",
+          "NSAIDs",
+          "Gout medications"
+        ],
+        "evidenceStrength": {
+          "exerciseRecovery": "Moderate to High",
+          "inflammation": "Moderate",
+          "sleep": "Moderate",
+          "uricAcid": "Moderate"
+        }
+      },
+      {
+        "id": "APIG",
+        "name": "Apigenin",
+        "category": "Flavonoid",
+        "description": "Natural flavonoid found in chamomile, parsley, and celery that modulates inflammation, supports sleep, and offers neuroprotection",
+        "primaryBenefits": [
+          "Sleep enhancement",
+          "Anti-inflammatory effects",
+          "Neuroprotection",
+          "Cellular health"
+        ],
+        "dosage": {
+          "standard": "50-100mg daily",
+          "therapeutic": "100-200mg daily"
+        },
+        "forms": [
+          "Pure isolate",
+          "Chamomile extract",
+          "Flavonoid complex"
+        ],
+        "contraindications": "Hormone-sensitive conditions, pregnancy",
+        "interactions": [
+          "Sedatives",
+          "Hormone therapies",
+          "Blood thinners",
+          "CYP2C9 substrate medications"
+        ],
+        "evidenceStrength": {
+          "anxiolytic": "Moderate",
+          "sleep": "Moderate",
+          "inflammation": "Moderate to High",
+          "neuroprotection": "Moderate"
+        }
+      },
+      {
+        "id": "CYAN",
+        "name": "Cyanidins (from Black Elderberry)",
+        "category": "Anthocyanin",
+        "description": "Powerful anthocyanin pigments with immune-supporting, antiviral, and antioxidant properties",
+        "primaryBenefits": [
+          "Immune support",
+          "Respiratory health",
+          "Antioxidant protection",
+          "Anti-inflammatory effects"
+        ],
+        "dosage": {
+          "standard": "500-1000mg elderberry extract daily",
+          "therapeutic": "1000-1500mg elderberry extract daily"
+        },
+        "forms": [
+          "Standardized extract",
+          "Elderberry concentrate",
+          "Whole berry powder",
+          "Sambucus formulations"
+        ],
+        "contraindications": "Autoimmune conditions (caution)",
+        "interactions": [
+          "Immunosuppressants",
+          "Diabetes medications",
+          "Diuretics"
+        ],
+        "evidenceStrength": {
+          "upperRespiratorySymptoms": "Moderate to High",
+          "immuneSupport": "Moderate",
+          "antioxidant": "High",
+          "inflammation": "Moderate"
+        }
+      },
+      {
+        "id": "LCAR",
+        "name": "L-Carnitine",
+        "category": "Amino Acid Derivative",
+        "description": "Amino acid derivative that transports fatty acids into mitochondria for energy production and supports heart health",
+        "primaryBenefits": [
+          "Fat metabolism",
+          "Energy production",
+          "Exercise recovery",
+          "Cardiovascular health"
+        ],
+        "dosage": {
+          "standard": "500-2000mg daily",
+          "therapeutic": "2000-4000mg daily"
+        },
+        "forms": [
+          "L-Carnitine",
+          "Acetyl-L-Carnitine (ALCAR)",
+          "L-Carnitine L-Tartrate",
+          "Glycine Propionyl-L-Carnitine"
+        ],
+        "contraindications": "Seizure disorders, hypothyroidism (monitor levels)",
+        "interactions": [
+          "Thyroid hormones",
+          "Blood thinners",
+          "Seizure medications",
+          "Antibiotics (certain types)"
+        ],
+        "evidenceStrength": {
+          "fattyAcidTransport": "High",
+          "exercise": "Moderate",
+          "heartHealth": "Moderate",
+          "brainFunction": "Moderate (ALCAR)"
+        }
+      },
+      {
+        "id": "5HTP",
+        "name": "5-HTP",
+        "category": "Amino Acid Derivative",
+        "description": "Precursor to serotonin that supports mood, sleep quality, and appetite regulation",
+        "primaryBenefits": [
+          "Mood support",
+          "Sleep quality",
+          "Appetite regulation",
+          "Stress management"
+        ],
+        "dosage": {
+          "standard": "50-100mg daily",
+          "therapeutic": "100-300mg daily"
+        },
+        "forms": [
+          "Capsules",
+          "Tablets",
+          "Extended-release",
+          "Enteric-coated"
+        ],
+        "contraindications": "Depression (if taking medications), pregnancy, Parkinson's disease, surgery (within 2 weeks)",
+        "interactions": [
+          "SSRIs/SNRIs/MAOIs",
+          "Triptans",
+          "Tramadol",
+          "Carbidopa",
+          "Dextromethorphan"
+        ],
+        "evidenceStrength": {
+          "mood": "Moderate",
+          "sleep": "Moderate",
+          "fibromyalgia": "Moderate",
+          "satiety": "Low to Moderate"
+        }
+      },
+      {
+        "id": "LION",
+        "name": "Lion's Mane Mushroom",
+        "category": "Medicinal Mushroom",
+        "description": "Unique mushroom containing compounds that stimulate nerve growth factor (NGF) and support cognitive function, neuronal health, and digestion",
+        "primaryBenefits": [
+          "Cognitive enhancement",
+          "Nerve regeneration",
+          "Mood support",
+          "Digestive health"
+        ],
+        "dosage": {
+          "standard": "500-1000mg daily (30-50% polysaccharides)",
+          "therapeutic": "2000-3000mg daily"
+        },
+        "forms": [
+          "Fruiting body extract",
+          "Mycelium extract",
+          "Full-spectrum extract",
+          "Powder"
+        ],
+        "contraindications": "Mushroom allergies, surgery (discontinue 2 weeks before)",
+        "interactions": [
+          "Blood thinners",
+          "Antidiabetic medications",
+          "Immunomodulators"
+        ],
+        "evidenceStrength": {
+          "cognitiveFunction": "Moderate",
+          "neuroprotection": "Moderate to High",
+          "NGFProduction": "High",
+          "moodSupport": "Moderate"
+        }
+      },
+      {
+        "id": "CHAGA",
+        "name": "Chaga Mushroom",
+        "category": "Medicinal Mushroom",
+        "description": "Antioxidant-rich fungus that grows on birch trees with immune-modulating, anti-inflammatory, and DNA-protective properties",
+        "primaryBenefits": [
+          "Immune modulation",
+          "Antioxidant protection",
+          "Stress adaptation",
+          "Digestive support"
+        ],
+        "dosage": {
+          "standard": "500-1000mg daily",
+          "therapeutic": "1500-3000mg daily"
+        },
+        "forms": [
+          "Hot water extract",
+          "Dual extract (alcohol and water)",
+          "Powder",
+          "Tincture"
+        ],
+        "contraindications": "Autoimmune conditions (monitor), blood disorders, surgery (discontinue 2 weeks before)",
+        "interactions": [
+          "Blood thinners",
+          "Immunosuppressants",
+          "Antidiabetic medications",
+          "NSAIDs"
+        ],
+        "evidenceStrength": {
+          "antioxidant": "High",
+          "immuneModulation": "Moderate to High",
+          "inflammation": "Moderate",
+          "liverSupport": "Moderate"
+        }
+      },
+      {
+        "id": "TURK",
+        "name": "Turkey Tail Mushroom",
+        "category": "Medicinal Mushroom",
+        "description": "One of the most researched medicinal mushrooms, rich in polysaccharides (PSK, PSP) that support immune function and gut health",
+        "primaryBenefits": [
+          "Immune enhancement",
+          "Gut microbiome support",
+          "Cellular health",
+          "Antioxidant protection"
+        ],
+        "dosage": {
+          "standard": "1000-2000mg daily",
+          "therapeutic": "3000-6000mg daily"
+        },
+        "forms": [
+          "Hot water extract",
+          "Standardized PSK/PSP extract",
+          "Powdered fruiting body",
+          "Mycelium"
+        ],
+        "contraindications": "Autoimmune conditions (monitor), pregnancy and nursing",
+        "interactions": [
+          "Immunosuppressants",
+          "Chemotherapy drugs (often used together under medical supervision)",
+          "Blood thinners"
+        ],
+        "evidenceStrength": {
+          "immuneFunction": "High",
+          "cancerSupportive": "Moderate to High",
+          "gutHealth": "Moderate",
+          "antioxidant": "Moderate"
+        }
+      },
+      {
+        "id": "SHII",
+        "name": "Shiitake Mushroom",
+        "category": "Medicinal Mushroom",
+        "description": "Culinary and medicinal mushroom containing lentinan, eritadenine, and other compounds that support cardiovascular health and immune function",
+        "primaryBenefits": [
+          "Immune support",
+          "Cardiovascular health",
+          "Cholesterol management",
+          "Bone health"
+        ],
+        "dosage": {
+          "standard": "1000-2000mg daily",
+          "therapeutic": "2000-4000mg daily"
+        },
+        "forms": [
+          "Dried mushroom",
+          "Extract standardized to polysaccharides",
+          "Powder",
+          "Lentinan isolate"
+        ],
+        "contraindications": "Mushroom allergies, bleeding disorders",
+        "interactions": [
+          "Blood thinners",
+          "Immunosuppressants",
+          "Antidiabetic medications"
+        ],
+        "evidenceStrength": {
+          "immuneSupport": "Moderate to High",
+          "cholesterolManagement": "Moderate",
+          "antiviralProperties": "Moderate",
+          "boneHealth": "Low to Moderate"
+        }
+      },
+      {
+        "id": "MAIT",
+        "name": "Maitake Mushroom",
+        "category": "Medicinal Mushroom",
+        "description": "Adaptogenic mushroom containing D-fraction and beta-glucans that support immune function, blood sugar regulation, and metabolic health",
+        "primaryBenefits": [
+          "Immune modulation",
+          "Blood sugar balance",
+          "Metabolic health",
+          "Antioxidant support"
+        ],
+        "dosage": {
+          "standard": "500-1000mg daily",
+          "therapeutic": "1000-3000mg daily"
+        },
+        "forms": [
+          "Standardized D-fraction extract",
+          "Fruiting body extract",
+          "Mycelium powder",
+          "SX-fraction"
+        ],
+        "contraindications": "Mushroom allergies, autoimmune conditions (monitor), pregnancy",
+        "interactions": [
+          "Blood thinners",
+          "Diabetes medications",
+          "Blood pressure medications",
+          "Immunosuppressants"
+        ],
+        "evidenceStrength": {
+          "bloodSugar": "Moderate",
+          "immuneFunction": "Moderate to High",
+          "metabolicHealth": "Moderate",
+          "antioxidant": "Moderate"
+        }
+      },
+      {
+        "id": "BACO",
+        "name": "Bacopa Monnieri",
+        "category": "Nootropic Herb",
+        "description": "Traditional Ayurvedic herb that supports memory, learning, and cognitive function through bacosides that protect neurons and enhance neurotransmission",
+        "primaryBenefits": [
+          "Memory enhancement",
+          "Cognitive function",
+          "Stress adaptation",
+          "Neuroprotection"
+        ],
+        "dosage": {
+          "standard": "300-450mg daily (standardized to 50% bacosides)",
+          "therapeutic": "450-900mg daily"
+        },
+        "forms": [
+          "Standardized extract",
+          "Whole herb powder",
+          "Tincture"
+        ],
+        "contraindications": "Pregnancy, breastfeeding, bradycardia, GI ulceration",
+        "interactions": [
+          "Thyroid medications",
+          "Calcium channel blockers",
+          "Acetylcholinesterase inhibitors",
+          "Anticonvulsants"
+        ],
+        "evidenceStrength": {
+          "memoryEnhancement": "Moderate to High",
+          "anxiety": "Moderate",
+          "focusAndAttention": "Moderate",
+          "neuroprotection": "Moderate"
+        }
+      },
+      {
+        "id": "PS",
+        "name": "Phosphatidylserine",
+        "category": "Phospholipid",
+        "description": "Essential phospholipid component of cell membranes that supports cognitive function, memory, and stress hormone regulation",
+        "primaryBenefits": [
+          "Cognitive function",
+          "Memory support",
+          "Stress management",
+          "Exercise recovery"
+        ],
+        "dosage": {
+          "standard": "100-200mg daily",
+          "therapeutic": "300-400mg daily"
+        },
+        "forms": [
+          "Soy-derived",
+          "Sunflower-derived",
+          "Cabbage-derived"
+        ],
+        "contraindications": "Blood clotting disorders",
+        "interactions": [
+          "Blood thinners",
+          "Anti-inflammatory medications",
+          "Acetylcholinesterase inhibitors"
+        ],
+        "evidenceStrength": {
+          "cognitiveFunction": "Moderate to High",
+          "stressRegulation": "Moderate",
+          "athleticPerformance": "Moderate",
+          "memoryEnhancement": "Moderate to High"
+        }
+      },
+      {
+        "id": "CDPC",
+        "name": "Citicoline (CDP-Choline)",
+        "category": "Nootropic",
+        "description": "Naturally occurring compound that supports brain health by enhancing phosphatidylcholine synthesis, acetylcholine levels, and neuronal repair",
+        "primaryBenefits": [
+          "Brain health",
+          "Cognitive enhancement",
+          "Neuronal repair",
+          "Mental energy"
+        ],
+        "dosage": {
+          "standard": "250-500mg daily",
+          "therapeutic": "500-2000mg daily"
+        },
+        "forms": [
+          "Cognizin® (patented form)",
+          "Capsules",
+          "Tablets",
+          "Powder"
+        ],
+        "contraindications": "Generally well tolerated",
+        "interactions": [
+          "Levodopa",
+          "Centrally acting anticholinergics"
+        ],
+        "evidenceStrength": {
+          "brainHealthSupport": "High",
+          "cognitiveEnhancement": "Moderate to High",
+          "memorySupport": "Moderate",
+          "attention": "Moderate"
+        }
+      },
+      {
+        "id": "HUPZ",
+        "name": "Huperzine A",
+        "category": "Nootropic Compound",
+        "description": "Purified compound from Chinese club moss that inhibits acetylcholinesterase, increasing acetylcholine levels and supporting memory and cognitive function",
+        "primaryBenefits": [
+          "Memory enhancement",
+          "Mental clarity",
+          "Neuroprotection",
+          "Learning support"
+        ],
+        "dosage": {
+          "standard": "50-100mcg daily",
+          "therapeutic": "100-200mcg daily"
+        },
+        "forms": [
+          "Tablets",
+          "Capsules",
+          "In nootropic formulations"
+        ],
+        "contraindications": "Seizure disorders, bradycardia, GI blockage, asthma, pregnancy",
+        "interactions": [
+          "Acetylcholinesterase inhibitors",
+          "Cholinergic drugs",
+          "Anticholinergic medications",
+          "NSAIDS"
+        ],
+        "evidenceStrength": {
+          "memoryEnhancement": "Moderate to High",
+          "cognitiveFunction": "Moderate",
+          "neuroprotection": "Moderate",
+          "acetylcholineModulation": "High"
+        }
+      },
+      {
+        "id": "VINP",
+        "name": "Vinpocetine",
+        "category": "Nootropic Compound",
+        "description": "Semi-synthetic derivative of the periwinkle plant that enhances cerebral blood flow, glucose utilization, and neuroprotection",
+        "primaryBenefits": [
+          "Cerebral blood flow",
+          "Cognitive enhancement",
+          "Neuroprotection",
+          "Memory support"
+        ],
+        "dosage": {
+          "standard": "5-10mg daily",
+          "therapeutic": "15-30mg daily"
+        },
+        "forms": [
+          "Tablets",
+          "Capsules",
+          "In nootropic blends"
+        ],
+        "contraindications": "Pregnancy, breastfeeding, recent surgery, bleeding disorders",
+        "interactions": [
+          "Blood thinners",
+          "Blood pressure medications",
+          "Antiplatelet drugs",
+          "NSAIDS"
+        ],
+        "evidenceStrength": {
+          "cerebralBloodFlow": "Moderate to High",
+          "cognitiveFunction": "Moderate",
+          "memorySupport": "Moderate",
+          "neuroprotection": "Moderate"
+        }
+      },
+      {
+        "id": "SULF",
+        "name": "Sulforaphane",
+        "category": "Phytonutrient",
+        "description": "Sulfur-rich compound derived from cruciferous vegetables (especially broccoli sprouts) that activates Nrf2 pathway for cellular detoxification and protection",
+        "primaryBenefits": [
+          "Cellular detoxification",
+          "Antioxidant enzyme activation",
+          "DNA protection",
+          "Anti-inflammatory effects"
+        ],
+        "dosage": {
+          "standard": "1-3mg daily",
+          "therapeutic": "10-30mg daily"
+        },
+        "forms": [
+          "Broccoli sprout extract",
+          "Stabilized sulforaphane",
+          "Glucoraphanin + myrosinase",
+          "Whole broccoli sprout powder"
+        ],
+        "contraindications": "Individuals on blood thinners (high doses)",
+        "interactions": [
+          "CYP enzymes (may affect drug metabolism)",
+          "Thyroid medications (theoretical)"
+        ],
+        "evidenceStrength": {
+          "Nrf2Activation": "High",
+          "detoxificationSupport": "Moderate to High",
+          "cellularProtection": "Moderate to High",
+          "inflammation": "Moderate"
+        }
+      },
+      {
+        "id": "PTERO",
+        "name": "Pterostilbene",
+        "category": "Polyphenol",
+        "description": "Methylated form of resveratrol found in blueberries with superior bioavailability and potent effects on cellular health, cognition, and longevity pathways",
+        "primaryBenefits": [
+          "Cognitive function",
+          "Cellular health",
+          "Metabolic support",
+          "Longevity pathways"
+        ],
+        "dosage": {
+          "standard": "50-100mg daily",
+          "therapeutic": "100-250mg daily"
+        },
+        "forms": [
+          "Pure pterostilbene",
+          "Complexed with cyclodextrin",
+          "Liposomal"
+        ],
+        "contraindications": "Bleeding disorders, upcoming surgery, pregnancy",
+        "interactions": [
+          "Blood thinners",
+          "Cytochrome P450 metabolized drugs",
+          "Blood pressure medications"
+        ],
+        "evidenceStrength": {
+          "bioavailability": "High (compared to resveratrol)",
+          "cognitiveFunction": "Moderate",
+          "metabolicHealth": "Moderate",
+          "cellularProtection": "Moderate to High"
+        }
+      },
+      {
+        "id": "DIM",
+        "name": "Diindolylmethane (DIM)",
+        "category": "Phytonutrient",
+        "description": "Metabolite of indole-3-carbinol found in cruciferous vegetables that supports healthy estrogen metabolism and hormonal balance",
+        "primaryBenefits": [
+          "Estrogen metabolism",
+          "Hormonal balance",
+          "Cellular health",
+          "Detoxification support"
+        ],
+        "dosage": {
+          "standard": "100-200mg daily",
+          "therapeutic": "200-400mg daily"
+        },
+        "forms": [
+          "Microencapsulated",
+          "BioResponse-DIM®",
+          "Complexed for absorption",
+          "With vitamin E and phospholipids"
+        ],
+        "contraindications": "Hormone-sensitive conditions (monitor), pregnancy, breastfeeding",
+        "interactions": [
+          "Hormone therapies",
+          "CYP1A2 substrates",
+          "Tamoxifen",
+          "Birth control pills"
+        ],
+        "evidenceStrength": {
+          "estrogenMetabolism": "Moderate to High",
+          "hormoneBalance": "Moderate",
+          "detoxificationPathways": "Moderate",
+          "cellularHealth": "Moderate"
+        }
+      },
+      {
+        "id": "QUER",
+        "name": "Quercetin",
+        "category": "Flavonoid",
+        "description": "Potent bioflavonoid with antioxidant, anti-inflammatory, and antihistamine properties that supports immune function and cellular health",
+        "primaryBenefits": [
+          "Allergy support",
+          "Anti-inflammatory effects",
+          "Antioxidant protection",
+          "Immune modulation"
+        ],
+        "dosage": {
+          "standard": "500-1000mg daily",
+          "therapeutic": "1000-2000mg daily"
+        },
+        "forms": [
+          "Dihydrate",
+          "Phytosome complex",
+          "With bromelain for absorption",
+          "Liposomal"
+        ],
+        "contraindications": "Kidney disorders (high doses), pregnancy, anticoagulant therapy",
+        "interactions": [
+          "Blood thinners",
+          "Fluoroquinolone antibiotics",
+          "Immunosuppressants",
+          "CYP3A4 substrate medications"
+        ],
+        "evidenceStrength": {
+          "antihistamine": "Moderate to High",
+          "antioxidant": "High",
+          "inflammation": "Moderate to High",
+          "immuneSupport": "Moderate"
+        }
+      },
+      {
+        "id": "OLIV",
+        "name": "Olive Leaf Extract",
+        "category": "Herbal Extract",
+        "description": "Rich in oleuropein and other polyphenols with antimicrobial, antioxidant, and cardiovascular benefits",
+        "primaryBenefits": [
+          "Cardiovascular support",
+          "Blood pressure regulation",
+          "Antimicrobial effects",
+          "Antioxidant protection"
+        ],
+        "dosage": {
+          "standard": "500-1000mg daily (standardized to 15-20% oleuropein)",
+          "therapeutic": "1000-1500mg daily"
+        },
+        "forms": [
+          "Standardized extract",
+          "Capsules",
+          "Liquid extract",
+          "Tea"
+        ],
+        "contraindications": "Low blood pressure, diabetes (monitor blood sugar)",
+        "interactions": [
+          "Blood pressure medications",
+          "Diabetes medications",
+          "Blood thinners",
+          "Immunosuppressants"
+        ],
+        "evidenceStrength": {
+          "bloodPressure": "Moderate",
+          "antimicrobial": "Moderate to High",
+          "antioxidant": "High",
+          "bloodSugar": "Moderate"
+        }
+      },
+      {
+        "id": "TAU",
+        "name": "Taurine",
+        "category": "Amino Acid",
+        "description": "Conditionally essential amino acid that supports cardiovascular function, bile acid conjugation, osmotic regulation, and neurotransmission",
+        "primaryBenefits": [
+          "Cardiovascular health",
+          "Exercise performance",
+          "Neuroprotection",
+          "Bile production"
+        ],
+        "dosage": {
+          "standard": "500-1000mg daily",
+          "therapeutic": "1000-3000mg daily"
+        },
+        "forms": [
+          "Powder",
+          "Capsules",
+          "Tablets"
+        ],
+        "contraindications": "Generally well tolerated",
+        "interactions": [
+          "Lithium",
+          "Certain diuretics"
+        ],
+        "evidenceStrength": {
+          "cardiovascularHealth": "Moderate to High",
+          "exercisePerformance": "Moderate",
+          "neuroprotection": "Moderate",
+          "insulinSensitivity": "Moderate"
+        }
+      },
+      {
+        "id": "GLYC",
+        "name": "Glycine",
+        "category": "Amino Acid",
+        "description": "Non-essential amino acid that functions as an inhibitory neurotransmitter and supports collagen synthesis, detoxification, and sleep quality",
+        "primaryBenefits": [
+          "Sleep quality",
+          "Connective tissue health",
+          "Detoxification support",
+          "Cognitive function"
+        ],
+        "dosage": {
+          "standard": "1-3g daily",
+          "therapeutic": "3-5g daily"
+        },
+        "forms": [
+          "Powder",
+          "Capsules",
+          "In collagen products"
+        ],
+        "contraindications": "Generally well tolerated",
+        "interactions": [
+          "Clozapine",
+          "Limited known interactions"
+        ],
+        "evidenceStrength": {
+          "sleepQuality": "Moderate to High",
+          "detoxification": "Moderate",
+          "insulinSensitivity": "Moderate",
+          "jointHealth": "Moderate"
+        }
+      },
+      {
+        "id": "BALA",
+        "name": "Beta-Alanine",
+        "category": "Amino Acid",
+        "description": "Non-essential amino acid that combines with histidine to form carnosine, which buffers lactic acid in muscles and improves exercise performance",
+        "primaryBenefits": [
+          "Exercise endurance",
+          "High-intensity performance",
+          "Muscle buffering capacity",
+          "Muscle recovery"
+        ],
+        "dosage": {
+          "standard": "2-3g daily",
+          "therapeutic": "3-5g daily"
+        },
+        "forms": [
+          "Powder",
+          "Sustained-release tablets",
+          "Capsules",
+          "CarnoSyn® (patented form)"
+        ],
+        "contraindications": "Generally well tolerated",
+        "interactions": [
+          "Limited known interactions"
+        ],
+        "evidenceStrength": {
+          "highIntensityExercise": "High",
+          "muscleEndurance": "Moderate to High",
+          "fatigueDelay": "Moderate to High",
+          "exercisePerformance": "Moderate"
+        }
+      },
+      {
+        "id": "CITR",
+        "name": "L-Citrulline",
+        "category": "Amino Acid",
+        "description": "Non-essential amino acid that enhances nitric oxide production, improving blood flow, exercise performance, and cardiovascular health",
+        "primaryBenefits": [
+          "Nitric oxide production",
+          "Blood flow enhancement",
+          "Exercise performance",
+          "Cardiovascular health"
+        ],
+        "dosage": {
+          "standard": "3-6g daily",
+          "therapeutic": "6-10g daily"
+        },
+        "forms": [
+          "L-Citrulline",
+          "Citrulline Malate",
+          "Powder",
+          "Capsules"
+        ],
+        "contraindications": "Taking nitrates, erectile dysfunction medications, blood pressure medications",
+        "interactions": [
+          "Erectile dysfunction medications",
+          "Blood pressure medications",
+          "Nitrates",
+          "Heart medications"
+        ],
+        "evidenceStrength": {
+          "nitrateProduction": "High",
+          "exercisePerformance": "Moderate to High",
+          "bloodPressure": "Moderate",
+          "bloodFlow": "Moderate to High"
+        }
+      },
+      {
+        "id": "AGMA",
+        "name": "Agmatine Sulfate",
+        "category": "Neurotransmitter Metabolite",
+        "description": "Decarboxylated arginine that modulates multiple neurotransmitter systems, nitric oxide levels, and pain signaling pathways",
+        "primaryBenefits": [
+          "Neuropathic pain management",
+          "Mood support",
+          "Cognitive function",
+          "Nitric oxide modulation"
+        ],
+        "dosage": {
+          "standard": "500-750mg daily",
+          "therapeutic": "1000-2500mg daily"
+        },
+        "forms": [
+          "Powder",
+          "Capsules",
+          "Tablets"
+        ],
+        "contraindications": "Pregnancy, nursing, heart disease, diabetes (monitor)",
+        "interactions": [
+          "Diabetes medications",
+          "Blood pressure medications",
+          "Pain medications",
+          "Psychotropic medications"
+        ],
+        "evidenceStrength": {
+          "painModulation": "Moderate",
+          "neuroprotection": "Moderate",
+          "nitricOxideRegulation": "Moderate",
+          "cognition": "Low to Moderate"
+        }
+      },
+      {
+        "id": "URO",
+        "name": "Urolithin A",
+        "category": "Metabolite",
+        "description": "Gut microbiome metabolite of ellagitannins (from pomegranates and berries) that stimulates mitophagy, promoting mitochondrial health and cellular rejuvenation",
+        "primaryBenefits": [
+          "Mitochondrial health",
+          "Cellular rejuvenation",
+          "Muscle function",
+          "Longevity support"
+        ],
+        "dosage": {
+          "standard": "500mg daily (as Mitopure®)",
+          "therapeutic": "1000mg daily"
+        },
+        "forms": [
+          "Mitopure® (synthetic)",
+          "Food-derived precursors"
+        ],
+        "contraindications": "Limited data for pregnancy and nursing",
+        "interactions": [
+          "Limited known interactions"
+        ],
+        "evidenceStrength": {
+          "mitophagy": "High",
+          "muscleEndurance": "Moderate",
+          "cellularRejuvenation": "Moderate",
+          "mitochondrialHealth": "Moderate to High"
+        }
+      },
+      {
+        "id": "SULB",
+        "name": "Sulbutiamine",
+        "category": "Vitamin Derivative",
+        "description": "Synthetic derivative of thiamine (vitamin B1) that crosses the blood-brain barrier more effectively, supporting energy metabolism and cognitive function",
+        "primaryBenefits": [
+          "Mental energy",
+          "Cognitive function",
+          "Mood support",
+          "Memory enhancement"
+        ],
+        "dosage": {
+          "standard": "200-400mg daily",
+          "therapeutic": "400-600mg daily"
+        },
+        "forms": [
+          "Tablets",
+          "Capsules",
+          "Powder"
+        ],
+        "contraindications": "Bipolar disorder, excessive thiamine sensitivity",
+        "interactions": [
+          "Cholinergic medications",
+          "Stimulants",
+          "Antidepressants"
+        ],
+        "evidenceStrength": {
+          "mentalFatigue": "Moderate",
+          "cognition": "Moderate",
+          "thiamineDeficiency": "High",
+          "mood": "Low to Moderate"
+        }
+      },
+      {
+        "id": "GLYNAC",
+        "name": "GlyNAC (Glycine + NAC)",
+        "category": "Amino Acid Combination",
+        "description": "Combination of glycine and N-acetylcysteine that synergistically supports glutathione synthesis, mitochondrial function, and oxidative stress reduction",
+        "primaryBenefits": [
+          "Glutathione production",
+          "Mitochondrial function",
+          "Cellular aging markers",
+          "Oxidative stress reduction"
+        ],
+        "dosage": {
+          "standard": "Glycine 1.33g + NAC 1.33g daily",
+          "therapeutic": "Glycine 2.5g + NAC 2.5g daily"
+        },
+        "forms": [
+          "Combination supplements",
+          "Individual components"
+        ],
+        "contraindications": "See individual components (NAC and Glycine)",
+        "interactions": [
+          "See individual components (NAC and Glycine)"
+        ],
+        "evidenceStrength": {
+          "glutathioneSynthesis": "High",
+          "mitochondrialFunction": "Moderate to High",
+          "oxidativeStressReduction": "High",
+          "cellularAging": "Moderate"
+        }
+      },
+      {
+        "id": "PEA",
+        "name": "Palmitoylethanolamide (PEA)",
+        "category": "Endocannabinoid-like Compound",
+        "description": "Naturally occurring fatty acid amide that modulates pain and inflammation through multiple mechanisms, including PPAR-alpha activation",
+        "primaryBenefits": [
+          "Pain management",
+          "Inflammation reduction",
+          "Neuroprotection",
+          "Immune modulation"
+        ],
+        "dosage": {
+          "standard": "400mg daily",
+          "therapeutic": "600-1200mg daily"
+        },
+        "forms": [
+          "Micronized (Levagen+®)",
+          "Ultramicronized (PEA-um)",
+          "Standard PEA"
+        ],
+        "contraindications": "Pregnancy, nursing (limited data)",
+        "interactions": [
+          "Limited known interactions",
+          "May enhance effects of CBD"
+        ],
+        "evidenceStrength": {
+          "painManagement": "Moderate to High",
+          "inflammation": "Moderate to High",
+          "neuropathicPain": "Moderate to High",
+          "neuroprotection": "Moderate"
+        }
+      },
+      {
+        "id": "FUCO",
+        "name": "Fucoxanthin",
+        "category": "Carotenoid",
+        "description": "Marine carotenoid from brown seaweed that supports metabolism, fat oxidation, and cellular health through unique biological mechanisms",
+        "primaryBenefits": [
+          "Metabolic enhancement",
+          "Fat oxidation",
+          "Blood glucose management",
+          "Antioxidant protection"
+        ],
+        "dosage": {
+          "standard": "2-4mg daily",
+          "therapeutic": "5-10mg daily"
+        },
+        "forms": [
+          "Standardized extract",
+          "Lipid-based delivery systems",
+          "In combination with pomegranate seed oil"
+        ],
+        "contraindications": "Bleeding disorders, surgery, thyroid conditions (monitor)",
+        "interactions": [
+          "Blood thinners",
+          "Diabetes medications",
+          "Thyroid medications"
+        ],
+        "evidenceStrength": {
+          "metabolism": "Moderate",
+          "fatOxidation": "Moderate",
+          "bloodGlucose": "Low to Moderate",
+          "antioxidant": "Moderate"
+        }
+      },
+      {
+        "id": "LITH",
+        "name": "Lithium Orotate",
+        "category": "Mineral",
+        "description": "Low-dose, highly bioavailable form of lithium that supports neurological health, mood stability, and cognitive function",
+        "primaryBenefits": [
+          "Cognitive health",
+          "Mood stability",
+          "Neuroprotection",
+          "Stress resilience"
+        ],
+        "dosage": {
+          "standard": "5mg elemental lithium daily",
+          "therapeutic": "10-20mg elemental lithium daily"
+        },
+        "forms": [
+          "Lithium orotate",
+          "Lithium aspartate",
+          "Lithium glycinate"
+        ],
+        "contraindications": "Kidney disease, dehydration, sodium-restricted diets, pregnancy, nursing",
+        "interactions": [
+          "NSAIDs",
+          "ACE inhibitors",
+          "Diuretics",
+          "Prescription lithium",
+          "Antipsychotics"
+        ],
+        "evidenceStrength": {
+          "neuroprotection": "Moderate",
+          "moodSupport": "Moderate",
+          "cognitiveHealth": "Moderate",
+          "longevity": "Low to Moderate"
+        }
+      },
+      {
+        "id": "BOR",
+        "name": "Boron",
+        "category": "Mineral",
+        "description": "Trace mineral essential for bone health, hormone metabolism, cognitive function, and inflammatory response",
+        "primaryBenefits": [
+          "Bone health",
+          "Hormone optimization",
+          "Cognitive function",
+          "Joint health"
+        ],
+        "dosage": {
+          "standard": "3-6mg daily",
+          "therapeutic": "6-10mg daily"
+        },
+        "forms": [
+          "Boron citrate",
+          "Boron glycinate",
+          "Boron aspartate",
+          "Calcium fructoborate"
+        ],
+        "contraindications": "Kidney disease, hormone-sensitive conditions (monitor)",
+        "interactions": [
+          "Estrogen medications",
+          "Testosterone medications",
+          "Vitamin D",
+          "Magnesium supplements"
+        ],
+        "evidenceStrength": {
+          "boneHealth": "Moderate to High",
+          "hormoneMetabolism": "Moderate",
+          "inflammation": "Moderate",
+          "testosterone": "Moderate"
+        }
+      },
+      {
+        "id": "MOLY",
+        "name": "Molybdenum",
+        "category": "Mineral",
+        "description": "Essential trace mineral that functions as a cofactor for enzymes involved in detoxification, cellular energy production, and sulfur metabolism",
+        "primaryBenefits": [
+          "Detoxification support",
+          "Sulfur metabolism",
+          "Uric acid processing",
+          "Antioxidant function"
+        ],
+        "dosage": {
+          "standard": "45-100mcg daily",
+          "therapeutic": "150-500mcg daily"
+        },
+        "forms": [
+          "Molybdenum glycinate",
+          "Sodium molybdate",
+          "Ammonium molybdate"
+        ],
+        "contraindications": "Gout (high doses), copper deficiency, biliary obstruction",
+        "interactions": [
+          "Copper supplements",
+          "Medications for gout"
+        ],
+        "evidenceStrength": {
+          "enzymeCofactor": "High",
+          "detoxification": "Moderate",
+          "sulfiteProcessing": "Moderate to High",
+          "antioxidantSystem": "Moderate"
+        }
+      },
+      {
+        "id": "VANA",
+        "name": "Vanadium",
+        "category": "Mineral",
+        "description": "Trace mineral that mimics insulin and supports glucose metabolism, protein metabolism, and bone health",
+        "primaryBenefits": [
+          "Glucose metabolism",
+          "Insulin sensitivity",
+          "Bone health",
+          "Cholesterol management"
+        ],
+        "dosage": {
+          "standard": "10-50mcg daily",
+          "therapeutic": "100-1000mcg daily"
+        },
+        "forms": [
+          "Vanadyl sulfate",
+          "Bis-glycinato oxovanadium",
+          "Sodium metavanadate"
+        ],
+        "contraindications": "Kidney disease, liver disease, pregnancy, nursing",
+        "interactions": [
+          "Diabetes medications",
+          "Iron supplements",
+          "Chromium supplements"
+        ],
+        "evidenceStrength": {
+          "insulinMimetic": "Moderate",
+          "bloodSugar": "Moderate",
+          "lipidMetabolism": "Low to Moderate",
+          "boneHealth": "Low to Moderate"
+        }
+      },
+      {
+        "id": "STRO",
+        "name": "Strontium",
+        "category": "Mineral",
+        "description": "Naturally occurring mineral similar to calcium that supports bone density, formation, and strength",
+        "primaryBenefits": [
+          "Bone density",
+          "Bone formation",
+          "Reduced bone resorption",
+          "Joint comfort"
+        ],
+        "dosage": {
+          "standard": "340-680mg elemental strontium daily",
+          "therapeutic": "680-1020mg elemental strontium daily"
+        },
+        "forms": [
+          "Strontium citrate",
+          "Strontium ranelate (prescription in Europe)",
+          "Strontium chloride"
+        ],
+        "contraindications": "Kidney disease, pregnancy, nursing, increased risk of blood clots, heart disease",
+        "interactions": [
+          "Calcium supplements (take 4 hours apart)",
+          "Tetracycline antibiotics",
+          "Quinolone antibiotics",
+          "Osteoporosis medications"
+        ],
+        "evidenceStrength": {
+          "boneDensity": "Moderate to High",
+          "fracturePrevention": "Moderate",
+          "boneFormation": "Moderate to High",
+          "jointPain": "Low to Moderate"
+        }
+      },
+      {
+        "id": "DENZ",
+        "name": "Digestive Enzymes",
+        "category": "Enzymes",
+        "description": "Specialized proteins that break down macronutrients for optimal digestion, nutrient absorption, and reduced digestive discomfort",
+        "primaryBenefits": [
+          "Improved digestion",
+          "Nutrient absorption",
+          "Reduced bloating",
+          "Food intolerance support"
+        ],
+        "dosage": {
+          "standard": "1-2 capsules with meals",
+          "therapeutic": "2-3 capsules with meals"
+        },
+        "forms": [
+          "Protease (protein)",
+          "Amylase (carbohydrates)",
+          "Lipase (fats)",
+          "Combination formulas"
+        ],
+        "contraindications": "Acute pancreatitis, specific enzyme allergies",
+        "interactions": [
+          "Diabetic medications",
+          "Blood thinners",
+          "Antibiotics"
+        ],
+        "evidenceStrength": {
+          "digestion": "Moderate to High",
+          "pancreatinsufficiency": "High",
+          "bloating": "Moderate",
+          "nutrientAbsorption": "Moderate"
+        }
+      },
+      {
+        "id": "ALOE",
+        "name": "Aloe Vera",
+        "category": "Herbal Extract",
+        "description": "Succulent plant extract with soothing, healing properties that support digestive health, skin integrity, and immune function",
+        "primaryBenefits": [
+          "Digestive comfort",
+          "Skin health",
+          "Wound healing",
+          "Immune support"
+        ],
+        "dosage": {
+          "standard": "100-200mg dried extract daily",
+          "therapeutic": "300-500mg dried extract daily"
+        },
+        "forms": [
+          "Inner leaf gel (decolorized)",
+          "Whole leaf extract",
+          "Latex-free extract",
+          "Juice"
+        ],
+        "contraindications": "Pregnancy, Crohn's disease, ulcerative colitis, intestinal obstruction, hemorrhoids",
+        "interactions": [
+          "Diabetes medications",
+          "Diuretics",
+          "Digoxin",
+          "Stimulant laxatives"
+        ],
+        "evidenceStrength": {
+          "skinHealth": "Moderate to High",
+          "digestiveComfort": "Moderate",
+          "constipation": "Moderate",
+          "woundHealing": "Moderate"
+        }
+      },
+      {
+        "id": "ARTI",
+        "name": "Artichoke Extract",
+        "category": "Herbal Extract",
+        "description": "Leaf extract rich in cynarin and other compounds that support liver function, bile flow, digestion, and cholesterol metabolism",
+        "primaryBenefits": [
+          "Liver support",
+          "Bile production",
+          "Digestive comfort",
+          "Cholesterol management"
+        ],
+        "dosage": {
+          "standard": "320-640mg daily",
+          "therapeutic": "1000-1500mg daily"
+        },
+        "forms": [
+          "Standardized extract (2-5% cynarin)",
+          "Capsules",
+          "Liquid extract",
+          "Powdered leaf"
+        ],
+        "contraindications": "Bile duct obstruction, gallstones, allergies to plants in the Asteraceae family",
+        "interactions": [
+          "Bile acid sequestrants",
+          "Diuretics",
+          "Medications metabolized by CYP3A4"
+        ],
+        "evidenceStrength": {
+          "digestiveFunction": "Moderate to High",
+          "cholesterolLevels": "Moderate",
+          "liverSupport": "Moderate",
+          "bileProduction": "Moderate to High"
+        }
+      },
+      {
+        "id": "TRIP",
+        "name": "Triphala",
+        "category": "Herbal Formula",
+        "description": "Traditional Ayurvedic blend of three fruits (amalaki, bibhitaki, haritaki) that gently cleanses the digestive tract while providing antioxidant support",
+        "primaryBenefits": [
+          "Digestive cleansing",
+          "Gentle detoxification",
+          "Antioxidant protection",
+          "Microbiome support"
+        ],
+        "dosage": {
+          "standard": "500-1000mg daily",
+          "therapeutic": "1000-2000mg daily"
+        },
+        "forms": [
+          "Capsules",
+          "Powder",
+          "Tablets",
+          "Liquid extract"
+        ],
+        "contraindications": "Diarrhea, pregnancy, nursing",
+        "interactions": [
+          "Blood thinners",
+          "Diabetes medications",
+          "Diuretics"
+        ],
+        "evidenceStrength": {
+          "digestion": "Moderate",
+          "constipation": "Moderate",
+          "antioxidant": "Moderate to High",
+          "oralHealth": "Moderate"
+        }
+      },
+      {
+        "id": "BETH",
+        "name": "Betaine HCl",
+        "category": "Digestive Support",
+        "description": "Acidic compound that supports stomach acid production, protein digestion, and nutrient absorption, particularly in those with hypochlorhydria",
+        "primaryBenefits": [
+          "Protein digestion",
+          "Nutrient absorption",
+          "Microbiome balance",
+          "SIBO prevention"
+        ],
+        "dosage": {
+          "standard": "350-1500mg per meal",
+          "therapeutic": "1500-3000mg per meal (titrate to individual tolerance)"
+        },
+        "forms": [
+          "With pepsin",
+          "Capsules",
+          "Tablets"
+        ],
+        "contraindications": "Active ulcers, gastritis, esophagitis, GERD, use of NSAIDs or corticosteroids",
+        "interactions": [
+          "H2 blockers",
+          "Proton pump inhibitors",
+          "NSAIDs",
+          "Corticosteroids"
+        ],
+        "evidenceStrength": {
+          "proteinDigestion": "Moderate",
+          "acidProduction": "Moderate to High",
+          "vitaminB12Absorption": "Moderate",
+          "mineralAbsorption": "Moderate"
+        }
+      }
+    ]
+  }

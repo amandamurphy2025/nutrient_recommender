@@ -1,0 +1,1524 @@
+{
+    "relationships": [
+      {
+        "symptomId": "FAT01",
+        "nutrientId": "VB12",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Supports cellular energy production and red blood cell formation",
+        "responseTimeframe": "2-4 weeks",
+        "conditionsForRecommendation": "Most effective when deficiency suspected or blood markers indicate low-normal levels"
+      },
+      {
+        "symptomId": "FAT01",
+        "nutrientId": "FE",
+        "evidenceStrength": "Moderate to High",
+        "mechanismOfAction": "Essential for oxygen transport in blood and cellular energy production",
+        "responseTimeframe": "3-8 weeks",
+        "conditionsForRecommendation": "Most beneficial for menstruating women or those with confirmed low ferritin levels"
+      },
+      {
+        "symptomId": "FAT01",
+        "nutrientId": "COQ10",
+        "evidenceStrength": "Low to Moderate",
+        "mechanismOfAction": "Enhances mitochondrial energy production and cellular ATP synthesis",
+        "responseTimeframe": "2-4 weeks",
+        "conditionsForRecommendation": "Particularly effective for those on statin medications or with cardiac-related fatigue"
+      },
+      {
+        "symptomId": "FAT01",
+        "nutrientId": "MG",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Cofactor in ATP production and muscle function, helps regulate stress response",
+        "responseTimeframe": "1-3 weeks",
+        "conditionsForRecommendation": "Most effective for those with stress-related fatigue or muscle weakness"
+      },
+      {
+        "symptomId": "BLD01",
+        "nutrientId": "FE",
+        "evidenceStrength": "High",
+        "mechanismOfAction": "Primary component of hemoglobin, essential for oxygen transport throughout the body",
+        "responseTimeframe": "4-12 weeks",
+        "conditionsForRecommendation": "Confirmed low ferritin or hemoglobin levels, pair with vitamin C for enhanced absorption"
+      },
+      {
+        "symptomId": "BLD01",
+        "nutrientId": "VB12",
+        "evidenceStrength": "High",
+        "mechanismOfAction": "Essential for red blood cell formation and maturation",
+        "responseTimeframe": "4-12 weeks",
+        "conditionsForRecommendation": "Consider sublingual or injection for severe deficiency, particularly effective for vegetarians/vegans"
+      },
+      {
+        "symptomId": "BLD01",
+        "nutrientId": "FOL",
+        "evidenceStrength": "Moderate to High",
+        "mechanismOfAction": "Required for DNA synthesis and red blood cell maturation",
+        "responseTimeframe": "4-8 weeks",
+        "conditionsForRecommendation": "Most effective when used with B12, use active methylfolate form for those with MTHFR genetic variants"
+      },
+      {
+        "symptomId": "BLD01",
+        "nutrientId": "VC",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Enhances iron absorption and supports red blood cell production",
+        "responseTimeframe": "2-4 weeks alongside iron",
+        "conditionsForRecommendation": "Take alongside iron supplementation to improve absorption by up to 300%"
+      },
+      {
+        "symptomId": "SLE01",
+        "nutrientId": "MG",
+        "evidenceStrength": "Moderate to High",
+        "mechanismOfAction": "Promotes relaxation of nervous system and muscles, regulates neurotransmitters",
+        "responseTimeframe": "1-3 weeks",
+        "conditionsForRecommendation": "Take 200-400mg in glycinate or threonate form 1-2 hours before bedtime"
+      },
+      {
+        "symptomId": "SLE01",
+        "nutrientId": "MELA",
+        "evidenceStrength": "High",
+        "mechanismOfAction": "Regulates sleep-wake cycles and circadian rhythm",
+        "responseTimeframe": "30 minutes to 2 hours (acute), 1-2 weeks (chronic)",
+        "conditionsForRecommendation": "Start with low dose (0.3-1mg) and take 30-60 minutes before bedtime, particularly effective for sleep onset issues"
+      },
+      {
+        "symptomId": "SLE01",
+        "nutrientId": "LTHE",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Increases alpha brain waves and GABA, promotes relaxation without sedation",
+        "responseTimeframe": "30-40 minutes (acute), 1-2 weeks (chronic)",
+        "conditionsForRecommendation": "Particularly effective when paired with low-dose melatonin or when stress/anxiety contribute to sleep issues"
+      },
+      {
+        "symptomId": "SLE01",
+        "nutrientId": "VALER",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Modulates GABA receptors to promote relaxation and improve sleep quality",
+        "responseTimeframe": "1-2 hours (acute), 2-4 weeks (chronic)",
+        "conditionsForRecommendation": "Most effective for sleep maintenance issues rather than sleep onset problems"
+      },
+      {
+        "symptomId": "SLE02",
+        "nutrientId": "VB12",
+        "evidenceStrength": "Low to Moderate",
+        "mechanismOfAction": "Supports neurological function and cellular energy production",
+        "responseTimeframe": "2-4 weeks",
+        "conditionsForRecommendation": "Consider if accompanied by other B12 deficiency symptoms or for vegetarians/vegans"
+      },
+      {
+        "symptomId": "SLE02",
+        "nutrientId": "LTYR",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Precursor to dopamine and norepinephrine, supports alertness and mental function",
+        "responseTimeframe": "1-2 weeks",
+        "conditionsForRecommendation": "Take on empty stomach 20-30 minutes before breakfast, particularly effective for dopamine-related morning grogginess"
+      },
+      {
+        "symptomId": "SLE02",
+        "nutrientId": "RHOD",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Adaptogen that supports adrenal function and helps regulate cortisol rhythms",
+        "responseTimeframe": "1-3 weeks",
+        "conditionsForRecommendation": "Most effective when taken in the morning, particularly for stress-related morning fatigue"
+      },
+      {
+        "symptomId": "SLE04",
+        "nutrientId": "MG",
+        "evidenceStrength": "Moderate to High",
+        "mechanismOfAction": "Regulates neuromuscular function and muscle relaxation",
+        "responseTimeframe": "1-3 weeks",
+        "conditionsForRecommendation": "Take higher dose (300-400mg) in glycinate form before bedtime, may require consistent use for optimal benefits"
+      },
+      {
+        "symptomId": "SLE04",
+        "nutrientId": "FE",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Low iron can contribute to restless legs syndrome through dopamine regulation",
+        "responseTimeframe": "4-12 weeks",
+        "conditionsForRecommendation": "Check ferritin levels first, most effective when ferritin is below 50-75 ng/mL"
+      },
+      {
+        "symptomId": "SLE04",
+        "nutrientId": "FOL",
+        "evidenceStrength": "Low to Moderate",
+        "mechanismOfAction": "Supports nervous system function and may help regulate leg movement",
+        "responseTimeframe": "4-8 weeks",
+        "conditionsForRecommendation": "Consider active methylfolate form, particularly beneficial when combined with B12"
+      },
+      {
+        "symptomId": "FOG01",
+        "nutrientId": "OMG3",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Supports neuronal membrane fluidity and reduces neuroinflammation",
+        "responseTimeframe": "4-12 weeks",
+        "conditionsForRecommendation": "Higher EPA formulations preferred (1000-2000mg EPA daily), take with meals containing fat"
+      },
+      {
+        "symptomId": "FOG01",
+        "nutrientId": "CDPC",
+        "evidenceStrength": "Moderate to High",
+        "mechanismOfAction": "Increases acetylcholine and supports neuronal membrane formation",
+        "responseTimeframe": "2-4 weeks",
+        "conditionsForRecommendation": "Most effective when taken consistently, split larger doses (500mg+) throughout the day"
+      },
+      {
+        "symptomId": "FOG01",
+        "nutrientId": "VB12",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Supports myelin formation and neurotransmitter synthesis",
+        "responseTimeframe": "4-8 weeks",
+        "conditionsForRecommendation": "Use methylcobalamin form, particularly beneficial for elderly or those on metformin/PPIs"
+      },
+      {
+        "symptomId": "FOG01",
+        "nutrientId": "LION",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Stimulates nerve growth factor production and supports neuronal health",
+        "responseTimeframe": "4-12 weeks",
+        "conditionsForRecommendation": "Use fruiting body extract standardized for hericenones/erinacines, requires consistent daily use"
+      },
+      {
+        "symptomId": "STR01",
+        "nutrientId": "ASH",
+        "evidenceStrength": "Moderate to High",
+        "mechanismOfAction": "Adaptogen that modulates cortisol and supports stress hormone balance",
+        "responseTimeframe": "2-6 weeks",
+        "conditionsForRecommendation": "Use extract standardized to withanolides (min 5%), most effective with consistent daily use"
+      },
+      {
+        "symptomId": "STR01",
+        "nutrientId": "MG",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Regulates stress response and supports nervous system function",
+        "responseTimeframe": "1-3 weeks",
+        "conditionsForRecommendation": "Glycinate or threonate forms preferred, particularly effective for physical manifestations of stress"
+      },
+      {
+        "symptomId": "STR01",
+        "nutrientId": "LTHE",
+        "evidenceStrength": "Moderate to High",
+        "mechanismOfAction": "Increases GABA and alpha brain waves, promoting calm alertness",
+        "responseTimeframe": "30-40 minutes (acute), 1-2 weeks (chronic)",
+        "conditionsForRecommendation": "Particularly effective when combined with low-dose caffeine for focused calm"
+      },
+      {
+        "symptomId": "STR01",
+        "nutrientId": "RHOD",
+        "evidenceStrength": "Moderate to High",
+        "mechanismOfAction": "Adaptogen that helps normalize cortisol and supports adrenal function",
+        "responseTimeframe": "1-3 weeks",
+        "conditionsForRecommendation": "Most effective for fatigue-dominated stress, standardized to rosavins and salidroside"
+      },
+      {
+        "symptomId": "STR02",
+        "nutrientId": "ASH",
+        "evidenceStrength": "Moderate to High",
+        "mechanismOfAction": "Adaptogen that supports adrenal function and HPA axis regulation",
+        "responseTimeframe": "4-12 weeks",
+        "conditionsForRecommendation": "Higher doses (600-1000mg) standardized extract, most effective with consistent long-term use"
+      },
+      {
+        "symptomId": "STR02",
+        "nutrientId": "VB5",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Essential for adrenal hormone production and stress response",
+        "responseTimeframe": "2-4 weeks",
+        "conditionsForRecommendation": "Higher doses (500-1000mg) may be needed for significant adrenal support"
+      },
+      {
+        "symptomId": "STR02",
+        "nutrientId": "RHOD",
+        "evidenceStrength": "Moderate to High",
+        "mechanismOfAction": "Supports energy production and stress resilience while balancing cortisol",
+        "responseTimeframe": "2-4 weeks",
+        "conditionsForRecommendation": "Most beneficial in the morning and mid-day, not recommended in evening"
+      },
+      {
+        "symptomId": "STR02",
+        "nutrientId": "VC",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Required for adrenal hormone synthesis and antioxidant protection",
+        "responseTimeframe": "2-4 weeks",
+        "conditionsForRecommendation": "Higher doses (1-2g) divided throughout the day to support adrenal function"
+      },
+      {
+        "symptomId": "ANX01",
+        "nutrientId": "MG",
+        "evidenceStrength": "Moderate to High",
+        "mechanismOfAction": "Regulates neurotransmitters and blocks NMDA receptors, promoting calm",
+        "responseTimeframe": "1-3 weeks",
+        "conditionsForRecommendation": "Glycinate, threonate, or malate forms preferred, effective for physical symptoms of anxiety"
+      },
+      {
+        "symptomId": "ANX01",
+        "nutrientId": "LTHE",
+        "evidenceStrength": "Moderate to High",
+        "mechanismOfAction": "Increases GABA and alpha brain waves, reduces excitatory neurotransmission",
+        "responseTimeframe": "30-60 minutes (acute), 1-2 weeks (chronic)",
+        "conditionsForRecommendation": "Works well for situational anxiety, can be combined with GABA for enhanced effect"
+      },
+      {
+        "symptomId": "ANX01",
+        "nutrientId": "HOLY",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Adaptogen that regulates cortisol and supports GABA activity",
+        "responseTimeframe": "2-4 weeks",
+        "conditionsForRecommendation": "Most effective when taken consistently, particularly for stress-driven anxiety"
+      },
+      {
+        "symptomId": "ANX01",
+        "nutrientId": "ASH",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Modulates stress response and GABA pathways",
+        "responseTimeframe": "2-6 weeks",
+        "conditionsForRecommendation": "Standardized extract (5%+ withanolides), most effective with consistent daily use"
+      },
+      {
+        "symptomId": "MOO01",
+        "nutrientId": "VD",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Regulates neurotransmitters and supports mood-related brain regions",
+        "responseTimeframe": "4-12 weeks",
+        "conditionsForRecommendation": "Most effective when correcting deficiency, check levels before supplementing"
+      },
+      {
+        "symptomId": "MOO01",
+        "nutrientId": "OMG3",
+        "evidenceStrength": "Low to Moderate",
+        "mechanismOfAction": "Reduces neuroinflammation and supports neurotransmitter function",
+        "responseTimeframe": "4-8 weeks",
+        "conditionsForRecommendation": "Higher EPA formulations (at least 1000mg EPA daily) more effective for mood"
+      },
+      {
+        "symptomId": "MOO01",
+        "nutrientId": "5HTP",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Precursor to serotonin, directly supports mood regulation",
+        "responseTimeframe": "2-4 weeks",
+        "conditionsForRecommendation": "Start with low dose (50-100mg), do not combine with SSRIs/SNRIs/MAOIs"
+      },
+      {
+        "symptomId": "MOO01",
+        "nutrientId": "SAMe",
+        "evidenceStrength": "Moderate to High",
+        "mechanismOfAction": "Supports methylation and neurotransmitter production",
+        "responseTimeframe": "2-4 weeks",
+        "conditionsForRecommendation": "Higher doses (800-1600mg) often needed, do not combine with antidepressants without medical supervision"
+      },
+      {
+        "symptomId": "COG01",
+        "nutrientId": "BACO",
+        "evidenceStrength": "Moderate to High",
+        "mechanismOfAction": "Enhances neurotransmission and provides neuroprotection via bacosides",
+        "responseTimeframe": "8-12 weeks",
+        "conditionsForRecommendation": "Requires consistent daily use, effects build gradually over time"
+      },
+      {
+        "symptomId": "COG01",
+        "nutrientId": "PS",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Supports neuronal membrane structure and cholinergic function",
+        "responseTimeframe": "4-8 weeks",
+        "conditionsForRecommendation": "Most effective for age-related memory concerns, use sunflower-derived when possible"
+      },
+      {
+        "symptomId": "COG01",
+        "nutrientId": "LION",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Stimulates nerve growth factor production and supports neuronal regeneration",
+        "responseTimeframe": "8-12 weeks",
+        "conditionsForRecommendation": "Fruiting body extract preferred, requires consistent daily use for benefits"
+      },
+      {
+        "symptomId": "COG01",
+        "nutrientId": "CDPC",
+        "evidenceStrength": "Moderate to High",
+        "mechanismOfAction": "Supports acetylcholine production and neuronal membrane integrity",
+        "responseTimeframe": "4-8 weeks",
+        "conditionsForRecommendation": "Higher doses (500-1000mg) may be needed for significant memory benefits"
+      },
+      {
+        "symptomId": "COG02",
+        "nutrientId": "LTYR",
+        "evidenceStrength": "Moderate to High",
+        "mechanismOfAction": "Precursor to dopamine and norepinephrine, supports attention networks",
+        "responseTimeframe": "30-60 minutes (acute), 1-2 weeks (chronic)",
+        "conditionsForRecommendation": "Most effective when taken on empty stomach, particularly for dopamine-related focus issues"
+      },
+      {
+        "symptomId": "COG02",
+        "nutrientId": "BACO",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Modulates acetylcholine and provides adaptogenic support to cognitive function",
+        "responseTimeframe": "8-12 weeks",
+        "conditionsForRecommendation": "Effects build over time, requires consistent use, standardized to bacosides"
+      },
+      {
+        "symptomId": "COG02",
+        "nutrientId": "PS",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Supports neuronal signaling and membrane function",
+        "responseTimeframe": "4-8 weeks",
+        "conditionsForRecommendation": "Most effective for stress-related concentration issues"
+      },
+      {
+        "symptomId": "COG02",
+        "nutrientId": "LTHE",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Promotes alpha brain wave activity and focused relaxation",
+        "responseTimeframe": "30-60 minutes",
+        "conditionsForRecommendation": "Particularly effective when combined with small amounts of caffeine (1:2 ratio)"
+      },
+      {
+        "symptomId": "VIT01",
+        "nutrientId": "VD",
+        "evidenceStrength": "High",
+        "mechanismOfAction": "Essential for calcium absorption, immune function, mood regulation",
+        "responseTimeframe": "4-12 weeks",
+        "conditionsForRecommendation": "Check baseline levels, dosage based on deficiency severity, D3 form preferred"
+      },
+      {
+        "symptomId": "VIT01",
+        "nutrientId": "VK2",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Works synergistically with vitamin D for calcium utilization",
+        "responseTimeframe": "4-12 weeks",
+        "conditionsForRecommendation": "Most effective when combined with vitamin D, use MK-7 form for better bioavailability"
+      },
+      {
+        "symptomId": "VIT01",
+        "nutrientId": "MG",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Required cofactor for vitamin D activation and utilization",
+        "responseTimeframe": "2-4 weeks",
+        "conditionsForRecommendation": "Combine with vitamin D supplementation for optimal results"
+      },
+      {
+        "symptomId": "IMM01",
+        "nutrientId": "VD",
+        "evidenceStrength": "Moderate to High",
+        "mechanismOfAction": "Modulates immune cell function and supports antimicrobial peptide production",
+        "responseTimeframe": "4-12 weeks",
+        "conditionsForRecommendation": "Most effective when correcting deficiency, optimal serum levels 40-60 ng/ml"
+      },
+      {
+        "symptomId": "IMM01",
+        "nutrientId": "VC",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Supports immune cell function and provides antioxidant protection",
+        "responseTimeframe": "Immediate to 2 weeks",
+        "conditionsForRecommendation": "Higher doses (1-3g daily) during active infections, liposomal form for better absorption"
+      },
+      {
+        "symptomId": "IMM01",
+        "nutrientId": "ZN",
+        "evidenceStrength": "Moderate to High",
+        "mechanismOfAction": "Essential for immune cell development and function",
+        "responseTimeframe": "2-4 weeks",
+        "conditionsForRecommendation": "Short-term higher doses (30-50mg) during active infections, lower for maintenance"
+      },
+      {
+        "symptomId": "IMM01",
+        "nutrientId": "RSHI",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Adaptogenic immune modulator that supports balanced immune response",
+        "responseTimeframe": "2-6 weeks",
+        "conditionsForRecommendation": "Extract standardized to beta-glucans and triterpenes, continuous use for best results"
+      },
+      {
+        "symptomId": "IMM02",
+        "nutrientId": "QUER",
+        "evidenceStrength": "Moderate to High",
+        "mechanismOfAction": "Natural antihistamine that stabilizes mast cells and reduces histamine release",
+        "responseTimeframe": "1-3 weeks",
+        "conditionsForRecommendation": "Take consistently before allergy season for preventive effects, higher doses (1000mg+) for active symptoms"
+      },
+      {
+        "symptomId": "IMM02",
+        "nutrientId": "VC",
+        "evidenceStrength": "Low to Moderate",
+        "mechanismOfAction": "Supports histamine degradation and provides anti-inflammatory effects",
+        "responseTimeframe": "1-2 weeks",
+        "conditionsForRecommendation": "Most effective when combined with quercetin and bromelain"
+      },
+      {
+        "symptomId": "IMM02",
+        "nutrientId": "OMG3",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Modulates inflammatory response and supports resolution of inflammation",
+        "responseTimeframe": "2-8 weeks",
+        "conditionsForRecommendation": "Higher doses (2-4g combined EPA/DHA daily) needed for significant anti-inflammatory effects"
+      },
+      {
+        "symptomId": "IMM03",
+        "nutrientId": "CUR",
+        "evidenceStrength": "Moderate to High",
+        "mechanismOfAction": "Inhibits multiple inflammatory pathways including NF-kB and COX-2",
+        "responseTimeframe": "2-6 weeks",
+        "conditionsForRecommendation": "Enhanced formulations with piperine or phytosome technology for better absorption"
+      },
+      {
+        "symptomId": "IMM03",
+        "nutrientId": "OMG3",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Produces anti-inflammatory resolvins and protectins, balances inflammatory response",
+        "responseTimeframe": "4-12 weeks",
+        "conditionsForRecommendation": "Higher doses (2-4g EPA/DHA combined) required for significant anti-inflammatory effects"
+      },
+      {
+        "symptomId": "IMM03",
+        "nutrientId": "QUER",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Inhibits inflammatory cytokines and provides antioxidant protection",
+        "responseTimeframe": "2-4 weeks",
+        "conditionsForRecommendation": "Use with vitamin C and bromelain for enhanced absorption and efficacy"
+      },
+      {
+        "symptomId": "IMM03",
+        "nutrientId": "BROM",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Proteolytic enzyme with systemic anti-inflammatory effects",
+        "responseTimeframe": "1-3 weeks",
+        "conditionsForRecommendation": "Take on empty stomach for systemic effects, higher potency (2400-3600 GDU) preferred"
+      },
+      {
+        "symptomId": "IMM04",
+        "nutrientId": "VD",
+        "evidenceStrength": "Moderate to High",
+        "mechanismOfAction": "Regulates T-cell function and supports immune tolerance",
+        "responseTimeframe": "8-12 weeks",
+        "conditionsForRecommendation": "Check baseline levels, aim for optimal serum levels (40-60 ng/ml)"
+      },
+      {
+        "symptomId": "IMM04",
+        "nutrientId": "OMG3",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Resolves inflammation and modulates immune signaling",
+        "responseTimeframe": "8-16 weeks",
+        "conditionsForRecommendation": "Higher doses (3-4g EPA/DHA combined) needed for autoimmune conditions"
+      },
+      {
+        "symptomId": "IMM04",
+        "nutrientId": "CUR",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Regulates inflammatory cytokines and transcription factors involved in autoimmunity",
+        "responseTimeframe": "4-12 weeks",
+        "conditionsForRecommendation": "Enhanced absorption formulations at higher doses (1-3g daily)"
+      },
+      {
+        "symptomId": "IMM04",
+        "nutrientId": "NAC",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Supports glutathione production and modulates immune function",
+        "responseTimeframe": "4-8 weeks",
+        "conditionsForRecommendation": "Higher doses (1200-1800mg daily) typically needed for autoimmune support"
+      },
+      {
+        "symptomId": "DIG01",
+        "nutrientId": "PRO",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Balances gut microbiota and reduces gas production",
+        "responseTimeframe": "2-6 weeks",
+        "conditionsForRecommendation": "Multi-strain formulas including Lactobacillus and Bifidobacterium species"
+      },
+      {
+        "symptomId": "DIG01",
+        "nutrientId": "PEPP",
+        "evidenceStrength": "Moderate to High",
+        "mechanismOfAction": "Relaxes digestive smooth muscle and reduces gas production",
+        "responseTimeframe": "15-30 minutes (acute), 1-2 weeks (chronic)",
+        "conditionsForRecommendation": "Enteric-coated capsules for small intestine delivery, take between meals"
+      },
+      {
+        "symptomId": "DIG01",
+        "nutrientId": "DENZ",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Improves breakdown of difficult-to-digest foods, reducing fermentation",
+        "responseTimeframe": "Immediate to 1 week",
+        "conditionsForRecommendation": "Take with meals, formulas with multiple enzymes including amylase, protease, lipase"
+      },
+      {
+        "symptomId": "DIG01",
+        "nutrientId": "CUR",
+        "evidenceStrength": "Low to Moderate",
+        "mechanismOfAction": "Reduces intestinal inflammation and supports healthy gut motility",
+        "responseTimeframe": "2-4 weeks",
+        "conditionsForRecommendation": "Enhanced absorption formulations, take between meals for gut inflammation"
+      },
+      {
+        "symptomId": "DIG02",
+        "nutrientId": "MG",
+        "evidenceStrength": "Moderate to High",
+        "mechanismOfAction": "Draws water into intestines and promotes muscular contractions",
+        "responseTimeframe": "30 minutes to 6 hours (acute), 1-2 weeks (chronic)",
+        "conditionsForRecommendation": "Oxide or citrate forms most effective for constipation, start with low dose"
+      },
+      {
+        "symptomId": "DIG02",
+        "nutrientId": "PRO",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Balances gut flora and improves intestinal transit time",
+        "responseTimeframe": "1-4 weeks",
+        "conditionsForRecommendation": "Formulations containing Bifidobacterium and Lactobacillus species, particularly B. lactis"
+      },
+      {
+        "symptomId": "DIG02",
+        "nutrientId": "SLIP",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Forms soothing gel that lubricates intestines and softens stool",
+        "responseTimeframe": "1-3 days",
+        "conditionsForRecommendation": "Take with plenty of water, powder form mixed with liquid most effective"
+      },
+      {
+        "symptomId": "DIG02",
+        "nutrientId": "TRIP",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Gentle laxative effect while toning intestinal muscles",
+        "responseTimeframe": "1-3 days (acute), 2-4 weeks (toning)",
+        "conditionsForRecommendation": "Start with lower doses (500mg) and increase gradually, take in evening"
+      },
+      {
+        "symptomId": "DIG03",
+        "nutrientId": "SLIP",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Forms protective coating on esophageal and stomach lining",
+        "responseTimeframe": "5-30 minutes (acute), 2-4 weeks (chronic)",
+        "conditionsForRecommendation": "Take 30 minutes before meals and before bedtime for best results"
+      },
+      {
+        "symptomId": "DIG03",
+        "nutrientId": "DAND",
+        "evidenceStrength": "Low to Moderate",
+        "mechanismOfAction": "Supports bile flow and digestive function",
+        "responseTimeframe": "2-4 weeks",
+        "conditionsForRecommendation": "Take 15-30 minutes before meals to stimulate digestive secretions"
+      },
+      {
+        "symptomId": "DIG03",
+        "nutrientId": "PRO",
+        "evidenceStrength": "Low to Moderate",
+        "mechanismOfAction": "Improves gut microbiome balance and reduces H. pylori overgrowth",
+        "responseTimeframe": "4-8 weeks",
+        "conditionsForRecommendation": "Formulas containing Lactobacillus species, particularly L. reuteri"
+      },
+      {
+        "symptomId": "DIG04",
+        "nutrientId": "CROM",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Enhances insulin sensitivity and improves glucose metabolism",
+        "responseTimeframe": "2-4 weeks",
+        "conditionsForRecommendation": "Take with food, particularly when meal spacing is long or during intermittent fasting"
+      },
+      {
+        "symptomId": "DIG04",
+        "nutrientId": "MG",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Regulates glucose metabolism and reduces insulin resistance",
+        "responseTimeframe": "1-3 weeks",
+        "conditionsForRecommendation": "Glycinate or malate forms preferred, particularly beneficial during fasting periods"
+      },
+      {
+        "symptomId": "DIG04",
+        "nutrientId": "BERB",
+        "evidenceStrength": "Moderate to High",
+        "mechanismOfAction": "Activates AMPK and improves metabolic flexibility and blood sugar stability",
+        "responseTimeframe": "1-3 weeks",
+        "conditionsForRecommendation": "Take before longest fasting period, start with lower doses to assess tolerance"
+      },
+      {
+        "symptomId": "DIG05",
+        "nutrientId": "PEPP",
+        "evidenceStrength": "High",
+        "mechanismOfAction": "Reduces intestinal spasms and pain through calcium channel effects",
+        "responseTimeframe": "30-60 minutes (acute), 2-4 weeks (chronic)",
+        "conditionsForRecommendation": "Enteric-coated capsules essential for small intestine delivery"
+      },
+      {
+        "symptomId": "DIG05",
+        "nutrientId": "PRO",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Balances gut microbiome and modulates immune response in intestines",
+        "responseTimeframe": "4-8 weeks",
+        "conditionsForRecommendation": "Multi-strain, high-potency formulas (25-50 billion CFU), particular focus on Bifidobacterium species"
+      },
+      {
+        "symptomId": "DIG05",
+        "nutrientId": "LGLU",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Supports intestinal barrier integrity and reduces inflammation",
+        "responseTimeframe": "2-4 weeks",
+        "conditionsForRecommendation": "Higher doses (5-10g daily) often needed, best taken between meals"
+      },
+      {
+        "symptomId": "DIG05",
+        "nutrientId": "SLIP",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Soothes irritated intestinal lining and provides protective mucilage",
+        "responseTimeframe": "1-2 weeks",
+        "conditionsForRecommendation": "Most effective when taken regularly 2-3 times daily, away from medications"
+      },
+      {
+        "symptomId": "PAI01",
+        "nutrientId": "MG",
+        "evidenceStrength": "Moderate to High",
+        "mechanismOfAction": "Regulates neurotransmission and vascular tone, relaxes blood vessels",
+        "responseTimeframe": "2-4 hours (acute), 2-4 weeks (prevention)",
+        "conditionsForRecommendation": "Glycinate or threonate forms, 300-600mg daily for prevention, higher acute doses"
+      },
+      {
+        "symptomId": "PAI01",
+        "nutrientId": "VB2",
+        "evidenceStrength": "Moderate to High",
+        "mechanismOfAction": "Supports mitochondrial function and reduces oxidative stress in neurons",
+        "responseTimeframe": "4-12 weeks",
+        "conditionsForRecommendation": "Higher doses (400mg daily) for migraine prevention, consistent daily use required"
+      },
+      {
+        "symptomId": "PAI01",
+        "nutrientId": "COQ10",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Improves mitochondrial function and reduces inflammation in neural tissue",
+        "responseTimeframe": "4-12 weeks",
+        "conditionsForRecommendation": "Higher doses (100-300mg) for migraine prevention, ubiquinol form for better absorption"
+      },
+      {
+        "symptomId": "PAI01",
+        "nutrientId": "TART",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Anti-inflammatory and antioxidant effects, may modulate pain signals",
+        "responseTimeframe": "1-2 hours (acute), 2-4 weeks (prevention)",
+        "conditionsForRecommendation": "Concentrated extract, particularly effective for tension-type headaches"
+      },
+      {
+        "symptomId": "PAI02",
+        "nutrientId": "CUR",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Reduces inflammatory cytokines and modulates pain signaling",
+        "responseTimeframe": "2-8 weeks",
+        "conditionsForRecommendation": "Enhanced absorption formulations at higher doses (1000-1500mg), consistent use needed"
+      },
+      {
+        "symptomId": "PAI02",
+        "nutrientId": "OMG3",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Reduces inflammatory mediators and supports joint tissue health",
+        "responseTimeframe": "2-3 months",
+        "conditionsForRecommendation": "Higher doses (2-4g EPA/DHA combined) needed for joint inflammation"
+      },
+      {
+        "symptomId": "PAI02",
+        "nutrientId": "MSM",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Provides sulfur for joint tissue repair and reduces inflammatory markers",
+        "responseTimeframe": "2-4 weeks",
+        "conditionsForRecommendation": "Higher doses (3-6g daily) often needed for therapeutic effects"
+      },
+      {
+        "symptomId": "PAI02",
+        "nutrientId": "BROM",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Proteolytic enzyme with systemic anti-inflammatory effects",
+        "responseTimeframe": "1-3 weeks",
+        "conditionsForRecommendation": "Take on empty stomach for systemic absorption, higher potency (2400 GDU+) recommended"
+      },
+      {
+        "symptomId": "PAI03",
+        "nutrientId": "MG",
+        "evidenceStrength": "Moderate to High",
+        "mechanismOfAction": "Relaxes muscles and regulates neuromuscular function",
+        "responseTimeframe": "1-3 days (acute), 1-3 weeks (chronic)",
+        "conditionsForRecommendation": "Malate or glycinate forms, particularly effective for exercise-related muscle pain"
+      },
+      {
+        "symptomId": "PAI03",
+        "nutrientId": "CUR",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Reduces inflammatory mediators in muscle tissue",
+        "responseTimeframe": "2-8 weeks",
+        "conditionsForRecommendation": "Enhanced absorption formulations, particularly effective for inflammatory muscle pain"
+      },
+      {
+        "symptomId": "PAI03",
+        "nutrientId": "TART",
+        "evidenceStrength": "Moderate to High",
+        "mechanismOfAction": "Reduces exercise-induced inflammation and supports recovery",
+        "responseTimeframe": "1-3 days (acute), 1-2 weeks (chronic)",
+        "conditionsForRecommendation": "Most effective when taken before and after intense physical activity"
+      },
+      {
+        "symptomId": "PAI03",
+        "nutrientId": "BALA",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Buffers lactic acid in muscles and reduces exercise-induced soreness",
+        "responseTimeframe": "2-4 weeks",
+        "conditionsForRecommendation": "Loading phase (3-6g daily) for 2-4 weeks followed by maintenance (2-3g daily)"
+      },
+      {
+        "symptomId": "EXE01",
+        "nutrientId": "CRN",
+        "evidenceStrength": "Moderate to High",
+        "mechanismOfAction": "Replenishes phosphocreatine stores and enhances ATP regeneration",
+        "responseTimeframe": "1-2 weeks (loading phase), 4-8 weeks (maintenance)",
+        "conditionsForRecommendation": "Loading phase (20g daily for 5-7 days) followed by maintenance (3-5g daily)"
+      },
+      {
+        "symptomId": "EXE01",
+        "nutrientId": "BCAA",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Reduces muscle protein breakdown and supports recovery",
+        "responseTimeframe": "Immediate to 1 week",
+        "conditionsForRecommendation": "Take around workout window (before/during/after), 2:1:1 leucine:isoleucine:valine ratio"
+      },
+      {
+        "symptomId": "EXE01",
+        "nutrientId": "MG",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Supports energy production and muscle relaxation",
+        "responseTimeframe": "1-3 weeks",
+        "conditionsForRecommendation": "Malate form particularly beneficial for exercise recovery, higher doses (300-400mg) recommended"
+      },
+      {
+        "symptomId": "EXE01",
+        "nutrientId": "TART",
+        "evidenceStrength": "Moderate to High",
+        "mechanismOfAction": "Reduces exercise-induced inflammation and oxidative stress",
+        "responseTimeframe": "1-3 days (acute), 1-2 weeks (chronic)",
+        "conditionsForRecommendation": "Take before bed on training days, concentrates with standardized anthocyanins preferred"
+      },
+      {
+        "symptomId": "CRV01",
+        "nutrientId": "CROM",
+        "evidenceStrength": "Low to Moderate",
+        "mechanismOfAction": "Improves insulin sensitivity and stabilizes blood sugar levels",
+        "responseTimeframe": "2-4 weeks",
+        "conditionsForRecommendation": "Most effective for carbohydrate cravings related to blood sugar fluctuations"
+      },
+      {
+        "symptomId": "CRV01",
+        "nutrientId": "LGLU",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Supports blood sugar stability and reduces carbohydrate cravings",
+        "responseTimeframe": "1-2 weeks",
+        "conditionsForRecommendation": "Most effective for sugar cravings, take 5-10g between meals or before high temptation times"
+      },
+      {
+        "symptomId": "CRV01",
+        "nutrientId": "ZN",
+        "evidenceStrength": "Low to Moderate",
+        "mechanismOfAction": "Supports proper insulin function and taste perception",
+        "responseTimeframe": "2-4 weeks",
+        "conditionsForRecommendation": "Most effective for altered taste perception and sugar cravings"
+      },
+      {
+        "symptomId": "CRV01",
+        "nutrientId": "MG",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Supports glucose metabolism and insulin sensitivity",
+        "responseTimeframe": "1-3 weeks",
+        "conditionsForRecommendation": "Particularly effective for chocolate cravings, which may indicate magnesium deficiency"
+      },
+      {
+        "symptomId": "ENE01",
+        "nutrientId": "VB12",
+        "evidenceStrength": "Moderate to High",
+        "mechanismOfAction": "Essential for cellular energy production and oxygen transport",
+        "responseTimeframe": "1-4 weeks",
+        "conditionsForRecommendation": "Methylcobalamin form preferred, particularly effective for vegetarians/vegans"
+      },
+      {
+        "symptomId": "ENE01",
+        "nutrientId": "FE",
+        "evidenceStrength": "Moderate to High",
+        "mechanismOfAction": "Critical for oxygen transport and cellular energy production",
+        "responseTimeframe": "4-8 weeks",
+        "conditionsForRecommendation": "Check ferritin levels before supplementing, most effective for menstruating women"
+      },
+      {
+        "symptomId": "ENE01",
+        "nutrientId": "COQ10",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Supports mitochondrial ATP production and cellular energy",
+        "responseTimeframe": "2-4 weeks",
+        "conditionsForRecommendation": "Ubiquinol form for better absorption, particularly beneficial for those over 40"
+      },
+      {
+        "symptomId": "ENE01",
+        "nutrientId": "RHOD",
+        "evidenceStrength": "Moderate to High",
+        "mechanismOfAction": "Adaptogen that enhances cellular energy production and stress resilience",
+        "responseTimeframe": "1-3 weeks",
+        "conditionsForRecommendation": "Most effective for stress-related fatigue, take in morning or early afternoon"
+      },
+      {
+        "symptomId": "ENE02",
+        "nutrientId": "VB1",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Essential for glucose metabolism and energy production",
+        "responseTimeframe": "1-3 weeks",
+        "conditionsForRecommendation": "Higher doses (50-100mg) may be needed for significant energy benefits"
+      },
+      {
+        "symptomId": "ENE02",
+        "nutrientId": "CORD",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Enhances ATP production and oxygen utilization",
+        "responseTimeframe": "2-4 weeks",
+        "conditionsForRecommendation": "Quality extract standardized for cordycepin and adenosine, take in morning"
+      },
+      {
+        "symptomId": "ENE02",
+        "nutrientId": "RHOD",
+        "evidenceStrength": "Moderate to High",
+        "mechanismOfAction": "Adaptogen that normalizes HPA axis function and morning cortisol patterns",
+        "responseTimeframe": "1-3 weeks",
+        "conditionsForRecommendation": "Take upon waking, extract standardized for rosavins and salidroside"
+      },
+      {
+        "symptomId": "ENE02",
+        "nutrientId": "LTYR",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Precursor to dopamine and norepinephrine, supporting morning alertness",
+        "responseTimeframe": "1-3 days",
+        "conditionsForRecommendation": "Take on empty stomach first thing in morning, 500-2000mg dose range"
+      },
+      {
+        "symptomId": "MAS01",
+        "nutrientId": "LLEU",
+        "evidenceStrength": "Moderate to High",
+        "mechanismOfAction": "Activates mTOR pathway for muscle protein synthesis",
+        "responseTimeframe": "2-6 weeks",
+        "conditionsForRecommendation": "Most effective when combined with resistance training, 2-5g daily effective dose"
+      },
+      {
+        "symptomId": "MAS01",
+        "nutrientId": "CRN",
+        "evidenceStrength": "Moderate to High",
+        "mechanismOfAction": "Increases training capacity and muscle adaptation signals",
+        "responseTimeframe": "1-2 weeks (loading phase), 4-8 weeks (maintenance)",
+        "conditionsForRecommendation": "Most effective when combined with resistance training, loading phase recommended"
+      },
+      {
+        "symptomId": "MAS01",
+        "nutrientId": "WHEY",
+        "evidenceStrength": "High",
+        "mechanismOfAction": "Provides essential amino acids for muscle protein synthesis",
+        "responseTimeframe": "Immediate (post-workout), 2-8 weeks (overall)",
+        "conditionsForRecommendation": "Most effective post-workout and before bed, 20-40g dosing depending on body size"
+      },
+      {
+        "symptomId": "MAS01",
+        "nutrientId": "VD",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Regulates muscle protein synthesis and supports testosterone production",
+        "responseTimeframe": "8-12 weeks",
+        "conditionsForRecommendation": "Correct deficiency for optimal results, particularly important for adults over 50"
+      },
+      {
+        "symptomId": "SKN01",
+        "nutrientId": "OMG3",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Supports skin barrier function and retains moisture",
+        "responseTimeframe": "1-3 months",
+        "conditionsForRecommendation": "Higher EPA/DHA doses (1-3g combined daily), consistent use required"
+      },
+      {
+        "symptomId": "SKN01",
+        "nutrientId": "VC",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Essential for collagen synthesis and skin barrier function",
+        "responseTimeframe": "1-3 months",
+        "conditionsForRecommendation": "Combined with bioflavonoids for enhanced effect, consistent daily use needed"
+      },
+      {
+        "symptomId": "SKN01",
+        "nutrientId": "VE",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Protects skin cell membranes and supports barrier function",
+        "responseTimeframe": "1-2 months",
+        "conditionsForRecommendation": "Mixed tocopherols and tocotrienols preferred over alpha-tocopherol alone"
+      },
+      {
+        "symptomId": "SKN01",
+        "nutrientId": "COLG",
+        "evidenceStrength": "Moderate to High",
+        "mechanismOfAction": "Improves skin elasticity, hydration and barrier function",
+        "responseTimeframe": "1-3 months",
+        "conditionsForRecommendation": "Hydrolyzed form for better absorption, consistent daily use required"
+      },
+      {
+        "symptomId": "SKN02",
+        "nutrientId": "ZN",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Regulates oil production and supports wound healing",
+        "responseTimeframe": "2-3 months",
+        "conditionsForRecommendation": "Picolinate or glycinate forms, 30-50mg daily for acute acne, 15-30mg for maintenance"
+      },
+      {
+        "symptomId": "SKN02",
+        "nutrientId": "OMG3",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Reduces inflammation and regulates androgen activity",
+        "responseTimeframe": "2-3 months",
+        "conditionsForRecommendation": "Higher EPA formulations (1000-2000mg EPA daily) most effective for inflammatory acne"
+      },
+      {
+        "symptomId": "SKN02",
+        "nutrientId": "VB5",
+        "evidenceStrength": "Low to Moderate",
+        "mechanismOfAction": "Supports skin barrier function and wound healing",
+        "responseTimeframe": "1-3 months",
+        "conditionsForRecommendation": "Higher doses (500-1000mg daily) typically needed for skin benefits"
+      },
+      {
+        "symptomId": "SKN02",
+        "nutrientId": "PRO",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Balances gut microbiome which influences skin inflammation",
+        "responseTimeframe": "1-3 months",
+        "conditionsForRecommendation": "Multi-strain formulas including Lactobacillus species shown to benefit skin"
+      },
+      {
+        "symptomId": "SKN03",
+        "nutrientId": "COLG",
+        "evidenceStrength": "Moderate to High",
+        "mechanismOfAction": "Provides building blocks for skin structure and elasticity",
+        "responseTimeframe": "2-6 months",
+        "conditionsForRecommendation": "Higher doses (10-15g daily) for visible results, hydrolyzed form preferred"
+      },
+      {
+        "symptomId": "SKN03",
+        "nutrientId": "VC",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Essential cofactor for collagen synthesis and crosslinking",
+        "responseTimeframe": "2-6 months",
+        "conditionsForRecommendation": "Optimal results when combined with collagen, consistent use required"
+      },
+      {
+        "symptomId": "SKN03",
+        "nutrientId": "ASTA",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Powerful antioxidant that protects skin from oxidative damage",
+        "responseTimeframe": "6-8 weeks",
+        "conditionsForRecommendation": "Natural form from microalgae, combine with other antioxidants for synergistic effects"
+      },
+      {
+        "symptomId": "SKN03",
+        "nutrientId": "PTERO",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Activates sirtuin pathways that support cellular longevity",
+        "responseTimeframe": "2-3 months",
+        "conditionsForRecommendation": "Combine with other antioxidants for comprehensive skin support"
+      },
+      {
+        "symptomId": "SKN04",
+        "nutrientId": "OMG3",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Reduces inflammatory mediators and supports skin barrier function",
+        "responseTimeframe": "2-3 months",
+        "conditionsForRecommendation": "Higher doses (2-4g EPA/DHA combined) typically needed for skin inflammatory conditions"
+      },
+      {
+        "symptomId": "SKN04",
+        "nutrientId": "VD",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Modulates immune response in skin and reduces inflammation",
+        "responseTimeframe": "1-3 months",
+        "conditionsForRecommendation": "Check baseline levels, particularly effective for immune-mediated skin conditions"
+      },
+      {
+        "symptomId": "SKN04",
+        "nutrientId": "LGLU",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Supports intestinal barrier function which influences skin health",
+        "responseTimeframe": "1-2 months",
+        "conditionsForRecommendation": "Higher doses (5-10g daily) typically needed, particularly when gut symptoms present"
+      },
+      {
+        "symptomId": "SKN04",
+        "nutrientId": "PRO",
+        "evidenceStrength": "Low to Moderate",
+        "mechanismOfAction": "Balances gut microbiome which influences skin inflammation",
+        "responseTimeframe": "1-3 months",
+        "conditionsForRecommendation": "Multi-strain formulas including Lactobacillus rhamnosus beneficial for eczema"
+      },
+      {
+        "symptomId": "HAI01",
+        "nutrientId": "BIO",
+        "evidenceStrength": "Low to Moderate",
+        "mechanismOfAction": "Essential for keratin formation and hair follicle health",
+        "responseTimeframe": "3-6 months",
+        "conditionsForRecommendation": "Higher doses (2500-5000mcg) typically needed for hair benefits"
+      },
+      {
+        "symptomId": "HAI01",
+        "nutrientId": "BLIV",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Provides highly bioavailable nutrients for hair growth including iron, B12, copper",
+        "responseTimeframe": "2-6 months",
+        "conditionsForRecommendation": "Most effective for nutritional-deficiency hair loss, consistent use required"
+      },
+      {
+        "symptomId": "HAI01",
+        "nutrientId": "VD",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Supports hair follicle cycling and immune regulation",
+        "responseTimeframe": "3-6 months",
+        "conditionsForRecommendation": "Check baseline levels, particularly effective for autoimmune-related hair loss"
+      },
+      {
+        "symptomId": "HAI01",
+        "nutrientId": "COLG",
+        "evidenceStrength": "Low to Moderate",
+        "mechanismOfAction": "Provides amino acids for hair structure and growth",
+        "responseTimeframe": "3-6 months",
+        "conditionsForRecommendation": "Higher doses (10-15g daily) for visible results, hydrolyzed form preferred"
+      },
+      {
+        "symptomId": "HAI02",
+        "nutrientId": "BIO",
+        "evidenceStrength": "Low to Moderate",
+        "mechanismOfAction": "Supports keratin production and hair shaft integrity",
+        "responseTimeframe": "2-4 months",
+        "conditionsForRecommendation": "Higher doses (2500-5000mcg) typically needed for hair benefits"
+      },
+      {
+        "symptomId": "HAI02",
+        "nutrientId": "OMG3",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Supports scalp health and hair follicle oil balance",
+        "responseTimeframe": "2-3 months",
+        "conditionsForRecommendation": "Higher doses (1-3g EPA/DHA combined) required for skin and hair benefits"
+      },
+      {
+        "symptomId": "HAI02",
+        "nutrientId": "SEL",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Essential for hair follicle function and protection from oxidative damage",
+        "responseTimeframe": "2-3 months",
+        "conditionsForRecommendation": "Selenomethionine form preferred, particularly effective when combined with other minerals"
+      },
+      {
+        "symptomId": "HAI02",
+        "nutrientId": "AMLA",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Rich in vitamin C and antioxidants that support scalp health and circulation",
+        "responseTimeframe": "2-3 months",
+        "conditionsForRecommendation": "Traditional Ayurvedic remedy, use consistently for best results"
+      },
+      {
+        "symptomId": "HAI03",
+        "nutrientId": "COLG",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Provides building blocks for hair structure and growth",
+        "responseTimeframe": "3-6 months",
+        "conditionsForRecommendation": "Higher doses (10-15g daily) with vitamin C for enhanced effectiveness"
+      },
+      {
+        "symptomId": "HAI03",
+        "nutrientId": "BIO",
+        "evidenceStrength": "Low to Moderate",
+        "mechanismOfAction": "Supports keratin infrastructure of hair shaft",
+        "responseTimeframe": "3-6 months",
+        "conditionsForRecommendation": "Higher doses (2500-5000mcg) with consistent use required"
+      },
+      {
+        "symptomId": "HAI03",
+        "nutrientId": "MSM",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Provides sulfur for keratin production and hair strength",
+        "responseTimeframe": "2-4 months",
+        "conditionsForRecommendation": "Higher doses (3-6g daily) for hair benefits, combine with vitamin C"
+      },
+      {
+        "symptomId": "HAI03",
+        "nutrientId": "SEL",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Supports hair follicle function and protects from oxidative damage",
+        "responseTimeframe": "2-3 months",
+        "conditionsForRecommendation": "Selenomethionine form preferred, combine with zinc and other minerals"
+      },
+      {
+        "symptomId": "HYD01",
+        "nutrientId": "POT",
+        "evidenceStrength": "Moderate to High",
+        "mechanismOfAction": "Essential electrolyte for fluid balance in cells",
+        "responseTimeframe": "1-3 days",
+        "conditionsForRecommendation": "Food sources or electrolyte formulations preferred over high-dose supplements"
+      },
+      {
+        "symptomId": "HYD01",
+        "nutrientId": "MG",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Critical electrolyte for cellular hydration and function",
+        "responseTimeframe": "1-3 days",
+        "conditionsForRecommendation": "Citrate or glycinate forms, combine with balanced electrolyte formula"
+      },
+      {
+        "symptomId": "HYD01",
+        "nutrientId": "LEM",
+        "evidenceStrength": "Low to Moderate",
+        "mechanismOfAction": "Provides electrolytes and supports kidney function",
+        "responseTimeframe": "Immediate to 1 day",
+        "conditionsForRecommendation": "Add fresh lemon to water throughout the day, especially effective with a pinch of salt"
+      },
+      {
+        "symptomId": "HYD02",
+        "nutrientId": "MG",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Relaxes blood vessels and supports electrolyte balance",
+        "responseTimeframe": "2-6 hours",
+        "conditionsForRecommendation": "Take before drinking alcohol and before bed after drinking for best results"
+      },
+      {
+        "symptomId": "HYD02",
+        "nutrientId": "VB1",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Supports alcohol metabolism and prevents thiamine depletion",
+        "responseTimeframe": "2-6 hours",
+        "conditionsForRecommendation": "Take before drinking and again before bed, higher doses (50-100mg) most effective"
+      },
+      {
+        "symptomId": "HYD02",
+        "nutrientId": "NAC",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Supports glutathione production and alcohol detoxification",
+        "responseTimeframe": "2-6 hours",
+        "conditionsForRecommendation": "Take before drinking or immediately after for best results, 600-1200mg effective dose"
+      },
+      {
+        "symptomId": "HYD02",
+        "nutrientId": "POT",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Replaces lost electrolytes and supports hydration recovery",
+        "responseTimeframe": "2-12 hours",
+        "conditionsForRecommendation": "Food sources or electrolyte formulations preferred after drinking"
+      },
+      {
+        "symptomId": "HYD03",
+        "nutrientId": "XOS",
+        "evidenceStrength": "Low to Moderate",
+        "mechanismOfAction": "Supports beneficial bacteria that maintain oral moisture",
+        "responseTimeframe": "2-4 weeks",
+        "conditionsForRecommendation": "Regular use required, particularly beneficial when combined with probiotics"
+      },
+      {
+        "symptomId": "HYD03",
+        "nutrientId": "LGLU",
+        "evidenceStrength": "Low to Moderate",
+        "mechanismOfAction": "Supports mucous membrane health and integrity",
+        "responseTimeframe": "1-2 weeks",
+        "conditionsForRecommendation": "Most effective for chronic dry mouth when taken consistently"
+      },
+      {
+        "symptomId": "HYD03",
+        "nutrientId": "SLIP",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Forms soothing gel that coats and moistens mucous membranes",
+        "responseTimeframe": "15-30 minutes (acute), 1-2 weeks (chronic)",
+        "conditionsForRecommendation": "Can be used as rinse or lozenge for immediate relief, powder form most effective"
+      },
+      {
+        "symptomId": "FEM01",
+        "nutrientId": "INO",
+        "evidenceStrength": "Moderate to High",
+        "mechanismOfAction": "Supports ovarian function and insulin sensitivity",
+        "responseTimeframe": "3-6 months",
+        "conditionsForRecommendation": "Combination of myo-inositol and D-chiro-inositol (40:1 ratio) most effective"
+      },
+      {
+        "symptomId": "FEM01",
+        "nutrientId": "VD",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Supports hormone production and balance",
+        "responseTimeframe": "3-6 months",
+        "conditionsForRecommendation": "Check baseline levels, optimal serum levels support reproductive function"
+      },
+      {
+        "symptomId": "FEM01",
+        "nutrientId": "COQ10",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Supports mitochondrial function in eggs and reduces oxidative stress",
+        "responseTimeframe": "3-6 months",
+        "conditionsForRecommendation": "Ubiquinol form preferred, particularly beneficial for women over 35"
+      },
+      {
+        "symptomId": "FEM01",
+        "nutrientId": "NAC",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Supports glutathione production and egg quality",
+        "responseTimeframe": "3-6 months",
+        "conditionsForRecommendation": "Particularly effective for women with PCOS or recurrent pregnancy loss"
+      },
+      {
+        "symptomId": "FEM02",
+        "nutrientId": "MACA",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Adaptogen that supports hormonal balance and sexual function",
+        "responseTimeframe": "4-12 weeks",
+        "conditionsForRecommendation": "Gelatinized or extract forms for better absorption, consistent use required"
+      },
+      {
+        "symptomId": "FEM02",
+        "nutrientId": "DHEA",
+        "evidenceStrength": "Low to Moderate",
+        "mechanismOfAction": "Precursor to sex hormones including estrogen and testosterone",
+        "responseTimeframe": "4-8 weeks",
+        "conditionsForRecommendation": "Best for women over 40, test levels first, medical supervision recommended"
+      },
+      {
+        "symptomId": "FEM02",
+        "nutrientId": "ASH",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Adaptogen that reduces stress and supports hormonal balance",
+        "responseTimeframe": "4-8 weeks",
+        "conditionsForRecommendation": "Particularly effective when stress contributes to low libido"
+      },
+      {
+        "symptomId": "FEM02",
+        "nutrientId": "ZN",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Essential for hormone production and sexual function",
+        "responseTimeframe": "1-3 months",
+        "conditionsForRecommendation": "Most effective when correcting deficiency, picolinate or glycinate forms preferred"
+      },
+      {
+        "symptomId": "FEM03",
+        "nutrientId": "DHEA",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Precursor to sex hormones that decline during menopause",
+        "responseTimeframe": "4-8 weeks",
+        "conditionsForRecommendation": "Low doses (5-25mg) recommended, test levels first, medical supervision advised"
+      },
+      {
+        "symptomId": "FEM03",
+        "nutrientId": "RHOD",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Adaptogen that helps balance HPA axis and stress response",
+        "responseTimeframe": "2-6 weeks",
+        "conditionsForRecommendation": "Particularly effective for fatigue and mood-related menopausal symptoms"
+      },
+      {
+        "symptomId": "FEM03",
+        "nutrientId": "DIM",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Supports healthy estrogen metabolism during hormonal transition",
+        "responseTimeframe": "4-8 weeks",
+        "conditionsForRecommendation": "Most effective for estrogen-dominant symptoms, absorption-enhanced formulations recommended"
+      },
+      {
+        "symptomId": "FEM03",
+        "nutrientId": "HOLY",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Adaptogen that supports stress resilience and hormonal balance",
+        "responseTimeframe": "4-8 weeks",
+        "conditionsForRecommendation": "Particularly effective for stress-related menopausal symptoms"
+      },
+      {
+        "symptomId": "HOR01",
+        "nutrientId": "MG",
+        "evidenceStrength": "Moderate to High",
+        "mechanismOfAction": "Reduces prostaglandin production and muscle tension",
+        "responseTimeframe": "1-3 cycles",
+        "conditionsForRecommendation": "Start supplementation 7-10 days before expected period, glycinate form preferred"
+      },
+      {
+        "symptomId": "HOR01",
+        "nutrientId": "VB6",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Supports dopamine production and reduces prostaglandin effects",
+        "responseTimeframe": "1-3 cycles",
+        "conditionsForRecommendation": "P5P (active form) preferred, 50-100mg daily during luteal phase"
+      },
+      {
+        "symptomId": "HOR01",
+        "nutrientId": "CHAM",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Reduces inflammation and muscle spasms via apigenin",
+        "responseTimeframe": "1-2 cycles",
+        "conditionsForRecommendation": "Extract standardized for apigenin, take throughout luteal phase"
+      },
+      {
+        "symptomId": "HOR01",
+        "nutrientId": "DIM",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Supports healthy estrogen metabolism and balance",
+        "responseTimeframe": "2-3 cycles",
+        "conditionsForRecommendation": "Most effective for estrogen-dominant PMS symptoms, absorption-enhanced formulations recommended"
+      },
+      {
+        "symptomId": "HOR02",
+        "nutrientId": "DHEA",
+        "evidenceStrength": "Low to Moderate",
+        "mechanismOfAction": "Supports hormone production during menopausal transition",
+        "responseTimeframe": "4-8 weeks",
+        "conditionsForRecommendation": "Low doses (5-25mg) recommended, test levels first, medical supervision advised"
+      },
+      {
+        "symptomId": "HOR02",
+        "nutrientId": "HOLY",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Adaptogen that supports hormonal balance and reduces cortisol",
+        "responseTimeframe": "4-8 weeks",
+        "conditionsForRecommendation": "Particularly effective for stress-related hot flashes"
+      },
+      {
+        "symptomId": "HOR02",
+        "nutrientId": "SAGE",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Traditional herb that reduces excess sweating and hot flashes",
+        "responseTimeframe": "2-4 weeks",
+        "conditionsForRecommendation": "Fresh leaf extract preferred, consistent use required for best results"
+      },
+      {
+        "symptomId": "IMB01",
+        "nutrientId": "DIM",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Supports healthy estrogen metabolism and hormone balance",
+        "responseTimeframe": "4-8 weeks",
+        "conditionsForRecommendation": "Most effective for estrogen-dominant imbalances, absorption-enhanced formulations recommended"
+      },
+      {
+        "symptomId": "IMB01",
+        "nutrientId": "CHASTE",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Modulates prolactin levels and supports progesterone production",
+        "responseTimeframe": "2-3 months",
+        "conditionsForRecommendation": "Most effective for luteal phase deficiency or elevated prolactin"
+      },
+      {
+        "symptomId": "IMB01",
+        "nutrientId": "ASH",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Adaptogen that supports adrenal function and stress hormone balance",
+        "responseTimeframe": "4-8 weeks",
+        "conditionsForRecommendation": "Particularly effective when stress contributes to hormonal imbalance"
+      },
+      {
+        "symptomId": "IMB01",
+        "nutrientId": "ZN",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Essential for hormone production and balance",
+        "responseTimeframe": "1-2 months",
+        "conditionsForRecommendation": "Particularly important for thyroid and sex hormone production"
+      },
+      {
+        "symptomId": "MEN01",
+        "nutrientId": "ZN",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Essential for testosterone production and prostate health",
+        "responseTimeframe": "1-3 months",
+        "conditionsForRecommendation": "Most effective when deficiency exists, picolinate or glycinate forms preferred"
+      },
+      {
+        "symptomId": "MEN01",
+        "nutrientId": "ASH",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Adaptogen that may support testosterone levels and reduce stress",
+        "responseTimeframe": "4-8 weeks",
+        "conditionsForRecommendation": "Standardized extract (5%+ withanolides), higher doses (600mg+) may be more effective"
+      },
+      {
+        "symptomId": "MEN01",
+        "nutrientId": "MACA",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Adaptogen that supports sexual function without affecting hormone levels",
+        "responseTimeframe": "2-6 weeks",
+        "conditionsForRecommendation": "Gelatinized or extract forms for better absorption, consistent use required"
+      },
+      {
+        "symptomId": "MEN01",
+        "nutrientId": "BOR",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Supports free testosterone levels by reducing SHBG binding",
+        "responseTimeframe": "2-4 weeks",
+        "conditionsForRecommendation": "6-10mg daily effective dose, citrate or glycinate forms preferred"
+      },
+      {
+        "symptomId": "MET01",
+        "nutrientId": "VB1",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Supports carbohydrate metabolism and energy production",
+        "responseTimeframe": "2-4 weeks",
+        "conditionsForRecommendation": "Higher doses (100-300mg) typically needed, benfotiamine form has better bioavailability"
+      },
+      {
+        "symptomId": "MET01",
+        "nutrientId": "SEL",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Essential for thyroid hormone conversion and metabolism",
+        "responseTimeframe": "1-2 months",
+        "conditionsForRecommendation": "Most effective when mild deficiency exists, selenomethionine form preferred"
+      },
+      {
+        "symptomId": "MET01",
+        "nutrientId": "AKG",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Supports Krebs cycle function and cellular energy production",
+        "responseTimeframe": "2-4 weeks",
+        "conditionsForRecommendation": "Take consistently for cumulative benefits, empty stomach preferred"
+      },
+      {
+        "symptomId": "MET01",
+        "nutrientId": "LLEU",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Activates mTOR pathway and supports protein synthesis",
+        "responseTimeframe": "2-6 weeks",
+        "conditionsForRecommendation": "Most effective when combined with resistance training, 2-5g effective dose"
+      },
+      {
+        "symptomId": "WGT01",
+        "nutrientId": "BERB",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Activates AMPK pathway and improves metabolic efficiency",
+        "responseTimeframe": "2-3 months",
+        "conditionsForRecommendation": "Start with lower doses and increase gradually, take with meals"
+      },
+      {
+        "symptomId": "WGT01",
+        "nutrientId": "CHROME",
+        "evidenceStrength": "Low to Moderate",
+        "mechanismOfAction": "Improves insulin sensitivity and glucose metabolism",
+        "responseTimeframe": "2-3 months",
+        "conditionsForRecommendation": "Most effective for carbohydrate cravings and insulin resistance"
+      },
+      {
+        "symptomId": "WGT01",
+        "nutrientId": "FUCO",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Promotes fat oxidation and metabolic efficiency",
+        "responseTimeframe": "2-3 months",
+        "conditionsForRecommendation": "Enhanced absorption formulations most effective, consistent daily use required"
+      },
+      {
+        "symptomId": "WGT01",
+        "nutrientId": "CUR",
+        "evidenceStrength": "Low to Moderate",
+        "mechanismOfAction": "Reduces inflammation and supports healthy metabolic function",
+        "responseTimeframe": "2-3 months",
+        "conditionsForRecommendation": "Enhanced absorption formulations (with piperine or phytosome technology) required"
+      },
+      {
+        "symptomId": "SLE03",
+        "nutrientId": "MG",
+        "evidenceStrength": "Moderate",
+        "mechanismOfAction": "Relaxes muscles in the throat and supports respiratory function",
+        "responseTimeframe": "1-3 weeks",
+        "conditionsForRecommendation": "Higher doses (300-400mg) before bedtime, glycinate form preferred"
+      },
+      {
+        "symptomId": "SLE03",
+        "nutrientId": "VD",
+        "evidenceStrength": "Low to Moderate",
+        "mechanismOfAction": "May improve muscle tone and address underlying inflammation",
+        "responseTimeframe": "1-3 months",
+        "conditionsForRecommendation": "Check baseline levels, particularly relevant for those with higher BMI"
+      },
+      {
+        "symptomId": "SLE03",
+        "nutrientId": "SEL",
+        "evidenceStrength": "Low to Moderate",
+        "mechanismOfAction": "May affect throat muscle function through glutathione pathways",
+        "responseTimeframe": "1-3 months",
+        "conditionsForRecommendation": "Selenomethionine form preferred, particularly effective when combined with vitamin E"
+      }
+    ]
+  }
